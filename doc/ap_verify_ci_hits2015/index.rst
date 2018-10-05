@@ -4,7 +4,7 @@
 ap_verify_ci_hits2015
 #####################
 
-The ``ap_verify_ci_hits2015`` package is a minimal collection of images from the DECam `HiTS`_ survey, formatted for use with `lsst.ap.verify`.
+The ``ap_verify_ci_hits2015`` package is a minimal collection of images from the DECam `HiTS`_ survey, formatted for use with :doc:`/modules/lsst.ap.verify/index`.
 It is intended for continuous integration.
 
 A larger version of the same dataset is available from the :doc:`/packages/ap_verify_hits2015/index` package.
