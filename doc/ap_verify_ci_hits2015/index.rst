@@ -4,22 +4,24 @@
 ap_verify_ci_hits2015
 #####################
 
-The ``ap_verify_ci_hits2015`` package is a minimal collection of images from the DECam `HiTS`_ survey.
+The ``ap_verify_ci_hits2015`` package is a minimal collection of images from the DECam `HiTS`_ survey, formatted for use with :doc:`/modules/lsst.ap.verify/index`.
+It is intended for continuous integration.
+
+A larger version of the same dataset is available from the :doc:`/packages/ap_verify_hits2015/index` package.
 
 .. _HiTS: https://doi.org/10.3847/0004-637X/832/2/155
 
-Project info
-============
+.. _ap_verify_ci_hits2015-using:
 
-Repository
-   https://github.com/lsst/ap_verify_ci_hits2015
+Using ap_verify_ci_hits2015
+===========================
 
-.. Datasets do not have their own (or a collective) Jira components; by convention we include them in ap_verify
+This dataset is intended for fast integration testing of difference imaging analysis, using "deep" coadd templates, by ``ap_verify``.
+Because of the small data volume it is not recommended for "stress tests" or other large-scale testing.
 
-Jira component
-   `ap_verify <https://jira.lsstcorp.org/issues/?jql=project %3D DM %20AND%20 component %3D ap_verify %20AND%20 text ~ "hits2015" %20AND%20 text ~ "CI">`_
+.. _ap_verify_ci_hits2015-contents:
 
-Dataset Contents
+Dataset contents
 ================
 
 This package provides six images covering three epochs from the 2015 `HiTS`_ survey.
@@ -32,9 +34,15 @@ It contains:
 * reference catalogs for Gaia DR1 and Pan-STARRS1, covering the raw images' footprint.
 * image differencing templates coadded from HiTS 2014 data, covering the raw images' footprint.
 
-Intended Use
+.. _ap_verify_ci_hits2015-contributing:
+
+Contributing
 ============
 
-This dataset is intended for fast integration testing of difference imaging analysis, using "deep" coadd templates, by ``ap_verify``.
-Because of the small data volume it is not recommended for "stress tests" or other large-scale testing.
+``ap_verify_ci_hits2015`` is developed at https://github.com/lsst/ap_verify_ci_hits2015.
+You can find Jira issues for this module under the `ap_verify <https://jira.lsstcorp.org/issues/?jql=project%20%3D%20DM%20AND%20component%20%3D%20ap_verify%20AND%20text~"hits2015"%20AND%20text~"CI">`_ component.
 
+.. If there are topics related to developing this module (rather than using it), link to this from a toctree placed here.
+
+.. .. toctree::
+..    :maxdepth: 1

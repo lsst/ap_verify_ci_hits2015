@@ -1,6 +1,6 @@
-########################################
+###########################################
 ap_verify_ci_hits2015 documentation preview
-########################################
+###########################################
 
 .. This page is for local development only. It isn't published to pipelines.lsst.io.
 
@@ -10,4 +10,3 @@ ap_verify_ci_hits2015 documentation preview
    :maxdepth: 1
 
    ap_verify_ci_hits2015/index
-
