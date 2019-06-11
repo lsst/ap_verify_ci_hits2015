@@ -30,7 +30,6 @@ It contains:
 * CCDs 5 and 10 from visits 411420 and 419802, from the ``Blind15A_40`` survey field, in g band.
 * CCDs 56 and 60 from visit 411371, from the ``Blind15A_42`` survey field. This visit partially overlaps with the ``Blind15A_40`` visits.
 * biases (``zci``) and g-band flats (``fci``)
-* defect masks (``bpm``) from December 5, 2014.
 * reference catalogs for Gaia DR1 and Pan-STARRS1, covering the raw images' footprint.
 * image differencing templates coadded from HiTS 2014 data, covering the raw images' footprint.
 
