@@ -5,4 +5,4 @@ config.refcats = {
 
 for ingester in [config.dataIngester, config.calibIngester]:
     ingester.parse.extnames = ['S22', 'S26', 'N25', 'N29', ]
-config.defectIngester.parse.extnames = []
+config.curatedCalibIngester.parse.extnames = []
