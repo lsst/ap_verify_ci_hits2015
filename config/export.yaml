@@ -397,215 +397,295 @@ data:
   element: calibration_label
   records:
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/27
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/25
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/5
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/29
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/57
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/60
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/3
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/14
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/53
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-03-13_060
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/1
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/27
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/4
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/1
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/15
+    name: defects/2014-01-17T01:29:00/59
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/46
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/30
+    name: defects/2015-01-05T01:15:00/50
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/60
+    name: defects/2015-01-05T01:15:00/17
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/36
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/24
+    name: defects/2015-01-05T01:15:00/62
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/8
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/57
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/40
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/13
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/58
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/29
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/3
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/43
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/52
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/16
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/30
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/10
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/21
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/31
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/53
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/44
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/36
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/26
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/35
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/3
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/22
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/56
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/57
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: gen2/cpFlat_2015-02-18_056_g
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/11
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/3
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/1
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/14
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/35
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/42
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/43
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
     name: defects/2013-01-15T01:30:00/45
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/8
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/3
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/42
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/39
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/14
+    name: defects/1970-01-01T00:00:00/33
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/15
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/30
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/54
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/51
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/34
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    name: defects/2014-01-17T01:29:00/24
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
     name: defects/2014-01-17T01:29:00/46
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/52
+    name: defects/2015-01-05T01:15:00/30
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/36
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/31
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/24
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/56
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/16
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/34
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/41
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/6
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/48
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/37
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/33
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/32
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/20
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/10
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
     name: defects/2013-01-15T01:30:00/48
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/32
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/22
+    name: defects/1970-01-01T00:00:00/17
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/1970-01-01T00:00:00/26
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/53
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/27
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/25
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/28
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/32
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/49
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/9
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/55
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/23
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/37
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/54
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/41
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/35
+    name: defects/2013-09-16T09:26:00/45
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/35
+    name: defects/2015-01-05T01:15:00/33
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/33
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/14
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/10
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/37
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/31
+    name: crosstalk/1970-01-01T00:00:00/17
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/15
+    name: defects/2013-01-15T01:30:00/12
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/58
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/20
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/20
+    name: defects/1970-01-01T00:00:00/55
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/44
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/59
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/51
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/39
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/60
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
@@ -613,177 +693,941 @@ data:
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/30
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    name: defects/1970-01-01T00:00:00/50
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: unbounded
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    name: defects/1970-01-01T00:00:00/14
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/56
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/56
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/62
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/21
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/44
+    name: defects/2013-01-15T01:30:00/11
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/12
+    name: defects/2014-01-17T01:29:00/41
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: gen2/cpFlat_2015-02-18_056_g
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    name: defects/2014-10-20T10:30:00/18
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/45
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/47
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    name: defects/2013-01-15T01:30:00/7
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
     name: defects/1970-01-01T00:00:00/43
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/49
+    name: defects/2013-01-15T01:30:00/4
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/15
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/57
+    name: defects/2014-01-17T01:29:00/14
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/42
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/2
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/53
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/3
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/41
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: gen2/cpFlat_2015-03-13_005_g
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/34
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/42
+    name: defects/2014-01-17T01:29:00/33
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/41
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/36
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/20
+    name: defects/2013-09-16T09:26:00/30
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/25
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/16
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/55
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: gen2/cpFlat_2015-02-18_010_g
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/10
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
     name: defects/2014-10-20T10:30:00/47
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/18
+    name: crosstalk/1970-01-01T00:00:00/43
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/28
+    name: defects/2014-10-20T10:30:00/40
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/42
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/54
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/1
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/26
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/21
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/32
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/57
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/57
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/29
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/47
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/11
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/40
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/20
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/58
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/56
+    name: defects/2014-10-20T10:30:00/42
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/52
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/2
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/8
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/58
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/19
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/56
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/28
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/43
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/28
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/8
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/8
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/24
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/32
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/29
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: gen2/cpFlat_2015-03-13_010_g
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/43
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/47
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/26
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/53
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/19
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/62
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/39
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/51
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/42
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/34
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/31
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/25
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/15
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/18
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/38
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/21
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/30
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/6
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/15
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/13
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/39
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/56
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/55
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/49
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/29
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/38
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/51
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/4
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/41
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/16
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/50
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/51
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/18
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/7
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/34
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/38
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/59
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/32
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/14
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/7
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/7
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/36
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: gen2/cpFlat_2015-02-18_005_g
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/12
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/38
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/35
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/53
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/16
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/24
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/46
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/6
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/25
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/60
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/55
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: gen2/cpFlat_2015-03-13_056_g
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/38
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/23
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/52
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/8
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/50
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/10
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/41
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/1
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/59
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/40
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/7
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/51
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/58
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/56
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/12
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/50
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/26
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/45
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/30
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/21
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/46
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/60
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/45
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/62
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/39
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/6
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/3
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/18
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/54
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/49
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/32
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/49
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/15
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/4
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: gen2/cpBias_2015-03-13_056
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/45
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/40
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/28
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/57
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/51
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/49
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/55
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/27
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/16
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/62
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/23
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/36
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/49
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/59
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/27
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/6
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/22
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/44
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/2
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-11-30 00:00:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/47
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-11-30T00:00:00/2
+    datetime_begin: !butler_time/tai/iso '2013-11-30 00:00:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/22
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/5
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/3
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/12
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/17
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/19
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/35
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/8
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/18
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/22
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/35
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/9
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/15
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/48
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: gen2/cpBias_2015-02-18_060
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/27
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/12
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/6
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/24
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/18
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/39
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/13
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/17
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/1
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/39
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/52
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/11
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/25
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/52
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/53
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/25
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/54
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/16
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
     name: defects/2014-01-17T01:29:00/25
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/34
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    name: gen2/cpFlat_2015-02-18_060_g
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/42
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/5
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
     name: defects/2013-09-16T09:26:00/50
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/57
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    name: defects/2014-10-20T10:30:00/57
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: defects/1970-01-01T00:00:00/50
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    name: gen2/cpBias_2015-03-13_010
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/12
+    name: defects/2014-10-20T10:30:00/62
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/5
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/44
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/29
+    name: defects/1970-01-01T00:00:00/31
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/3
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/58
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/62
+    name: defects/2014-10-20T10:30:00/26
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/10
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/28
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/39
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: gen2/cpFlat_2015-02-18_010_g
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/53
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/31
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/55
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/43
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/24
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/46
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: gen2/cpBias_2015-02-18_005
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/54
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/41
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/46
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/8
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/56
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/1
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/54
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/18
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/27
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/27
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: gen2/cpBias_2015-02-18_010
+    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/48
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/4
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/62
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/51
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/42
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/60
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/20
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/36
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/40
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/3
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
     name: defects/2014-10-20T10:30:00/44
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
@@ -793,119 +1637,99 @@ data:
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/3
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    name: defects/2013-09-16T09:26:00/32
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/1970-01-01T00:00:00/34
+    name: crosstalk/1970-01-01T00:00:00/27
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/62
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    name: defects/2013-09-16T09:26:00/52
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/52
+    name: defects/2014-01-17T01:29:00/22
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/23
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    name: defects/2013-09-16T09:26:00/17
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/38
+    name: defects/2014-01-17T01:29:00/19
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: gen2/cpFlat_2015-02-18_005_g
+    name: crosstalk/1970-01-01T00:00:00/15
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: gen2/cpBias_2015-02-18_056
     datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-03 00:00:00.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/56
+    name: defects/2015-01-05T01:15:00/26
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/43
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/62
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/7
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/54
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/37
+    name: defects/2015-01-05T01:15:00/53
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/48
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    name: defects/2015-01-05T01:15:00/38
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/40
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/35
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/54
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/39
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/57
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/7
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/16
+    name: defects/1970-01-01T00:00:00/24
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/5
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/3
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/11
+    name: defects/1970-01-01T00:00:00/44
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/31
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/29
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/31
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/46
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
   - instrument: DECam
     name: defects/2013-01-15T01:30:00/9
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/35
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: unbounded
+    datetime_begin: null
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/44
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/45
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/15
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/12
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/38
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/47
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/54
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/37
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
@@ -913,831 +1737,159 @@ data:
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/47
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/59
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/29
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/38
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/43
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/33
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/20
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    name: crosstalk/1970-01-01T00:00:00/46
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
   - instrument: DECam
     name: crosstalk/1970-01-01T00:00:00/62
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/59
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/58
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/51
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/5
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/11
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/16
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/58
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/48
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/26
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/1
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/47
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/36
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/59
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-02-18_005
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/20
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/32
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/33
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/47
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/22
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/42
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/58
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-03-13_010
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/19
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/47
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/5
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/16
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/37
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/20
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/53
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/54
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/60
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/57
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/33
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/17
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/21
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/24
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/27
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/25
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/26
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/47
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/59
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/32
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/27
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/30
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/11
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/4
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/48
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/10
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/17
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/23
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/24
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/41
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/62
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/19
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/21
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/58
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/33
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/19
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/15
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/13
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/18
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/56
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/6
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/4
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/12
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/50
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/41
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/42
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/37
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/26
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/55
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/43
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/49
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/52
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/13
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/28
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/34
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: gen2/cpFlat_2015-03-13_056_g
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/19
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/55
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-11-30T00:00:00/2
-    datetime_begin: !butler_time/tai/iso '2013-11-30 00:00:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/31
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/27
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/12
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-03-13_056
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/36
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/31
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/39
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/15
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/9
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/7
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/13
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/51
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/54
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/45
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/31
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/4
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/2
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/38
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: gen2/cpFlat_2015-02-18_060_g
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/6
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/54
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/28
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/28
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/50
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/8
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/17
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/42
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/23
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/33
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/30
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/6
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/21
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/38
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/29
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/44
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/8
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/52
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/19
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/59
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/50
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/60
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/12
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/46
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/7
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/41
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/24
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: null
   - instrument: DECam
     name: defects/2015-01-05T01:15:00/21
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/22
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/36
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/32
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/46
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/21
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/28
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/29
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/1
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/45
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/23
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/22
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/24
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/31
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/50
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/50
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/26
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/39
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/55
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-03-13_005
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/5
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/19
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/18
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: gen2/cpFlat_2015-03-13_060_g
-    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/2
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-11-30 00:00:35.000000000'
+    datetime_end: null
   - instrument: DECam
     name: defects/2013-09-16T09:26:00/23
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/55
+    name: defects/2013-09-16T09:26:00/21
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/27
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/1970-01-01T00:00:00/20
+    name: defects/2014-01-17T01:29:00/23
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/41
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/37
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/35
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/10
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/11
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/34
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/60
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/54
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/59
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/10
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/28
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/16
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/13
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/23
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/30
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/32
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/59
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/1
+    name: gen2/cpFlat_2015-03-13_060_g
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/23
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/40
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/11
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/4
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/45
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/49
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/18
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/61
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/43
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/6
+    name: defects/2013-09-16T09:26:00/48
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/14
+    name: defects/2014-10-20T10:30:00/33
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-02-18_060
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/28
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/24
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/46
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/9
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/51
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/6
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/40
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/14
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/40
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/19
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/17
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/2
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/49
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/40
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/43
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/44
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/48
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/22
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/24
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
     name: defects/1970-01-01T00:00:00/48
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
     datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/32
+    name: defects/2013-09-16T09:26:00/19
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/14
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/44
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/26
+    name: defects/2013-01-15T01:30:00/31
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/44
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    name: defects/2013-01-15T01:30:00/1
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/53
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    name: gen2/cpBias_2015-03-13_005
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/59
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/10
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/36
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/39
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/45
+    name: defects/2014-10-20T10:30:00/22
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/52
+    name: defects/2014-01-17T01:29:00/1
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/5
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/61
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/21
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/29
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
@@ -1745,375 +1897,127 @@ data:
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-01-17T01:29:00/7
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/14
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/25
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/35
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/41
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/40
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/9
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/1
+    name: defects/2015-01-05T01:15:00/14
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/39
+    name: crosstalk/1970-01-01T00:00:00/60
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/57
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/30
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/18
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/25
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/10
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/13
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/15
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/44
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/60
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/18
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/38
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/22
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/62
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/8
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/1
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/37
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/5
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/32
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/10
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/35
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/14
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/23
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/10
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/30
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
     name: defects/2015-01-05T01:15:00/20
     datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/35
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/10
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-02-18_056
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/9
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/49
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
     name: defects/2014-01-17T01:29:00/4
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/17
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    name: defects/2015-01-05T01:15:00/25
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/43
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    name: defects/2015-01-05T01:15:00/9
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/12
+    name: crosstalk/1970-01-01T00:00:00/5
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/6
+    name: defects/2014-10-20T10:30:00/9
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/8
+    name: defects/2013-09-16T09:26:00/55
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/7
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/42
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/46
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/8
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/16
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/48
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/60
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/56
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/51
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/33
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/3
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/6
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/36
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/36
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/3
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/29
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/27
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/33
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/58
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/22
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: gen2/cpBias_2015-02-18_010
-    datetime_begin: !butler_time/tai/iso '1987-10-04 00:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/13
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/11
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/18
+    name: defects/2013-09-16T09:26:00/4
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/38
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/40
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/51
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/49
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/37
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/16
+    name: defects/2013-09-16T09:26:00/34
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/39
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/13
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/52
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/59
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/30
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/35
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/34
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/16
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/53
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/51
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-01-17T01:29:00/58
-    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/26
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/5
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: crosstalk/1970-01-01T00:00:00/4
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/13
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/57
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-01-15T01:30:00/60
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/52
+    name: defects/2013-09-16T09:26:00/37
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
   - instrument: DECam
-    name: defects/2014-10-20T10:30:00/17
+    name: defects/2013-09-16T09:26:00/5
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/28
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/61
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/2
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/34
     datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
   - instrument: DECam
-    name: gen2/cpFlat_2015-03-13_010_g
+    name: defects/2013-09-16T09:26:00/20
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/52
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/31
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/7
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/14
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/11
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/50
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/9
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/22
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/55
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/47
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: gen2/cpFlat_2015-03-13_005_g
     datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
     datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
   - instrument: DECam
@@ -2121,57 +2025,153 @@ data:
     datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-09-16T09:26:00/37
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    name: defects/1970-01-01T00:00:00/15
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/11
+    name: defects/1970-01-01T00:00:00/23
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/41
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/48
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/25
     datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
     datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
-    name: defects/2015-01-05T01:15:00/8
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/11
+    name: defects/2013-09-16T09:26:00/47
     datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
     datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/40
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/11
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/13
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/58
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/29
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/19
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/13
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/37
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-09-16T09:26:00/36
+    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/5
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2015-01-05T01:15:00/60
+    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/9
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/20
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/29
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/28
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/49
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: gen2/cpBias_2015-03-13_060
+    datetime_begin: !butler_time/tai/iso '2015-03-02 00:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2042-07-29 00:00:00.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/2
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/19
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/49
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/6
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/42
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/33
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/12
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: crosstalk/1970-01-01T00:00:00/26
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: null
+  - instrument: DECam
+    name: defects/1970-01-01T00:00:00/13
+    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
+    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+  - instrument: DECam
+    name: defects/2014-10-20T10:30:00/56
+    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+  - instrument: DECam
+    name: defects/2014-01-17T01:29:00/37
+    datetime_begin: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
+    datetime_end: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
+  - instrument: DECam
+    name: defects/2013-01-15T01:30:00/46
+    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
+    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
   - instrument: DECam
     name: crosstalk/1970-01-01T00:00:00/7
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
+    datetime_end: null
   - instrument: DECam
-    name: defects/2013-01-15T01:30:00/57
-    datetime_begin: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/38
+    name: crosstalk/1970-01-01T00:00:00/4
     datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2013-09-16T09:26:00/56
-    datetime_begin: !butler_time/tai/iso '2013-09-16 09:26:35.000000000'
-    datetime_end: !butler_time/tai/iso '2014-01-17 01:29:35.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/55
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2013-01-15 01:30:35.000000000'
-  - instrument: DECam
-    name: defects/2015-01-05T01:15:00/12
-    datetime_begin: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/1970-01-01T00:00:00/61
-    datetime_begin: !butler_time/tai/iso '1970-01-01 00:00:08.000082000'
-    datetime_end: !butler_time/tai/iso '2100-01-01 00:00:00.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/58
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
-  - instrument: DECam
-    name: defects/2014-10-20T10:30:00/21
-    datetime_begin: !butler_time/tai/iso '2014-10-20 10:30:35.000000000'
-    datetime_end: !butler_time/tai/iso '2015-01-05 01:15:35.000000000'
+    datetime_end: null
 - type: dimension
   element: physical_filter
   records:
@@ -2190,11 +2190,25 @@ data:
   records:
   - skymap: deepCoadd_skyMap
     tract: 0
-    id: 509
-    cell_x: 14
+    id: 510
+    cell_x: 15
     cell_y: 11
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70e2d6d0ea9ce2ecbf66836d6624d1da3fa3694125061eb9bf08f7f7d2c1f4ecbf24b8ca627a82da3f85ddedaa0e1db9bffceb68e276f8ecbfc4f12dbc2686da3f5d59043c1cc4b7bff8c0c76551e6ecbfc75190cdd3d4da3f32ab6d540ac5b7bf
+      encoded: 7073e1766923d1ecbfd0c93c83e31bdb3ff8281faed31eb9bf9ed0a3517be3ecbf04ad318366cdda3f53f4a618fb1db9bfe854ccd32fe7ecbf2a7e37c515d1da3fca6c10b3ffc4b7bfc50cf751d7d4ecbf2d4b3fce951fdb3f6acb7612d0c5b7bf
+  - skymap: deepCoadd_skyMap
+    tract: 0
+    id: 419
+    cell_x: 14
+    cell_y: 9
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708b3def9dfddaecbf2c40836b92c9da3fecc5c0c37aaebbbf4c13544121edecbfa12a9f03ef7ada3fb10b837371adbbbfd880c8043af1ecbfc40d84e5fb7eda3fea9c80b5f354babff90109b015dfecbf2ad2b2e6a2cdda3f8f9331aaf355babf
+  - skymap: deepCoadd_skyMap
+    tract: 0
+    id: 465
+    cell_x: 15
+    cell_y: 10
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f8dba50e6ccdecbfdc38d89d2e18db3f510a39063267babff5a30b56c3dfecbf7435a2c5b4c9da3f39e36ca15166babf02513faca9e3ecbf84210a9694cdda3f838d7fec8e0db9bfad0d67bc51d1ecbfe2d5bcbc111cdb3f8fb1ee1d670eb9bf
   - skymap: deepCoadd_skyMap
     tract: 0
     id: 420
@@ -2202,6 +2216,13 @@ data:
     cell_y: 9
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 708c397d5c85c9ecbfd7b3da464b14db3f59e4af1c57afbbbf32f108f5dbdbecbf38319ad8d4c5da3fef314beb6eaebbbf2c8db80ff4dfecbf8b5c0b28e5c9da3f3275b03ce855babff737f3bf9ccdecbf4cd1372a5f18db3fe580953dc856babf
+  - skymap: deepCoadd_skyMap
+    tract: 0
+    id: 509
+    cell_x: 14
+    cell_y: 11
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e2d6d0ea9ce2ecbf66836d6624d1da3fa3694125061eb9bf08f7f7d2c1f4ecbf24b8ca627a82da3f85ddedaa0e1db9bffceb68e276f8ecbfc4f12dbc2686da3f5d59043c1cc4b7bff8c0c76551e6ecbfc75190cdd3d4da3f32ab6d540ac5b7bf
   - skymap: deepCoadd_skyMap
     tract: 0
     id: 464
@@ -2216,27 +2237,6 @@ data:
     cell_y: 10
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 70b8588fc2c2bbecbf2232f11cbf62db3f02334d78e867babfbb1c68da4cceecbf5b67730a7314db3f5777ec192867babf1c65509032d2ecbfe51328015618db3f436b788e5d0eb9bf107181caa7bfecbfdced005da566db3fa2841ae5160fb9bf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 419
-    cell_x: 14
-    cell_y: 9
-    region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 708b3def9dfddaecbf2c40836b92c9da3fecc5c0c37aaebbbf4c13544121edecbfa12a9f03ef7ada3fb10b837371adbbbfd880c8043af1ecbfc40d84e5fb7eda3fea9c80b5f354babff90109b015dfecbf2ad2b2e6a2cdda3f8f9331aaf355babf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 510
-    cell_x: 15
-    cell_y: 11
-    region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7073e1766923d1ecbfd0c93c83e31bdb3ff8281faed31eb9bf9ed0a3517be3ecbf04ad318366cdda3f53f4a618fb1db9bfe854ccd32fe7ecbf2a7e37c515d1da3fca6c10b3ffc4b7bfc50cf751d7d4ecbf2d4b3fce951fdb3f6acb7612d0c5b7bf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 465
-    cell_x: 15
-    cell_y: 10
-    region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70f8dba50e6ccdecbfdc38d89d2e18db3f510a39063267babff5a30b56c3dfecbf7435a2c5b4c9da3f39e36ca15166babf02513faca9e3ecbf84210a9694cdda3f838d7fec8e0db9bfad0d67bc51d1ecbfe2d5bcbc111cdb3f8fb1ee1d670eb9bf
 - type: dataset_type
   name: deepCoadd_skyMap
   dimensions:
@@ -5793,83 +5793,6 @@ data:
     path: DECam/calib/crosstalk/crosstalk_crosstalk_1970-01-01T00:00:00_19_19_DECam_DECam_calib.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
-  name: cpBias
-  dimensions:
-  - instrument
-  - calibration_label
-  - detector
-  storage_class: ExposureF
-- type: run
-  name: DECam/calib
-- type: dataset
-  dataset_type: cpBias
-  run: DECam/calib
-  records:
-  - dataset_id:
-    - 437
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-03-13_005
-      detector: 5
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 438
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-03-13_010
-      detector: 10
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 439
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-03-13_056
-      detector: 56
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 440
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-03-13_060
-      detector: 60
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 441
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-02-18_005
-      detector: 5
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 442
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-02-18_010
-      detector: 10
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 443
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-02-18_056
-      detector: 56
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-  - dataset_id:
-    - 444
-    data_id:
-    - instrument: DECam
-      calibration_label: gen2/cpBias_2015-02-18_060
-      detector: 60
-    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
-    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
-- type: dataset_type
   name: cpFlat
   dimensions:
   - abstract_filter
@@ -5885,7 +5808,7 @@ data:
   run: DECam/calib
   records:
   - dataset_id:
-    - 445
+    - 437
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-03-13_005_g
@@ -5895,7 +5818,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-03-13_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 446
+    - 438
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-03-13_010_g
@@ -5905,7 +5828,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-03-13_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 447
+    - 439
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-03-13_056_g
@@ -5915,7 +5838,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-03-13_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 448
+    - 440
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-03-13_060_g
@@ -5925,7 +5848,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-03-13_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 449
+    - 441
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-02-18_005_g
@@ -5935,7 +5858,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-02-18_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 450
+    - 442
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-02-18_010_g
@@ -5945,7 +5868,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-02-18_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 451
+    - 443
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-02-18_056_g
@@ -5955,7 +5878,7 @@ data:
       c0001 4720_0 1520_0_gen2_cpFlat_2015-02-18_005_g_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
   - dataset_id:
-    - 452
+    - 444
     data_id:
     - instrument: DECam
       calibration_label: gen2/cpFlat_2015-02-18_060_g
@@ -5963,6 +5886,83 @@ data:
       physical_filter: g DECam SDSS c0001 4720.0 1520.0
     path: DECam/calib/cpFlat/g/g DECam SDSS c0001 4720.0 1520.0/cpFlat_g_g DECam SDSS
       c0001 4720_0 1520_0_gen2_cpFlat_2015-02-18_005_g_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+- type: dataset_type
+  name: cpBias
+  dimensions:
+  - instrument
+  - calibration_label
+  - detector
+  storage_class: ExposureF
+- type: run
+  name: DECam/calib
+- type: dataset
+  dataset_type: cpBias
+  run: DECam/calib
+  records:
+  - dataset_id:
+    - 445
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-02-18_005
+      detector: 5
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 446
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-02-18_010
+      detector: 10
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 447
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-02-18_056
+      detector: 56
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 448
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-02-18_060
+      detector: 60
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-02-18_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 449
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-03-13_005
+      detector: 5
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 450
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-03-13_010
+      detector: 10
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 451
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-03-13_056
+      detector: 56
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
+    formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
+  - dataset_id:
+    - 452
+    data_id:
+    - instrument: DECam
+      calibration_label: gen2/cpBias_2015-03-13_060
+      detector: 60
+    path: DECam/calib/cpBias/cpBias_gen2_cpBias_2015-03-13_005_5_DECam_DECam_calib.fits
     formatter: lsst.obs.decam.rawFormatter.DarkEnergyCameraCPCalibFormatter
 - type: dataset_type
   name: gaia
