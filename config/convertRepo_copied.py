@@ -6,6 +6,6 @@ config.refCats = ['gaia', 'panstarrs']
 for refcat in config.refCats:
     config.runs[refcat] = "refcats"
 
-# Already stored in convertRepo_calibs.py
+# Already stored in convertRepo_templates.py
 config.doRegisterInstrument = False
 config.doWriteCuratedCalibrations = False
