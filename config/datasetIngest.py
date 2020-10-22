@@ -6,3 +6,8 @@ config.refcats = {
 for ingester in [config.dataIngester, config.calibIngester]:
     ingester.parse.extnames = ['S22', 'S26', 'N25', 'N29', ]
 config.curatedCalibIngester.parse.extnames = []
+
+# This option allows "community pipeline produced" calibrations to be
+# ingested correctly, preventing the case in which some dates are
+# unable to find the correct calibration.
+config.calibIngester.register.incrementValidEnd = False
