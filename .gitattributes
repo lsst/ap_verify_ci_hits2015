@@ -10,7 +10,3 @@ preloaded/templates/ !filter !diff !merge
 
 # Too small to be worth tracking
 scripts/rows_as_votable_1500407676_2451.vot.gz !filter !diff !merge
-
-# Must be updated any time Gen 3 repository is updated, but most changes
-# are not human-meaningful.
-config/export.yaml linguist-generated=true
