@@ -10,13 +10,6 @@ Contains DECam data from the HiTS (2015) fields `Blind15A_40` and `Blind15A_42`:
 * Visit 411420, Detectors (ccds) 5 and 10
 * Visit 419802, Detectors (ccds) 5 and 10
 
----
-**Note**
-
-At present, this repository can only be used for Gen 2 processing.
-Support for the new Gen 3 pipeline framework is expected in the future.
-
----
 Relevant Files and Directories
 -----
 path                  | description
