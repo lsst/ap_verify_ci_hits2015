@@ -21,7 +21,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Script for automatically generating differencing templates for this dataset.
-# It takes roughly 24 hours to run on lsst-devl.
+# It takes roughly 5 hours to run on lsst-devl.
 # Running this script allows for templates to incorporate pipeline
 # improvements. It makes no attempt to update the set of input exposures; they
 # are hard-coded into the file.
@@ -30,6 +30,10 @@
 # $ nohup generate_templates_gen3.sh -c "u/me/DM-123456-calib" -o "u/me/DM-123456-template" &
 # produces templates in /repo/main in the u/me/DM-123456-template collection.
 # See generate_templates_gen3.sh -h for more options.
+#
+# The templates produced by this script are a subset of those produced by
+# ap_verify_hits2015/scripts/generate_templates_gen3.sh, so if you are running
+# that script, there is no need to run this one as well.
 
 
 # Abort script on any error
@@ -39,13 +43,18 @@ set -e
 ########################################
 # Raw template exposures to process
 
-FIELDS="'Blind14A_04', 'Blind14A_09', 'Blind14A_10'"
-EXPOSURES="288929, 288934, 288935, 288970, 288975, 288976, 289010, 289015, 289016, 289050, 289055,
-           289056, 289155, 289160, 289161, 289196, 289201, 289202, 289237, 289242, 289243, 289278,
-           289283, 289284, 289362, 289367, 289368, 289403, 289408, 289409, 289444, 289449, 289450,
-           289486, 289492, 289493, 289567, 289572, 289573, 289608, 289613, 289614, 289650, 289655,
-           289656, 289691, 289696, 289697, 289782, 289783, 289818, 289820, 289823, 289828, 289865,
-           289870, 289871, 289907, 289912, 289913"
+# Exposure filter is a safeguard against queries that can't be constrained by
+# tract/patch, or against inclusion of non-HiTS data. Patch filter specifies
+# the area covered by the CI dataset in the hsc_rings_v1 skymap.
+
+FIELDS="'Blind14A_09', 'Blind14A_10'"
+EXPOSURES="288934, 288935, 288975, 288976, 289015, 289016, 289055, 289056, 289160, 289161, 289201,
+           289202, 289242, 289243, 289283, 289284, 289367, 289368, 289408, 289409, 289449, 289450,
+           289492, 289493, 289572, 289573, 289613, 289614, 289655, 289656, 289696, 289697, 289782,
+           289783, 289818, 289820, 289828, 289870, 289871, 289912, 289913"
+declare -A PATCHES
+PATCHES[8363]="76..79"
+PATCHES[8604]="1, 2, 3, 10, 11, 12, 20, 21"
 DATE_CUTOFF=20141231
 
 
@@ -98,7 +107,16 @@ parse_args "$@"
 ########################################
 # Generate templates
 
-FILTER="instrument='DECam' AND exposure IN (${EXPOSURES}) AND detector NOT IN (2, 61)"
+FILTER="instrument='DECam' AND skymap='hsc_rings_v1'
+        AND exposure IN (${EXPOSURES}) AND detector NOT IN (2, 61)
+        AND ("
+OR=""
+for tract in ${!PATCHES[*]}; do
+    FILTER="${FILTER} ${OR} (tract=${tract} AND patch IN (${PATCHES[${tract}]}))"
+    OR="OR"
+done
+FILTER="${FILTER})"
+
 
 pipetask run -j 12 -d "${FILTER}" -b ${BUTLER_REPO} -i DECam/defaults,${CALIBS} -o ${TEMPLATES} \
     -p $AP_PIPE_DIR/pipelines/DarkEnergyCamera/RunIsrForCrosstalkSources.yaml
