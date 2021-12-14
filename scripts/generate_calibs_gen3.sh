@@ -1,5 +1,4 @@
-#!/bin/bash
-# This file is part of ap_verify_hits2015.
+# This file is part of ap_verify_ci_hits2015.
 #
 # Developed for the LSST Data Management System.
 # This product includes software developed by the LSST Project
@@ -20,54 +19,18 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# Script for automatically generating calibs for this dataset. It takes roughly
-# 1 hour to run on lsst-devl.
-# Running this script allows for calibs to incorporate pipeline improvements.
-# It makes no attempt to update the set of input exposures or their validity
-# ranges; they are hard-coded into the file.
-#
-# Example:
-# $ nohup generate_calibs_gen3.sh -c "u/me/DM-123456" &
-# produces certified calibs in /repo/main in the u/me/DM-123456-calib
-# collection. See generate_calibs_gen3.sh -h for more options.
-#
-# The calibs produced by this script are a subset of those produced by
-# ap_verify_hits2015/scripts/generate_calibs_gen3.sh, so if you are running
-# that script, there is no need to run this one as well.
+# Common code for generate_calibs_gen3_*.
+# This script is intended to be included by other scripts, rather than
+# called directly.
 
 # Abort script on any error
 set -e
 
 ########################################
-# Raw calibs to process
-
-# Syntax matters -- use
-#     https://pipelines.lsst.io/v/daily/modules/lsst.daf.butler/queries.html#dimension-expressions
-#     syntax, with no trailing comma.
-
-declare -A EXPOSURES_BIAS
-EXPOSURES_BIAS[20150218]='411502, 411503, 411504, 411505, 411506, 411507, 411508, 411509, 411510,
-                          411511, 411512'
-EXPOSURES_BIAS[20150313]='421350, 421351, 421352, 421353, 421354, 421355, 421356, 421357, 421358,
-                          421359, 421360'
-
-declare -A VALIDITIES_BIAS
-VALIDITIES_BIAS[20150218]='--begin-date 2015-02-18T00:00:00 --end-date 2015-02-18T23:59:59'
-VALIDITIES_BIAS[20150313]='--begin-date 2015-03-06T00:00:00 --end-date 2015-03-15T23:59:59'
-
-declare -A EXPOSURES_FLAT_g_c0001
-EXPOSURES_FLAT_g_c0001[20150218]='411578, 411579, 411580, 411581, 411582, 411583, 411584, 411585,
-                                  411586, 411587, 411588'
-EXPOSURES_FLAT_g_c0001[20150313]='421426, 421427, 421428, 421429, 421430, 421431, 421432, 421433,
-                                  421434, 421435, 421436'
-
-declare -A VALIDITIES_FLAT_g_c0001
-VALIDITIES_FLAT_g_c0001[20150218]='--begin-date 2015-02-18T00:00:00 --end-date 2015-02-18T23:59:59'
-VALIDITIES_FLAT_g_c0001[20150313]='--begin-date 2015-03-06T00:00:00 --end-date 2015-03-15T23:59:59'
+# Variable management
 
 # from https://stackoverflow.com/questions/1527049/how-can-i-join-elements-of-an-array-in-bash
 join_by() { local IFS="$1"; shift; echo "$*"; }
-EXPOSURES_CROSSTALK=`join_by , "${EXPOSURES_FLAT_g_c0001[@]}"`
 
 
 ########################################
@@ -88,22 +51,24 @@ usage() {
     exit 1
 }
 
-while getopts "b:c:h" option; do
-    case "$option" in
-        b)  BUTLER_REPO="$OPTARG";;
-        c)  COLLECT_ROOT="$OPTARG";;
-        h)  usage;;
-        *)  usage;;
-    esac
-done
-if [[ -z "${BUTLER_REPO}" ]]; then
-    BUTLER_REPO="/repo/main"
-fi
-if [[ -z "${COLLECT_ROOT}" ]]; then
-    print_error "$0: mandatory argument -- c"
-    usage
-    exit 1
-fi
+parse_args() {
+    while getopts "b:c:h" option $@; do
+        case "$option" in
+            b)  BUTLER_REPO="$OPTARG";;
+            c)  COLLECT_ROOT="$OPTARG";;
+            h)  usage;;
+            *)  usage;;
+        esac
+    done
+    if [[ -z "${BUTLER_REPO}" ]]; then
+        BUTLER_REPO="/repo/main"
+    fi
+    if [[ -z "${COLLECT_ROOT}" ]]; then
+        print_error "$0: mandatory argument -- c"
+        usage
+        exit 1
+    fi
+}
 
 
 ########################################
@@ -111,40 +76,61 @@ fi
 
 # TODO: overscan.fitType override may be included in cp_pipe on DM-30651
 
-pipetask run -j 12 -d "exposure IN ($EXPOSURES_CROSSTALK) AND instrument='DECam'" \
-    -b ${BUTLER_REPO} -i DECam/defaults -o ${COLLECT_ROOT}-crosstalk-sources \
-    -p $CP_PIPE_DIR/pipelines/DarkEnergyCamera/RunIsrForCrosstalkSources.yaml \
-    -c overscan:overscan.fitType='MEDIAN_PER_ROW'
+do_crosstalk() {
+    local repo="$1"       # Butler URI
+    local collect="$2"    # Partial collection name
+    local exposures="$3"  # Comma-delimited list of exposure IDs
+    pipetask run -j 12 -d "exposure IN ($exposures) AND instrument='DECam'" \
+        -b ${repo} -i DECam/defaults -o ${collect}-crosstalk-sources \
+        -p $CP_PIPE_DIR/pipelines/DarkEnergyCamera/RunIsrForCrosstalkSources.yaml \
+        -c overscan:overscan.fitType='MEDIAN_PER_ROW'
+}
 
 ########################################
 # Build and certify bias frames
 
 # TODO: overscan.fitType override may be included in cp_pipe on DM-30651
 
-for date in ${!EXPOSURES_BIAS[*]}; do
-    pipetask run -j 12 -d "exposure IN (${EXPOSURES_BIAS[${date}]}) AND instrument='DECam'" \
-        -b ${BUTLER_REPO} -i DECam/defaults -o ${COLLECT_ROOT}-bias-construction-${date} \
-        -p $CP_PIPE_DIR/pipelines/cpBias.yaml -c isr:overscan.fitType='MEDIAN_PER_ROW'
-    butler certify-calibrations ${BUTLER_REPO} ${COLLECT_ROOT}-bias-construction-${date} \
-        ${COLLECT_ROOT}-calib bias ${VALIDITIES_BIAS[${date}]}
-done
+do_bias() {
+    local repo="$1"                    # Butler URI
+    local collect="$2"                 # Partial collection name
+    # Associative array hack from https://stackoverflow.com/questions/4069188/
+    # Arrays must be passed as strings from calling declare -p.
+    # Associative array of coma-delimited list of exposure IDs, keyed by 1-word "date"
+    eval "local -A exposures=${3#*=}"
+    # Associative array of "--begin-date --end-date", with same keys as $exposures
+    eval "local -A validities=${4#*=}"
+
+    for date in ${!exposures[*]}; do
+        pipetask run -j 12 -d "exposure IN (${exposures[${date}]}) AND instrument='DECam'" \
+            -b ${repo} -i DECam/defaults -o ${collect}-bias-construction-${date} \
+            -p $CP_PIPE_DIR/pipelines/cpBias.yaml -c isr:overscan.fitType='MEDIAN_PER_ROW'
+        butler certify-calibrations ${repo} ${collect}-bias-construction-${date} \
+            ${collect}-calib bias ${validities[${date}]}
+    done
+}
 
 ########################################
 # Build and certify flat frames
 
 # TODO: cpFlatNorm:level override may be included in cp_pipe on DM-30651
 
-for date in ${!EXPOSURES_FLAT_g_c0001[*]}; do
-    pipetask run -j 12 -d "exposure IN (${EXPOSURES_FLAT_g_c0001[${date}]}) AND instrument='DECam'" \
-        -b ${BUTLER_REPO} -i DECam/defaults,${COLLECT_ROOT}-calib,${COLLECT_ROOT}-crosstalk-sources \
-        -o ${COLLECT_ROOT}-flat-construction-${date} \
-        -p $CP_PIPE_DIR/pipelines/DarkEnergyCamera/cpFlat.yaml -c cpFlatNorm:level='AMP'
-    butler certify-calibrations ${BUTLER_REPO} ${COLLECT_ROOT}-flat-construction-${date} \
-        ${COLLECT_ROOT}-calib flat ${VALIDITIES_FLAT_g_c0001[${date}]}
-done
+do_flat() {
+    local repo="$1"                    # Butler URI
+    local collect="$2"                 # Partial collection name
+    # Associative array hack from https://stackoverflow.com/questions/4069188/
+    # Arrays must be passed as strings from calling declare -p.
+    # Associative array of coma-delimited list of exposure IDs, keyed by 1-word "date"
+    eval "local -A exposures=${3#*=}"
+    # Associative array of "--begin-date --end-date", with same keys as $exposures
+    eval "local -A validities=${4#*=}"
 
-
-########################################
-# Final summary
-
-echo "Biases and flats stored in ${BUTLER_REPO}:${COLLECT_ROOT}-calib"
+    for date in ${!exposures[*]}; do
+        pipetask run -j 12 -d "exposure IN (${exposures[${date}]}) AND instrument='DECam'" \
+            -b ${repo} -i DECam/defaults,${collect}-calib,${collect}-crosstalk-sources \
+            -o ${collect}-flat-construction-${date} \
+            -p $CP_PIPE_DIR/pipelines/DarkEnergyCamera/cpFlat.yaml -c cpFlatNorm:level='AMP'
+        butler certify-calibrations ${repo} ${collect}-flat-construction-${date} \
+            ${collect}-calib flat ${validities[${date}]}
+    done
+}
