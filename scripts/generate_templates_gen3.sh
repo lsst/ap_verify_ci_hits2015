@@ -72,7 +72,7 @@ usage() {
     print_error "Specific options:"
     print_error "   -b          Butler repo URI, defaults to /repo/main"
     print_error "   -c          input calib collection for template processing"
-    print_error "   -o          template collection name"
+    print_error "   -o          template collection name; will also appear in final repo"
     print_error "   -h          show this message"
     exit 1
 }

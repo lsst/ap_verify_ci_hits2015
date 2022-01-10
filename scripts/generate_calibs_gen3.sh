@@ -46,7 +46,7 @@ usage() {
     print_error
     print_error "Specific options:"
     print_error "   -b          Butler repo URI, defaults to /repo/main"
-    print_error "   -c          unique base collection name"
+    print_error "   -c          unique base collection name; will also appear in final repo"
     print_error "   -h          show this message"
     exit 1
 }
