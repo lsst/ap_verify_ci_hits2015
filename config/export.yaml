@@ -407,6 +407,75 @@ data:
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 7054ce8ae11956eabf99e86d510683e13fd95d1069ab7cc3bf6fe98e789d9eedbfe5c43a511b2dd63f52926986ab7cc3bfbe74be7799e0edbf1852e9d58e70d63f5a8a9f7255b1b23fd98455e41598eabf32edf40bc0a4e13fe92f966855b1b23f
 - type: dimension
+  element: visit_system
+  records:
+  - instrument: DECam
+    id: 0
+    name: one-to-one
+- type: dimension
+  element: exposure
+  records:
+  - instrument: DECam
+    id: 411371
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    obs_id: ct4m20150218t052637
+    exposure_time: 86.0
+    dark_time: 87.1173
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150218
+    seq_num: 411371
+    group_name: '411371'
+    group_id: 411371
+    target_name: Blind15A_42
+    science_program: 2015A-0608
+    tracking_ra: 155.4702849608958
+    tracking_dec: -4.950050405424033
+    sky_angle: 90.0
+    zenith_angle: 25.289999999999992
+    datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
+  - instrument: DECam
+    id: 411420
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    obs_id: ct4m20150218t070355
+    exposure_time: 86.0
+    dark_time: 87.3794801
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150218
+    seq_num: 411420
+    group_name: '411420'
+    group_id: 411420
+    target_name: Blind15A_40
+    science_program: 2015A-0608
+    tracking_ra: 155.1202723539563
+    tracking_dec: -6.520134270088981
+    sky_angle: 90.0
+    zenith_angle: 35.09
+    datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
+  - instrument: DECam
+    id: 419802
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    obs_id: ct4m20150309t055516
+    exposure_time: 102.0
+    dark_time: 103.1057501
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150309
+    seq_num: 419802
+    group_name: '419802'
+    group_id: 419802
+    target_name: Blind15A_40
+    science_program: 2015A-0608
+    tracking_ra: 155.12015152062799
+    tracking_dec: -6.5200784367473155
+    sky_angle: 90.0
+    zenith_angle: 36.15
+    datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
+    datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
+- type: dimension
   element: patch
   records:
   - skymap: deepCoadd_skyMap
@@ -458,6 +527,1002 @@ data:
     cell_y: 11
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 7059ce3537fad0ecbf826bbb23ec1cdb3f4bb516edc918b9bf2e1132c752e3ecbf87d286c06fceda3f7979a3a1f117b9bf6631595806e7ecbfe4df0f341ed2da3f68653473f5beb7bf5f86a82eadd4ecbf6e5636a09d20db3f3f378e88c5bfb7bf
+- type: dimension
+  element: visit
+  records:
+  - instrument: DECam
+    id: 411371
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    visit_system: 0
+    name: ct4m20150218t052637
+    day_obs: 20150218
+    exposure_time: 86.0
+    target_name: Blind15A_42
+    observation_reason: science
+    science_program: 2015A-0608
+    zenith_angle: 25.289999999999992
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706d6767f746eeecbf5e0bfb47f3fdda3fc0d67a55e4a6b1bf6ef2cfb75de3ecbf6b2e9fb2c824db3f0ea608dce861b2bfc792b52d38cdecbf2985ee210072db3fd40c9258a6d8b3bff8e290843ac0ecbff013c5dada96db3f532e40abcc4eb5bfeeddb35f69beecbf434809b94295db3f21ef4fd18309b6bf202ab64b4abcecbfe43004d55293db3f2659141763ddb6bf833b40f7e6c1ecbfbf1df52cc467db3f5b0102a8c253b8bf5caa1ab15bc9ecbfa6395bb6ca3ddb3f8b14c135e30eb9bf3d284ed4b2d0ecbf8d58a731b713db3f27146880e0c9b9bf281647f6ecd7ecbf19cb466e89e9da3fafa31e499684babf389145340fececbf272f462f8192da3f2aa863c76885babfa173ec07fdfcecbf204f9c7e5248da3f85608c293d85babf75552ee5a910edbf7037632bdff0d93fc2243309ab84babfb648add3ed26edbf0c0e187db6a3d93ffab14305d90eb9bf3588fc6be431edbf799c3da4fb7cd93f16ecb62c6953b8bf167641d3a83eedbf3355937ff857d93f9082dbf36cddb6bf08f260d98e40edbf5d50b60b9a59d93f865d6dba1122b6bf04c73b049a42edbf46fff1fa835bd93fc32aa40f254eb5bffaab0efe333dedbf8462cee13b87d93f0fcaa18855d8b3bff138019aec35edbfe045905b5bb1d93f5a151a5a251db3bfca37b062852eedbf8cc78fcc6adbd93fbf4c897ccc61b2bf5fbe73530427edbf5608b5c14905da3f451f6d21c8a6b1bf61caf2c75913edbf4f46b52ebf5cda3f5fde573665a6b1bf0d9c2aa1ea00edbfa6d8434c7cadda3f1ef2081d7ba6b1bf
+    datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
+  - instrument: DECam
+    id: 411420
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    visit_system: 0
+    name: ct4m20150218t070355
+    day_obs: 20150218
+    exposure_time: 86.0
+    target_name: Blind15A_40
+    observation_reason: science
+    science_program: 2015A-0608
+    zenith_angle: 35.09
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700d83c88335c8ecbfbe2a014eb448db3f381243a086a4b8bff263cf5b99bcecbf22d5fe95dd6edb3f4cc18883105fb9bfbd8dbad40da5ecbfa448c03fbbbadb3fe8c3a0d8c2d4babfafde352cca96ecbf1fdcee7759dedb3fbe44cb51db49bcbf4a61acf06594ecbfd94d321232dcdb3f88c805321104bdbf896c2e10a091ecbfbf21cb6e9fd9db3f80912f3e59d7bdbf2f693b533596ecbfb57aa1a80eaddb3fc5b949f2b74cbfbfb0cc1b29369decbf103256d1a282db3fa0935c1aad03c0bfe7e0b69b19a4ecbf277226ac1c58db3f70e9ba10e960c0bfb5e1675de0aaecbf257e06257c2ddb3f6ebb5cccfdbdc0bfd8d65fe345bfecbf83d304a9b2d6da3f4362c3066ebec0bfd94b60c66dd0ecbff1ae3666b98cda3f8231414958bec0bf85c7ce665fe4ecbf6f9ee7788435da3f082ac32108bec0bf56d89f8808fcecbfc6e8f23eb5e9d93ffe04e405a803c0bf2c164d48b207edbfcd931c00a7c3d93f8994a9bf5e4cbfbfeb729cb2bc15edbfaea90a8fdf9fd93ffb3e711a63d7bdbfc9b5a0483618edbfc6f3cb1711a2d93fbb7336ce8d1cbdbfd6d81351e81aedbf0df79c939da4d93fb2277f203449bcbfebc2391b8916edbfeed451d457d1d93f25e2962e72d4babf5c605b85b50fedbf3fbaf043eafbd93fd4560412cb19babfbddd164cc208edbfdc90f6676c26da3f46bfdd36f45eb9bf15b6a420b501edbff9cfe683bd50da3f9d23fb796aa4b8bfebb30093c6edecbf816ecf46f5a7da3f526ef56316a4b8bf8010c24f18dbecbf62ef7e4978f8da3fa10510b22ba4b8bf
+    datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
+  - instrument: DECam
+    id: 419802
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    visit_system: 0
+    name: ct4m20150309t055516
+    day_obs: 20150309
+    exposure_time: 102.0
+    target_name: Blind15A_40
+    observation_reason: science
+    science_program: 2015A-0608
+    zenith_angle: 36.15
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70800fc9ce33c8ecbf0fb81e6dbc48db3f32c4805a76a4b8bf43a986a597bcecbff29327b3e56edb3fe3140e3f005fb9bfd27ee81b0ca5ecbf777ae958c3badb3fc67ce896b2d4babf1965a173c896ecbf6737a88f61dedb3fd688db12cb49bcbf8a3c97396494ecbfd4a0822a3adcdb3f67126df40004bdbfd880ce5a9e91ecbf368bc287a7d9db3f76a9260249d7bdbf431da4a33396ecbf123f5fc516addb3f8227ebb8a74cbfbfcefdcc7d349decbfc17944f1aa82db3fe16055fea403c0bfeb11b2f417a4ecbfc1d43ccf2458db3f6a0664f5e060c0bfe853aebadeaaecbf6d863c4b842ddb3f3439beb1f5bdc0bff643a74644bfecbfe3b7dfd4bad6da3f6db314ec65bec0bf8714c42e6cd0ecbfe44dcf96c18cda3f3655922e50bec0bf902e38d55de4ecbf767a02af8c35da3fecc2240700bec0bf135593f906fcecbf12211779bde9d93f4fc8dce99f03c0bf0b3c87bab007edbf9eaa383cafc3d93fec444a864e4cbfbf28129c24bb15edbfe3f586cce79fd93f5e5a68de52d7bdbf4f251fb93418edbf341db65419a2d93fcb8ccb907d1cbdbf7c5bddbfe61aedbf6d6fdacfa5a4d93f8a4e8ee12349bcbfa2ea38848716edbfd7f0d80c60d1d93f9a30deec61d4babf41570feab30fedbf92cc5379f2fbd93f9459e2ceba19babf926b80acc008edbfaf882c9a7426da3fa3e062f2e35eb9bf43cdc77cb301edbfcd05e9b2c550da3f2eaf38345aa4b8bf7c351ce9c4edecbf7a9c4e70fda7da3fda54101e06a4b8bf00634da016dbecbfee53d46d80f8da3f98542c6c1ba4b8bf
+    datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
+    datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
+- type: dimension
+  element: visit_definition
+  records:
+  - instrument: DECam
+    visit_system: 0
+    exposure: 411371
+    visit: 411371
+  - instrument: DECam
+    visit_system: 0
+    exposure: 411420
+    visit: 411420
+  - instrument: DECam
+    visit_system: 0
+    exposure: 419802
+    visit: 419802
+- type: dimension
+  element: visit_detector_region
+  records:
+  - instrument: DECam
+    detector: 1
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706d6767f746eeecbf5e0bfb47f3fdda3fc0d67a55e4a6b1bfa05d2d098dececbf8d28806981fcda3ff4c83448587ab2bf2f06743fb600edbf71af46e769a5da3f05a11a94217ab2bf34e18d296c02edbf8ce2bbc5eda6da3f6a7e7a8292a6b1bf
+  - instrument: DECam
+    detector: 1
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700d83c88335c8ecbfbe2a014eb448db3f381243a086a4b8bf397818b1d4c5ecbfe3d98531a146db3fcc3a3c4b7d77b9bf5eade90d42daecbfd7ad8f4bc9efda3f4a3e2e595577b9bfc5fcfbe39edcecbf1511606feef1da3f02f88f9643a4b8bf
+  - instrument: DECam
+    detector: 1
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70800fc9ce33c8ecbf0fb81e6dbc48db3f32c4805a76a4b8bfc6d6c4fdd2c5ecbfb8e06551a946db3fcf2fcd066d77b9bfa31b966040daecbfd3f41471d1efda3f7bc49c144577b9bfc727fb349ddcecbfcc952194f6f1da3f3024ab5033a4b8bf
+  - instrument: DECam
+    detector: 2
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700d9c2aa1ea00edbfa6d8434c7cadda3f1ef2081d7ba6b1bf8a1715b32fffecbfab3b00520eacda3fa072420d097ab2bf4386ded71d13edbfb6baff48ae54da3f24ff6631bc7ab2bfde6be8aed414edbfa78585322e56da3fb200b7f42da7b1bf
+  - instrument: DECam
+    detector: 2
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708010c24f18dbecbf62ef7e4978f8da3fa10510b22ba4b8bf7abe8265b6d8ecbf4a50ebfa68f6da3fd50d58523c77b9bf3e55d335e8ececbf6de6d12e479fda3f9e17cd0def77b9bf23c342fb45efecbf5445ff5f68a1da3f2d153321dea4b8bf
+  - instrument: DECam
+    detector: 2
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7000634da016dbecbfee53d46d80f8da3f98542c6c1ba4b8bfe3cfb9b7b4d8ecbfc40d032071f6da3fbcb8c70d2c77b9bf2a27118ee6ececbf1ce67f594f9fda3f90de3dc9de77b9bf2d99d35144efecbf5fc6e98970a1da3fc77f50dbcda4b8bf
+  - instrument: DECam
+    detector: 3
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7061caf2c75913edbf4f46b52ebf5cda3f5fde573665a6b1bfe3dddcdba711edbf8736b3ec295bda3f3c791d2df479b2bfe0df4b925625edbf698ab2a1a203da3f99e848fd3b7ab2bf5fbe73530427edbf5608b5c14905da3f451f6d21c8a6b1bf
+  - instrument: DECam
+    detector: 3
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ebb30093c6edecbf816ecf46f5a7da3f526ef56316a4b8bfd71b9bc86debecbf686017ccbea5da3fa82ffc0c2877b9bf1e1faea460ffecbf3dc34a4c754eda3f8df3550f6177b9bf15b6a420b501edbff9cfe683bd50da3f9d23fb796aa4b8bf
+  - instrument: DECam
+    detector: 3
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707c351ce9c4edecbf7a9c4e70fda7da3fda54101e06a4b8bf421365206cebecbfbd6e5bf6c6a5da3f3e6d6ac81777b9bfbbb380025fffecbfa3db127c7d4eda3f39bfe6ca5077b9bf43cdc77cb301edbfcd05e9b2c550da3f2eaf38345aa4b8bf
+  - instrument: DECam
+    detector: 4
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706ef2cfb75de3ecbf6b2e9fb2c824db3f0ea608dce861b2bfb07fa43e91e1ecbf8e3212eb4623db3f4ce7e506a235b3bf0a7c4472d7f5ecbf8dd80fb551ccda3fe020250c6135b3bfa2eec7bca0f7ecbf14584c4ee2cdda3f0f3e2b407f61b2bf
+  - instrument: DECam
+    detector: 4
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f263cf5b99bcecbf22d5fe95dd6edb3f4cc18883105fb9bff5d168d525baecbf12361625ba6cdb3f48b20df44732babf223edf19b0ceecbf8783b8ea0416db3f5393c5131d32babf727e588620d1ecbff74140413718db3f6dde3510bd5eb9bf
+  - instrument: DECam
+    detector: 4
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7043a986a597bcecbff29327b3e56edb3fe3140e3f005fb9bf5882cd2024baecbf61b2fc42c26cdb3f3eb5f0b03732babf7793416baeceecbf5c384c0e0d16db3fe90775d00c32babff0150cd61ed1ecbf101815643f18db3fc37987cbac5eb9bf
+  - instrument: DECam
+    detector: 5
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701869d0271bf6ecbf1e77e7b476d4da3f66100cf26061b2bfa6cd311553f4ecbfd6e5cdfae0d2da3f4389d39d4035b3bf54414ca86308edbfee388b94957bda3f77fa5cfafd34b3bfeb73206f280aedbfa9bd6b0a3a7dda3fe1be40d21061b2bf
+  - instrument: DECam
+    detector: 5
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707707ade695cfecbfe0d60cf4c61edb3fb0f86cb99d5eb9bf4295c9b726cdecbfc1640e828f1cdb3f0bfd739ffb31babfedf182a67be1ecbf4e8cbc7683c5da3f09ffff78c031babf5274d388e7e3ecbf688712a4c9c7da3f16b44b1b555eb9bf
+  - instrument: DECam
+    detector: 5
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703551ec3594cfecbfc8617416cf1edb3fe2f5c0748d5eb9bf46f3b70825cdecbf892235a5971cdb3fd0cc255ceb31babf95d674fd79e1ecbf6da8819f8bc5da3f624da035b031babf1f2715dee5e3ecbf077017ccd1c7da3ffe218ed6445eb9bf
+  - instrument: DECam
+    detector: 6
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700d629157ab08edbfc6c1144dc283da3f262d9399e060b2bf9bd1e0dce306edbf8a2686c82982da3f163be5accd34b3bf0967a373b61aedbfa18710d5a52ada3fb42794591035b3bf132076867a1cedbf8526cafc4c2cda3fe26b11c63061b2bf
+  - instrument: DECam
+    detector: 6
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ad56d07d65e2ecbff6b4555a4dceda3f5629abff245eb9bf453c60def6dfecbffcffdd1513ccda3f63adbc499031babfb5512c990df4ecbf7ecee65ecd74da3fa43b8277cb31babf073e95ba78f6ecbf7c5cdc311677da3f39a097a86d5eb9bf
+  - instrument: DECam
+    detector: 6
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b2709ed263e2ecbfc294ef8155ceda3fc048edba145eb9bf50b5dd34f5dfecbf5651373e1bccda3f8baa5c068031babf0929b2f50bf4ecbfe917ce8cd574da3fa6be3334bb31babfcecd6a1577f6ecbf6254035f1e77da3f6053eb635d5eb9bf
+  - instrument: DECam
+    detector: 7
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70de3b69f3f91aedbf27eed9c0f832da3f8fdc0de06261b2bf84ef69013719edbf51bfd1664c31da3f842146a14435b3bf67ead1f3c52cedbfc83958edafd9d93f45a8619e8535b3bfca37b062852eedbf8cc78fcc6adbd93fbf4c897ccc61b2bf
+  - instrument: DECam
+    detector: 7
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700047c2c9f2f4ecbfa7b29515bd7dda3f9945fcc1a05eb9bfa32981cb88f2ecbf88ee44126f7bda3f9d6b77bb0032babfecd798fc5b06edbf3ce178081024da3fc8c2099f2b32babfbddd164cc208edbfdc90f6676c26da3f46bfdd36f45eb9bf
+  - instrument: DECam
+    detector: 7
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7095872224f1f4ecbf85385142c57dda3fe3b04d7d905eb9bf9811922787f2ecbf191ac13f777bda3f94ae2678f031babff4bfb35e5a06edbf9a3d703b1824da3ff291ec5b1b32babf926b80acc008edbfaf882c9a7426da3fa3e062f2e35eb9bf
+  - instrument: DECam
+    detector: 8
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709b30b8e557d8ecbfcd0cb954774bdb3fc220344b881db3bf788e9b227bd6ecbf91dfe5bbdc49db3f276c87826bf1b3bff7401f0bdceaecbf8e7fe87414f3da3fc246fa4208f1b3bf1453727db6ececbfd9b7d8babaf4da3fae20cffaee1cb3bf
+  - instrument: DECam
+    detector: 8
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7060aa8c47e0b0ecbf3fc8bb4cdf94db3f745c27ca2d1ababf8e2bfc6a5caeecbf58c850baa292db3fbe8376e28aedbabf1a98665901c3ecbf8a16d9d81a3cdb3f7984741f45edbabf9a41090783c5ecbff365f138633edb3f14684c0db219babf
+  - instrument: DECam
+    detector: 8
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70cb75fe8fdeb0ecbf53b7e867e794db3f17fa05871d1ababf74641db55aaeecbf9b3137d6aa92db3f9216bda07aedbabfdd2182a9ffc2ecbff0e873fa223cdb3f854d76dd34edbabfff28745581c5ecbfd1c6d1596b3edb3f40fae5c9a119babf
+  - instrument: DECam
+    detector: 9
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708f84390730ebecbf84e743584efbda3f8771b8312b1cb3bfddf939f652e9ecbfce8271d0b3f9da3fd97c582d41f0b3bf28a424f180fdecbf6b8bf84c85a2da3f74f816674bf0b3bfb8f2298c5bffecbf7c34c4612ba4da3f10f248501a1cb3bf
+  - instrument: DECam
+    detector: 9
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70dcad700af8c3ecbf6005f899f244db3faadb6015ed18babfdaba94b773c1ecbf4a712bf2b542db3f2d9a59de7cecbabf598c65b7e5d5ecbfe2e61deac6ebda3fc70958bb95ecbabfbd1fcea067d8ecbf605e1f2b0feeda3f4aefb7e2ea18babf
+  - instrument: DECam
+    detector: 9
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70171a6658f6c3ecbf8de469bafa44db3f8e03fdd1dc18babf04f4390772c1ecbf20015713be42db3f62f05d9c6cecbabfa6e60c0de4d5ecbf6c6ef010cfebda3f77473a7985ecbabfbdadc4f465d8ecbf065c375117eeda3fbbdd319fda18babf
+  - instrument: DECam
+    detector: 10
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7024bf8f33d7fdecbf0670ec92c3aada3f4393dab93d1cb3bf15a02baffdfbecbff9aaf7b818a9da3fd5eaa2d56df0b3bf577e9981f20fedbf791f1364a351da3f4b1eca9163f0b3bfa2f7b96ac911edbf7c9040aa5953da3ff838e978331cb3bf
+  - instrument: DECam
+    detector: 10
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7088081706ded6ecbf338dae7ba2f4da3f03aa8ea80d19babf02d8d0375dd4ecbfab7aaa7955f2da3fb5ae4086b7ecbabf44fee75c96e8ecbf407a44021f9bda3f1624c848adecbabf3de0fc8614ebecbf54184a68779dda3f02f6fb6d0319babf
+  - instrument: DECam
+    detector: 10
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7062839959dcd6ecbf76f959a1aaf4da3fdc1d0a65fd18babf7271048d5bd4ecbf63bd10a05df2da3f5f712444a7ecbabf856722b894e8ecbf08c1412e279bda3f97d5ab069decbabf6c6185e012ebecbfc3cd8b937f9dda3fb958772af318babf
+  - instrument: DECam
+    detector: 11
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7046febcde4b10edbf0d75a986f159da3f4c12fe3be41bb3bfc5b6bc04730eedbfafa487f04358da3fad3b403e15f0b3bff42653b92622edbfcf3c97cda500da3feefa358d60f0b3bfd586d0d2fc23edbfc1113cb05e02da3f3217bf8f4a1cb3bf
+  - instrument: DECam
+    detector: 11
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705656c61392e9ecbf226875cd0aa4da3f2c1d9aefb418babf527f4ef111e7ecbf1bc0b110bba1da3f3547ceb55fecbabf333e9cda09fbecbfc70b1fc65a4ada3fa8fd662b9cecbabf1b96441e87fdecbf94bed0b2b54cda3f8124855e0c19babf
+  - instrument: DECam
+    detector: 11
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f2f0d96c90e9ecbfb2c34bf812a4da3f33b213aca418babf7d6a134c10e7ecbf2823433cc3a1da3f8426b0734fecbabf2f606b3b08fbecbf4ae435f7624ada3fba866be98becbabfa1d3617d85fdecbfdaf22be3bd4cda3f1384211bfc18babf
+  - instrument: DECam
+    detector: 12
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701f8c4b098322edbff79f0a87f708da3f3c968b09911cb3bf995e55d6ac20edbf2a50f4d03e07da3f1238592faaf0b3bf79dde14b1934edbf2617dc7d97afd93f198a056a08f1b3bff138019aec35edbfe045905b5bb1d93f5a151a5a251db3bf
+  - instrument: DECam
+    detector: 12
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a20157f507fcecbf240464af4953da3f3e06ca535419babf436391958af9ecbf5cb99decee50da3ff398a745e7ecbabf081f203e3b0dedbf00af878a84f9d93f52f9fe0428edbabf5c605b85b50fedbf3fbaf043eafbd93fd4560412cb19babf
+  - instrument: DECam
+    detector: 12
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700f65005406fcecbf0dca55df5153da3f780163104419babf16aeecf588f9ecbf24214b1df750da3f33c6a803d7ecbabf295b86a4390dedbf74e1a6c08cf9d93f63ec44c317edbabf41570feab30fedbf92cc5379f2fbd93f9459e2ceba19babf
+  - instrument: DECam
+    detector: 13
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c792b52d38cdecbf2985ee210072db3fd40c9258a6d8b3bfa93d8da548cbecbf6a67a08e5870db3f3a4f4d3098acb4bf44b5d978c0dfecbf5b2799a8c619db3fab7f2c8f9eacb4bf24bf9b98aee1ecbfbc7bfdc6761bdb3ff744461c69d8b3bf
+  - instrument: DECam
+    detector: 13
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bd8dbad40da5ecbfa448c03fbbbadb3fe8c3a0d8c2d4babfd52e723377a2ecbff032046f71b8db3ff9a6903a2aa8bbbf13ee338b32b7ecbfc0aa68e51f62db3fe1d42c1755a8bbbf010425f3c7b9ecbf01959f6e7264db3ffd18373caad4babf
+  - instrument: DECam
+    detector: 13
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d27ee81b0ca5ecbf777ae958c3badb3fc67ce896b2d4babfc28a507c75a2ecbf7cc0e18879b8db3f58744afa19a8bbbf42aa09da30b7ecbf129501052862db3f219e91d644a8bbbff93d4940c6b9ecbfef58838d7a64db3f076f29fa99d4babf
+  - instrument: DECam
+    detector: 14
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a92e811d1ee0ecbf8f0dcb662722db3fe4ba3f4fd3d7b3bf3c94f0a230deecbf132a68ff7420db3f9908bf7604acb4bf825304887af2ecbfa1f68ed06ec9da3fe0d0de2cf3abb4bf0e74cf6a66f4ecbf6a825f9f29cbda3fa7f4196b99d7b3bf
+  - instrument: DECam
+    detector: 14
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705857b9b632b8ecbff5fae1901e6bdb3ff884608e12d4babfba4b2af99db5ecbfedbcdcc3c968db3f68daab24b9a7bbbf08cf69d62bcaecbff83e1e790312db3f0abf85e7bda7bbbf7041e815bfccecbf2dcf79c66014db3faadc6fcbeed3babf
+  - instrument: DECam
+    detector: 14
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706c6d660331b8ecbfc1b554af266bdb3fb619574c02d4babf2d0489479cb5ecbfddc504e3d168db3fb0d114e4a8a7bbbf9db2c72a2acaecbfe7d0f49d0b12db3fa952bba6ada7bbbf21a19368bdccecbfa3639aea6814db3fecd43289ded3babf
+  - instrument: DECam
+    detector: 15
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a1878dc5e4f2ecbf8404b464b0d1da3f253c262633d7b3bfcc232dd9f8f0ecbf49452c09f6cfda3f1bb159cb8aabb4bfc9dc8afa0c05edbf85b6847c9978da3ff15cd5e877abb4bfa510a420f706edbf795f43185c7ada3f38c791bb12d7b3bf
+  - instrument: DECam
+    detector: 15
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706905c3a938cbecbfee4c6819e31adb3f212decae87d3babf29dd0162a5c8ecbf1897c4408618db3ffc46fab154a7bbbfd6726ec6fddcecbf2f920df768c1da3f3f5da13549a7bbbf702a384c8fdfecbfd9d94a14cec3da3f261c55b16ed3babf
+  - instrument: DECam
+    detector: 15
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e67efafb36cbecbf13441c3deb1adb3fba04b16c77d3babf98ceebb5a3c8ecbfc8852e658e18db3f3ab1317144a7bbbf56745d20fcdcecbf0526172171c1da3ffc85c7f438a7bbbfb20874a48ddfecbf84e29d3dd6c3da3f529f086f5ed3babf
+  - instrument: DECam
+    detector: 16
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7065423ffa7805edbf02550cace080da3f48a8619797d7b3bf03accf7d8e03edbfd573f0461f7fda3f176658e0fcabb4bfc54b4d936517edbfa9cf33fe8a27da3f572f6a33efabb4bfb3af2c1c4e19edbf20ed1b775429da3f4629d97697d7b3bf
+  - instrument: DECam
+    detector: 16
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707ea05fa50bdeecbf2a48ef924dcada3f6f6ae137f3d3babf193c38c879dbecbfdcf531abe9c7da3fa70cc9d4cda7bbbf0f2d594e95efecbf48ce4fe89370da3f8913e2d7b8a7bbbfc341dd2625f2ecbfc131b8d3ff72da3fa2a38ac0ebd3babf
+  - instrument: DECam
+    detector: 16
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70777f29fd09deecbfc40cd8bb55cada3f07d295f5e2d3babf1a29b52178dbecbfa82dd1d4f1c7da3f0a21f093bda7bbbf98ffdead93efecbf92c77d179c70da3f692e1a97a8a7bbbf8c91af8423f2ecbf4e402f020873da3fac24507edbd3babf
+  - instrument: DECam
+    detector: 17
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e4098d58d617edbf42a97fd0e12fda3fd6daeb050ed7b3bf17af155eeb15edbf78734766232eda3fd5fdfea867abb4bf2e5445da7d29edbfdc334acc75d6d93f4a710160acabb4bf3b1a7db2662bedbf6025ef243cd8d93f4353cb4a7bd7b3bf
+  - instrument: DECam
+    detector: 17
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704d2e3cb2a8f0ecbf5b3ab2f28879da3fe74581c063d3babf7222f95d16eeecbfd01edf0c2877da3f1a7f38c232a7bbbf6c4c4923ed01edbfca87fceab71fda3fe78b754c61a7bbbf0861e02e7d04edbfb0f6a09a2022da3fc3bb2ac4bad3babf
+  - instrument: DECam
+    detector: 17
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ace2990fa7f0ecbf5334bf209179da3fab4c437e53d3babf209a09bd14eeecbf1357a23b3077da3f20176d8122a7bbbf5ef96488eb01edbf60f43b1fc01fda3fc4dddd0b51a7bbbfe90b49927b04edbffac829ce2822da3f16b52082aad3babf
+  - instrument: DECam
+    detector: 18
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f2e2af46ed29edbfe9f2f345daded93fc3b078cd31d8b3bf7548ff060728edbf194097a907ddd93f9f9c642367acb4bfb10a280c503bedbf4f01ca8c6185d93ff906d63447acb4bffaab0efe333dedbf8462cee13b87d93f0fcaa18855d8b3bf
+  - instrument: DECam
+    detector: 18
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707cfa4906fe02edbff9f8c38fb928da3f1996da0773d4babf4e1270997000edbfc1da75a14426da3f4f041ac61da8bbbf909ef737fe13edbfbe307b66dbced93f02554b65d9a7bbbfebc2391b8916edbfeed451d457d1d93f25e2962e72d4babf
+  - instrument: DECam
+    detector: 18
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708b433f69fc02edbf1f1ee4c2c128da3f24a2ccc562d4babfda3d19fe6e00edbfd95a4dd54c26da3fe8827e850da8bbbf37b0aaa2fc13edbf10e7b99fe3ced93f3db70425c9a7bbbfa2ea38848716edbfd7f0d80c60d1d93f9a30deec61d4babf
+  - instrument: DECam
+    detector: 19
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7006c5f9e587cbecbf1f54d1437f70db3fab92eb9f4c93b4bfacb0f78689c9ecbf26ef41e4b96edb3ff97efefb5a67b5bfb350d21a02deecbf702aeba12318db3f4dfa2e9a7a67b5bfff428de4ffdfecbfe408d163ee19db3f39fe21b82893b4bf
+  - instrument: DECam
+    detector: 19
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70553c5d6ecaa2ecbfe405f38dabb8db3f2e2b7478ef8ebbbf949da2f824a0ecbf81043eaf43b6db3f2693590b6f62bcbf7a5e4a00e1b4ecbf74c516b9ed5fdb3fbd8b7418b362bcbf1b47311286b7ecbfc7780d2a5b62db3f674b0527f08ebbbf
+  - instrument: DECam
+    detector: 19
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c2cd08b7c8a2ecbfe032bca7b3b8db3ff7250138df8ebbbf67da004323a0ecbf699db7c94bb6db3ff3bc62cc5e62bcbf8678a050dfb4ecbf0a174cd9f55fdb3f9bd928d9a262bcbf4cd6d36084b7ecbfffce91496362db3f3eff3ce6df8ebbbf
+  - instrument: DECam
+    detector: 20
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708e5f31cd6adeecbff17dc587a920db3f7dc38b2f5893b4bff344f2156cdcecbf5ed85bd1e21edb3ff7f94ce3a567b5bf92531577b6f0ecbf7b84ca16d8c7da3f0ef5be4ccb67b5bfb789de62b4f2ecbf0cb027fca3c9da3fc7f781025593b4bf
+  - instrument: DECam
+    detector: 20
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700fc59494ebb5ecbfe4f19e301169db3f627ecc391d8fbbbf8197549545b3ecbf80584ecba766db3f836317fddb62bcbf167fb9c6d3c7ecbfa9a910cedc0fdb3f575acb511763bcbf1412b81679caecbffc6dbc7d4b12db3f4d8db90f308fbbbf
+  - instrument: DECam
+    detector: 20
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7020eec0e2e9b5ecbf7d1db24f1969db3f40d009f90c8fbbbf1bfc33e543b3ecbfa73612ebaf66db3f1e4ed1bdcb62bcbf1ac7981cd2c7ecbfe38583f3e40fdb3f823b52120763bcbfe375e36a77caecbf8d217ea25312db3f6995c3ce1f8fbbbf
+  - instrument: DECam
+    detector: 21
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70211ad30931f1ecbff566083434d0da3fe064c76cc692b4bf4970538033efecbf38ad150567ceda3f183489a03a67b5bf7823d1714803edbf79c760370677da3ff070a28d3a67b5bffcd942f84405edbfbcc0c166d878da3f00156ccfb892b4bf
+  - instrument: DECam
+    detector: 21
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700b65700ff1c8ecbf9b3e8e5bd718db3ff24374bda08ebbbf7fea63244cc6ecbf06880a656716db3fcfb1d8ed8562bcbf5ad24f4da5daecbf7f8bf8ce45bfda3f7a8f41378d62bcbfc108293c49ddecbf5c1bb5ccbac1da3f05ff4f849a8ebbbf
+  - instrument: DECam
+    detector: 21
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704aef2663efc8ecbf109ee27fdf18db3f68e37f7c908ebbbfb46bce794ac6ecbf7728108a6f16db3fa81e61ae7562bcbf78d2bfa8a3daecbfae279ef94dbfda3f01d6b8f77c62bcbfe99fe49547ddecbf9b19a9f6c2c1da3fb4624a438a8ebbbf
+  - instrument: DECam
+    detector: 22
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70144ad1f1cc03edbff10af7fc4c7fda3f75f9c76e5992b4bfb05b24f0ce01edbf39a0c97b817dda3f20a8d022db66b5bfbad2ea8ea615edbf7beae3b5e825da3fd0bbbaedf466b5bff9eb5b56a317edbf05cc5e07b927da3f641e88bf8092b4bf
+  - instrument: DECam
+    detector: 22
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7093e91577ccdbecbf01ef34092bc8da3fab4dc0623b8ebbbfff41d10727d9ecbf285408b5bcc5da3fd786b60d2e62bcbf821362fb42edecbf61fc9a59626eda3fdf37f36b4062bcbf99d6e921e7efecbf9fc44070d570da3f410fef3e5b8ebbbf
+  - instrument: DECam
+    detector: 22
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7052e95ed0cadbecbfb108bf3233c8da3f0409ba212b8ebbbfc834ce6225d9ecbf79a143dfc4c5da3fe91f2dce1d62bcbf1886685c41edecbf226d65896a6eda3f26237b2c3062bcbff51a3c81e5efecbf13be599fdd70da3f3c32fafd4a8ebbbf
+  - instrument: DECam
+    detector: 23
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7085fa840e2e16edbfee8f5787322eda3f09800a35b092b4bf13ffcb283114edbf87826c8b622cda3f6e3b0c682667b5bf17469e07c527edbf4454ac4db1d4d93fcb7cf3732867b5bf0714817cc029edbf101bf3e685d6d93f0db1dbdada92b4bf
+  - instrument: DECam
+    detector: 23
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f69daaa56ceeecbfa6d969354a77da3f144422ab8b8ebbbf93fcfd5ec8ebecbf234a7872d774da3f7bb19eda7262bcbfc5e1c3bea0ffecbf535b51e2631dda3f46867bdc5e62bcbf30b9bc704302edbfbd7e2a20db1fda3fa6dd352fa08ebbbf
+  - instrument: DECam
+    detector: 23
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d7048b046beeecbf0b871a645277da3fea322b6a7b8ebbbfa08f92bfc6ebecbf6b69daa1df74da3f876e249b6262bcbf6b6b63259fffecbf04ae2f176c1dda3f509d349d4e62bcbf8512a8d54102edbf51355754e31fda3fca6672ee8f8ebbbf
+  - instrument: DECam
+    detector: 24
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7083c4f0a24028edbfdc4fa3f346ddd93fa2ea25d31493b4bfd8c132534526edbf15d7526271dbd93f6604de9c6667b5bf810d713e8f39edbfa4eef60dc783d93fafb26afa4667b5bf605e3ee7883bedbf02994208a185d93f484a0ac33893b4bf
+  - instrument: DECam
+    detector: 24
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7033750d22be00edbf8b3277489726da3f9ba20f43dc8ebbbfc189a7921bfeecbf2dd1f30f1f24da3f4d72ad1c9f62bcbf3c6a541aaa11edbf6d5508a0b1ccd93f3663b5045b62bcbf0e93a6c94a14edbf12db880a2ecfd93f3a65f895db8ebbbf
+  - instrument: DECam
+    detector: 24
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bd178286bc00edbf56b3387c9f26da3f994f4702cc8ebbbfac75d0f819feecbfccfe66442724da3f1ab861dd8e62bcbf37878786a811edbf2dfae2d9b9ccd93f5494bec54a62bcbf6c9925344914edbf3dc2b14336cfd93fa0688555cb8ebbbf
+  - instrument: DECam
+    detector: 25
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f8e290843ac0ecbff013c5dada96db3f532e40abcc4eb5bf760ad2212cbeecbff4d62105ff94db3fae1ac46fb922b6bf9746a454b8d2ecbf7dc9e374ac3edb3f1163c19f3b23b6bf686b4c17c7d4ecbfc3e9db988a40db3f12f0f6ddfd4eb5bf
+  - instrument: DECam
+    detector: 25
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70afde352cca96ecbf1fdcee7759dedb3fbe44cb51db49bcbf9bc1c7e01494ecbf802f810bdbdbdb3f4e392d19351dbdbfd4a73001e4a8ecbf576831b9c885db3fea67ceace21dbdbf645713eb99abecbf654cccb04988db3f1f5eeb1d384abcbf
+  - instrument: DECam
+    detector: 25
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701965a173c896ecbf6737a88f61dedb3fd688db12cb49bcbf583ce7291394ecbf2f55e623e3dbdb3fc76fc3db241dbdbfd1164450e2a8ecbf814358d7d085db3f94a3ff6ed21dbdbf4a0f723898abecbf0ffe46ce5188db3ffc1796de274abcbf
+  - instrument: DECam
+    detector: 26
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7065a1fc7639d3ecbf8f69c2b92247db3fe52d9a0e7a4eb5bffa0049902ad1ecbfc4a28eac4545db3fa134e4adb222b6bf2e6b4ecc8ce5ecbf608944c96feeda3f0b9c33a10c23b6bf2a5eded29be7ecbfa6a2daec4ef0da3f3a21a3f89d4eb5bf
+  - instrument: DECam
+    detector: 26
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70dc777e8e07aaecbfb2f02050dd8edb3f8bd068e0b149bcbf26e3c98351a7ecbfb815a0725d8cdb3f56dfc852571dbdbf000eff39f7bbecbf50859e6dc735db3fbe779d55ce1dbdbf3ffedc8dadbeecbff315b5894938db3f9bbad3fdf249bcbf
+  - instrument: DECam
+    detector: 26
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d0dd67db05aaecbfaa822b6de58edb3f6f1619a1a149bcbf39e367d24fa7ecbf48bf5690658cdb3fef97ff14471dbdbf08b7998ef5bbecbfe6130b91cf35db3ff28e9017be1dbdbf8c81c2e0abbeecbf684475ac5138db3f75ff3fbee249bcbf
+  - instrument: DECam
+    detector: 27
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7050c72d2f13e6ecbfcba9fb71e0f6da3fb613e33fd44eb5bff1293f7c03e4ecbfe8cfc93b04f5da3fccf4a3d53f23b6bfa955dee633f8ecbffadf23fac89dda3ff56744ae8023b6bf449f757a43faecbf627e0a0ba79fda3f24791f0efa4eb5bf
+  - instrument: DECam
+    detector: 27
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b5cec09e1fbdecbf37fc5913d63edb3f7451a476274abcbfdb01ad9e68baecbf4d8acde4563cdb3f48d1a3bbff1dbdbfa07abdecdcceecbf6549fefd5ae5da3f6748351a4f1ebdbff10083e193d1ecbf9d96c81adce7da3f81abc4dc5b4abcbf
+  - instrument: DECam
+    detector: 27
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708ed732f11dbdecbf5b85ac35de3edb3fe8d71437174abcbff4f6d3f266baecbfa43ecc075f3cdb3f5b299b7def1dbdbf97d9e746dbceecbf54f6a42663e5da3f7cd80adc3e1ebdbf811ff83992d1ecbfd5e6c242e4e7da3f143a139d4b4abcbf
+  - instrument: DECam
+    detector: 28
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7063a28b36caf8ecbf0cccf83b13a6da3fe279a437c54eb5bf14218914bcf6ecbf8738d2092fa4da3f4598dcdb4a23b6bf79b72cdfb30aedbf5aea976fad4cda3fca79aa3e2a23b6bf8912a5a1c10cedbfbbf2e743934eda3fc83ca5a5a44eb5bf
+  - instrument: DECam
+    detector: 28
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706d69f3c315d0ecbf34e003cf43eeda3f32dc2ca0264abcbfd76b534660cdecbf96123e96bcebda3f7dbc14e4181ebdbf8a62f87e9ce1ecbfa2d054f37994da3f96f21158f81dbdbf9bcfbe9b51e4ecbfbb000fcd0297da3fe37e551f064abcbf
+  - instrument: DECam
+    detector: 28
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7031d5f61b14d0ecbfb03494f64beeda3fd94c7c60164abcbf48820ca05ecdecbfcf297bbec4ebda3fdb28eba5081ebdbfbcf6b8de9ae1ecbf4a9f29218294da3f9a2fe819e81dbdbf669cc9f94fe4ecbfeff136fa0a97da3f44c0a4dff549bcbf
+  - instrument: DECam
+    detector: 29
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70fe229b15410bedbf80ad927f2f55da3f5dfecefa0d4fb5bf77084cce3209edbf68ac6fb44b53da3f744426999423b6bff59d0c6fea1cedbf45240c39a2fbd93f610cdfb75323b6bfec13a517f81eedbf6ab9376a87fdd93ff1be6327e84eb5bf
+  - instrument: DECam
+    detector: 29
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7036e46c92cbe2ecbfd12a0f009a9dda3f9dc10fbb6f4abcbfd9126aee15e0ecbf9f44202d139bda3f04923ef6621ebdbfa851233c12f4ecbf7fc2c0fda743da3f65102a8d131ebdbf2e73d92ac7f6ecbf3d2dd6203046da3fd9bfe14d3b4abcbf
+  - instrument: DECam
+    detector: 29
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7077dc03f0c9e2ecbfeb00cc2ca29dda3f2f765e7b5f4abcbf85b0b64d14e0ecbf82d4895a1b9bda3f234914b8521ebdbf90e379a110f4ecbf1f0eb030b043da3fd793214f031ebdbf767a7a8ec5f6ecbf5abb18533846da3fa570520e2b4abcbf
+  - instrument: DECam
+    detector: 30
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706c710891831dedbfb92e1d720c04da3f88d705f4df4eb5bffd95a16b751bedbfe8b3a24e2902da3f67eda28a4e23b6bf83707d16e62eedbfb7f6901277aad93fff0fc499ed22b6bf5d1e635df330edbfa77c6b625bacd93fcef2cd18b54eb5bf
+  - instrument: DECam
+    detector: 30
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a678d0924df5ecbf6ca80a99b04cda3f77b067c3344abcbfb21c4a2398f2ecbf7cb5e27f2a4ada3f957e8f07101ebdbfc47797a14d06edbfc32af3ceb5f2d93f7a6a7a05921dbdbf24f8b9060209edbf7662e6e93cf5d93fb4db12b3ec49bcbf
+  - instrument: DECam
+    detector: 30
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70936dfef54bf5ecbf15cbe4cab84cda3f7681d483244abcbfc67d2d8896f2ecbf3c7769b2324ada3fd82583c9ff1dbdbfdc1e850c4c06edbf49c5eb06bef2d93f7db5b1c7811dbdbf4685f26f0009edbf0871322145f5d93f39b0c373dc49bcbf
+  - instrument: DECam
+    detector: 31
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d978aa12772fedbf79e893331eb3d93f246f3956894eb5bf1c637eca6a2dedbfa25bba3335b1d93f1475d205c722b6bf08f260d98e40edbf5d50b60b9a59d93f865d6dba1122b6bf04c73b049a42edbf46fff1fa835bd93fc32aa40f254eb5bf
+  - instrument: DECam
+    detector: 31
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705fbf16968007edbf12b88c2cfbfbd93ffa090ee0c349bcbf8a38392fcd04edbf7595eb606ff9d93ff7aaca5c6e1dbdbfc9b5a0483618edbfc6f3cb1711a2d93fbb7336ce8d1cbdbfd6d81351e81aedbf0df79c939da4d93fb2277f203449bcbf
+  - instrument: DECam
+    detector: 31
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7073b5d7fe7e07edbffef46d6303fcd93f9afdb7a0b349bcbf1fa5af99cb04edbf86ad799877f9d93f4820fb1e5e1dbdbf4f251fb93418edbf341db65419a2d93fcb8ccb907d1cbdbf7c5bddbfe61aedbf6d6fdacfa5a4d93f8a4e8ee12349bcbf
+  - instrument: DECam
+    detector: 32
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70eeddb35f69beecbf434809b94295db3f21ef4fd18309b6bf202ab64b4abcecbfe43004d55293db3f2659141763ddb6bfabfc2fdcd4d0ecbf710114d2003ddb3f63b2e09c61deb6bf978ecf29f5d2ecbfceca4dd7ef3edb3fd1884e6b310ab6bf
+  - instrument: DECam
+    detector: 32
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704a61acf06594ecbfd94d321232dcdb3f88c805321104bdbf896c2e10a091ecbfbf21cb6e9fd9db3f80912f3e59d7bdbfda090b2b6da6ecbf36cd0d498d83db3fbff9adce82d8bdbf3c74208634a9ecbf4c981f4d1f86db3fef3ee512ea04bdbf
+  - instrument: DECam
+    detector: 32
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708a3c97396494ecbfd4a0822a3adcdb3f67126df40004bdbfd880ce5a9e91ecbf368bc287a7d9db3f76a9260249d7bdbf32f59f7b6ba6ecbf4d32c7679583db3ffe01419272d8bdbfee9bffd432a9ecbfd3c4316b2786db3fbbdae7d4d904bdbf
+  - instrument: DECam
+    detector: 33
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7047764c6e67d1ecbf281c5fa78445db3f10e719fffb09b6bf7ac913d547cfecbfbf9a36019343db3f00112c1c27deb6bfad3c10f3a8e3ecbfbc4cf118beecda3f849e1c74cadeb6bfde3cfa7cc9e5ecbf4d2494a0aeeeda3f93878259690ab6bf
+  - instrument: DECam
+    detector: 33
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bedfa7d2a1a7ecbfb5968961af8cdb3f34f7f504b204bdbf4efd0e32dba4ecbf1f047ec21a8adb3f4e9f16b245d8bdbfac9b298f7fb9ecbf27c9ec7e8533db3f2f67e0e405d9bdbff5b2364c47bcecbfadec2c2a1936db3f13185e623c05bdbf
+  - instrument: DECam
+    detector: 33
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7022851221a0a7ecbfed112c7fb78cdb3fc7a8fec6a104bdbf0e8b2f82d9a4ecbfc7e2c7e0228adb3f91aeaf7535d8bdbfb44c47e57db9ecbf3fabeca28d33db3f3c6036a8f5d8bdbfab289ea045bcecbf695d854d2136db3fca4923242c05bdbf
+  - instrument: DECam
+    detector: 34
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a3aa91543ee4ecbf0fcac6304bf5da3fddd415a1980ab6bf12f394f01ee2ecbfc025b9cc55f3da3f2e23f5a6f6deb6bf1aa0d41a4ff6ecbf6ffd40501c9cda3f427fb02b2ddfb6bfdb6fed266ff8ecbf9c154754109eda3f13716e1db40ab6bf
+  - instrument: DECam
+    detector: 34
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702a2454d5b6baecbfbb3b1fbcb03cdb3f293140dc6905bdbf688e7244f0b7ecbfd4b7563a183adb3fdb04514c30d9bdbf5b64f55864ccecbf996b851f1ee3da3f5713c45f75d9bdbf0a2b7fa82bcfecbf9ffa4057b5e5da3f3c106bfb9305bdbf
+  - instrument: DECam
+    detector: 34
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70494f4729b5baecbf054809dfb83cdb3f2da1099e5905bdbfbf441c9aeeb7ecbf2e83e85d203adb3f2f36ab0f20d9bdbfb351a2b462ccecbfe50dbf4826e3da3fe765fc2265d9bdbf027275022acfecbf39e4d27fbde5da3f996c12bd8305bdbf
+  - instrument: DECam
+    detector: 35
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7056de4d6df1f6ecbf050fbcca8da4da3f8aca2fa9a90ab6bf56fcbe12d1f4ecbf22fae02e9ba2da3fa4352fb721dfb6bfc8502655c808edbf3e83bd111b4bda3fc0ca5d991cdfb6bf8dd8410fe90aedbfba65f60a0c4dda3fb2ad3989a40ab6bf
+  - instrument: DECam
+    detector: 35
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ef2e12e6a8cdecbf67cbbf232eecda3fa13480028905bdbf8a9fc447e1caecbf58e8f45398e9da3fee256d6769d9bdbfa4a728e11cdfecbfd3d530185792da3f38bf524e64d9bdbf86734be0e4e1ecbfd9f48746eb94da3f09b342e78305bdbf
+  - instrument: DECam
+    detector: 35
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7007e3953fa7cdecbf58b9e64b36ecda3fc4c328c47805bdbf4adffea2dfcaecbf7a77c37ca0e9da3f1aa9a62a59d9bdbf387f6a421bdfecbf931f97465f92da3f41368c1154d9bdbf48dcd63fe3e1ecbf21b84674f394da3f0636eba87305bdbf
+  - instrument: DECam
+    detector: 36
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7003df61376609edbff135cb04b053da3fa38ec143370bb6bf220cc0c34707edbfec7b61abb451da3f1273063eb0dfb6bf8a8b2915001bedbfd62e66be0dfad93f64ca271e13dfb6bfd29ad1a01e1dedbfde9f9b2e07fcd93f039a821ab50ab6bf
+  - instrument: DECam
+    detector: 36
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709acc35645ce0ecbf20d5f9118a9bda3fb48c58c91606bdbff586eeb296ddecbfdb62f189eb98da3f22dcbd15f8d9bdbf11c295f893f1ecbfe462152f8341da3f8fe1f0b74cd9bdbfd726f6ad59f4ecbffb0159ba1f44da3f3ed51b4e8605bdbf
+  - instrument: DECam
+    detector: 36
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f7264dc35ae0ecbf05174d3f929bda3f68d4008b0606bdbfe808bd1395ddecbfd0cfecb7f398da3f4123f7d8e7d9bdbfb45b6d5f92f1ecbffa3196628b41da3f3b344b7b3cd9bdbfe3ed161358f4ecbf67d531ed2744da3f455de50f7605bdbf
+  - instrument: DECam
+    detector: 37
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701f5a67d3a81bedbf1f487e909602da3f8d408ce9540ab6bfa3059d478819edbf881c5f1fa600da3f3c7a7011b6deb6bfefa96061f92cedbf061a4d12f6a8d93f06d35da819deb6bf27b694bb192fedbf8a1bda5ce4aad93f2aad1f77ee09b6bf
+  - instrument: DECam
+    detector: 37
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700b3cf00cdff2ecbf9add55c9aa4ada3fe12ee7052805bdbf9f63e64d17f0ecbfd76089341748da3f87d25896f1d8bdbfb298a068cd03edbfeb00c0dfa4f0d93f9f60545138d8bdbf9361e4cc9406edbf24e49e2536f3d93f3259688fa404bdbf
+  - instrument: DECam
+    detector: 37
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bc929c71ddf2ecbf6d65c5fbb24ada3f962eacc71705bdbf2ff448b415f0ecbf9059a0671f48da3f1398ae59e1d8bdbfa6d70cd5cb03edbfc7974818adf0d93f7d40ed1428d8bdbf40f39a379306edbf824d805d3ef3d93fd0dc70519404bdbf
+  - instrument: DECam
+    detector: 38
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702f86dd61a62dedbf7eb0d99f7bb1d93ff9766330fa09b6bffc9d9cf3842bedbf94b35ef091afd93f4fc9a27c2adeb6bf167641d3a83eedbf3355937ff857d93f9082dbf36cddb6bf56babbc6c940edbf4d2601cadf59d93fe5f68d938d09b6bf
+  - instrument: DECam
+    detector: 38
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c09538431c05edbf19ce6ccdc8f9d93fefd30200b304bdbfd63f40c35302edbf8028771b3cf7d93f5c550cdb4bd8bdbfeb729cb2bc15edbfaea90a8fdf9fd93ffb3e711a63d7bdbf5b1765798418edbf9509d69e69a2d93f3fa631ef1a04bdbf
+  - instrument: DECam
+    detector: 38
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703ffa7aad1a05edbfd33ae604d1f9d93f170605c2a204bdbf130a382f5202edbf0d7d975344f7d93f51e99e9e3bd8bdbf28129c24bb15edbfe3f586cce79fd93f5e5a68de52d7bdbf0a15b0e98218edbf7ec5abdb71a2d93f1efe98b10a04bdbf
+  - instrument: DECam
+    detector: 39
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7025d2a7d90ec6ecbf0a9fa941b86bdb3fa539baf83bc5b6bfb463409ee1c3ecbfa687402ba869db3f2c342fe62199b7bfeb6bc93057d8ecbf6fe6563e1513db3ff56872ddfc99b7bf031f075586daecbf0fd4902b2115db3f39d7748cd3c5b6bf
+  - instrument: DECam
+    detector: 39
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70babd29b1969becbfff74c85c35b2db3faa0334c559bfbdbf41cee9bec298ecbfe2ab8b5782afdb3f5b85d02ea492bebf7dcad02d7badecbf5fe659232f59db3f8fd66710a393bebffe3eac4151b0ecbf70ec0a37de5bdb3f0948c07a15c0bdbf
+  - instrument: DECam
+    detector: 39
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704e9c56fe949becbf0ca857783db2db3f4353c98849bfbdbf2a27ce0dc198ecbfdb15be738aafdb3f5aa3fff39392bebf352aae8279adecbfcb4b48453759db3f817743d59293bebf9eedd1944fb0ecbf3a3e5658e65bdb3f318a013e05c0bdbf
+  - instrument: DECam
+    detector: 40
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bf0fa9c1f5d8ecbf892c1181c91bdb3fc942afe6f4c5b6bfd4677f88c6d6ecbf476b7116be19db3fa5aeb6081a9ab7bf6e5e7ed30eebecbfbbec636ab7c2da3f7039e5299d9ab7bf258ef4a43fedecbf4db40c5fbec4da3fc35d988a4fc6b6bf
+  - instrument: DECam
+    detector: 40
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f00cf261bbaeecbff954c4878162db3f3e13287d34c0bdbf6ac6173ce5abecbf8ee080f9d25fdb3f23ac05e6bd93bebf6d33bb0971c0ecbf40332dbf0b09db3fc36831ae5694bebf150086eb48c3ecbf855e50fab50bdb3fe43668e9a4c0bdbf
+  - instrument: DECam
+    detector: 40
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705f86a2b4b9aeecbfa3aa9fa88962db3f6ad26e4024c0bdbffddf7f90e3abecbfae3dff1adb5fdb3f1bc4e6aaad93bebf1d9b23646fc0ecbf10865ae61309db3f5b2be0724694bebf52c9364447c3ecbf25dfda20be0bdb3feb497cac94c0bdbf
+  - instrument: DECam
+    detector: 41
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7032d0bb54bfebecbfb1b58e323bcbda3f5027098744c6b6bf737677128fe9ecbf11db31f531c9da3fc206b927909ab7bf7c67e6aba2fdecbf6cb536d7d571da3fc2326686a49ab7bfcc791235d4ffecbfd6b8ea53da73da3fb86932634bc6b6bf
+  - instrument: DECam
+    detector: 41
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7016edab93c3c1ecbf6ec9611c2e12db3f3bceaed598c0bdbff7d97044ecbeecbff432c59b810fdb3f9351ff9d4894bebff03b680144d3ecbf142d23a264b8da3f6bd8ff486494bebf1bdefba51cd6ecbf881f0f700cbbda3f90324c09a7c0bdbf
+  - instrument: DECam
+    detector: 41
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70312deaebc1c1ecbfa89580423612db3fe958c59888c0bdbf05dd669eeabeecbf6ef686c2890fdb3f6386b0623894bebf1c92636142d3ecbfc3aa84ce6cb8da3fbc10a00d5494bebf7aab3f041bd6ecbf25edcd9b14bbda3fcca351cc96c0bdbf
+  - instrument: DECam
+    detector: 42
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708e80946459feecbf5a8b2942517ada3f48667012adc6b6bf4c6b04db27fcecbfedbd0c984c78da3ffb5b951e069bb7bf217b3456ff0fedbfb57f7c9fb920da3f6b9c1eaabc9ab7bfe3f195d53112edbf77d5663cb922da3f7eafeb1c71c6b6bf
+  - instrument: DECam
+    detector: 42
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7027afa77b9cd4ecbf0fe3976d7ec1da3fab97f97108c1bdbfdabde6d6c3d1ecbfb8f25372d6beda3fa1bd7b98c594bebfb95331f1dfe5ecbf90d6e72c8267da3fb2a05efd7494bebfb572fd84b9e8ecbf920c0f14256ada3f71c4af4ac5c0bdbf
+  - instrument: DECam
+    detector: 42
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700b2b7ad99ad4ecbfee26ed9886c1da3f31c3ff34f8c0bdbf80c57036c2d1ecbf6de64b9edebeda3f31b51c5db594bebf02b8c356dee5ecbf344e6e5e8a67da3f133110c26494bebf05bed8e8b7e8ecbf932df3442d6ada3fbaa5c60db5c0bdbf
+  - instrument: DECam
+    detector: 43
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bfe28a75b610edbfd23d52315129da3f986acc6f5ec6b6bfaa811621840eedbf879cfec25027da3f79a7000aac9ab7bfe2c642c01822edbf4f996811a6cfd93fbe0125eeff99b7bf4ddcfeb84b24edbf784dc628a1d1d93f90697cc8dac5b6bf
+  - instrument: DECam
+    detector: 43
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709d754a0d39e7ecbf2d3eb06bb870da3fde3042c6b3c0bdbff0bf6da35fe4ecbf730724b2146eda3f5bf9c7846594bebf0b36c74839f8ecbff398ca30a816da3ffe323fe2a393bebfa0a2f53a13fbecbf8d7a9b774619da3f3c3ef1761ac0bdbf
+  - instrument: DECam
+    detector: 43
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70594cb17037e7ecbf6cfa299cc070da3fb05a5689a3c0bdbffac18b085ee4ecbf722940e31c6eda3f74d576495594bebfe76feeb337f8ecbfbf1d6267b016da3f011020a79393bebf505c66a411fbecbfa50491ad4e19da3faebf373a0ac0bdbf
+  - instrument: DECam
+    detector: 44
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a04ea7c3cd22edbfb83c913b5dd8d93f9f30abddcec5b6bf571485809a20edbf008ee63e63d6d93ffa0f8b30f899b7bfaac165b2e533edbf45d9a1eabf7ed93f6bc56571f998b7bf01912a481936edbf0b7c5b48b480d93f01420a7913c5b6bf
+  - instrument: DECam
+    detector: 44
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707078e80b90f9ecbff49074dffd1fda3fbbcfffd410c0bdbf778425cbb5f6ecbfdc8f58af601dda3fc134256b9e93bebf043c3745460aedbf1d80dde7fac5d93f6e8b9ade7b92bebf9e0182a7200dedbffc11734892c8d93f866a816b31bfbdbf
+  - instrument: DECam
+    detector: 44
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702b4ee2748ef9ecbf9e03ff140620da3fcafb409800c0bdbfd3ced535b4f6ecbfb2ee84e5681dda3fd9c200308e93bebf8893efb5440aedbf5a61702303c6d93f274bc9a36b92bebfc6c784161f0dedbfc18364839ac8d93f8858162f21bfbdbf
+  - instrument: DECam
+    detector: 45
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70aaa1147c22c4ecbfb8ddad44f069db3f442473f91380b7bf833b40f7e6c1ecbfbf1df52cc467db3f5b0102a8c253b8bfd32c505c5ad6ecbfb57396333811db3f76a42963bf54b8bfaa6a9c9d98d8ecbf3a94c2f75c13db3f56d9215fcd80b7bf
+  - instrument: DECam
+    detector: 45
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7033895b4b1799ecbfa39d73b1ddafdb3f5cc9d2e1a879bebf2f693b533596ecbfb57aa1a80eaddb3fc5b949f2b74cbfbf2afe6c74ebaaecbf65984448c256db3f55835476d84dbfbfc78b3564d0adecbff3f6ba378a59db3f0425354d867abebf
+  - instrument: DECam
+    detector: 45
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7060410b9a1599ecbf757192cde5afdb3f14e6d0a69879bebf431da4a33396ecbf123f5fc516addb3f8227ebb8a74cbfbfa27ececae9aaecbf04efbd6aca56db3f81c9a23cc84dbfbf8b11deb8ceadecbfa2bb95599259db3f637ddf11767abebf
+  - instrument: DECam
+    detector: 46
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70645f6ecb04d7ecbf84fd52ba111adb3f80855f150781b7bf376abea7c5d4ecbf222d83ddf017db3f249086cbf454b8bfa21777ce0be9ecbfffccbd36f1c0da3f058ad91d9f55b8bfd41c19564debecbf0ea0db670ac3da3f2ffccbf08881b7bf
+  - instrument: DECam
+    detector: 46
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70750da02837acecbfe0bf5dd93960db3ffb265a94bd7abebfe3c1d35651a9ecbf39a2a7d1755ddb3fe17156700b4ebfbf609594dbdabdecbf63c70079b506db3f2957544acb4ebfbf71267237c3c0ecbff39456fa7109db3fcc12031c557bbebf
+  - instrument: DECam
+    detector: 46
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7021b1d27c35acecbf7dc4c7fa4160db3f0c380a59ad7abebf3113bfac4fa9ecbff0f2aff37d5ddb3f0e6eaa36fb4dbfbf80038037d9bdecbf42afb7a0bd06db3fb84f7610bb4ebfbf4c21a591c1c0ecbf159f6f217a09db3ff9c180e0447bbebf
+  - instrument: DECam
+    detector: 47
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bb4ad92fd3e9ecbf5b8994226bc9da3fca7590e39881b7bf7bc2c64f90e7ecbf8743f0d657c7da3f51445805ad55b8bf66a90051a1fbecbfca751a4a0270da3f0816fd5c1356b8bf4804233be6fdecbf9ed88b940d72da3f53f56ac9f181b7bf
+  - instrument: DECam
+    detector: 47
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706680140a44bfecbf33222903ce0fdb3fd9f668ef637bbebf21fccb525abcecbfdc689264170ddb3fe91ca612d84ebfbf61655131afd0ecbff6118bb700b6da3fef3bc876454fbfbf03ea96039bd3ecbf52c24065afb8da3facede8edc37bbebf
+  - instrument: DECam
+    detector: 47
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701615d76342bfecbf885ad829d60fdb3f2647e9b3537bbebf2a9846ae58bcecbf611bdf8b1f0ddb3faeb5cad8c74ebfbfa17cd192add0ecbf214077e408b6da3f4e7fdc3c354fbfbf8d6d5f6399d3ecbf40f48f91b7b8da3f3bc958b2b37bbebf
+  - instrument: DECam
+    detector: 48
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7075279a385efcecbfdd1a35b6bd78da3f15d8704b5b82b7bf32fbae3a1cfaecbf2e7fca69a576da3fc5dca0b87c56b8bf7c82d1a3f20dedbf8703df5f1a1fda3fc53a259a0a56b8bf634f3a523610edbf398103572a21da3fb9206290f681b7bf
+  - instrument: DECam
+    detector: 48
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7025b557740dd2ecbf4491e5665abfda3f1d1349212d7cbebfce0e919824cfecbf04f287c09ebcda3fe77c7981ae4fbfbf23e6e4ba3fe3ecbfbbe04f845265da3ff964ff65354fbfbf664009432ae6ecbf05abddd00568da3f3ae41f5dc17bbebf
+  - instrument: DECam
+    detector: 48
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f704abd30bd2ecbf0e93c79262bfda3f8dbdb9e51c7cbebf86d79cf922cfecbf66c107eda6bcda3f7b948e479e4fbfbf3e32f8213ee3ecbfd8a95db65a65da3f34ab242c254fbfbf15c064a828e6ecbfe0334e020e68da3f8adca021b17bbebf
+  - instrument: DECam
+    detector: 49
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7063af1814c50eedbf6f6c52359927da3f2a17f6549d81b7bf4ccb7d91800cedbf49598cfc8c25da3f6c0f4982b355b8bf33e8edeb1320edbfe54eba08eacdd93f9c5dc760ec54b8bfcba0c9c35922edbf0122ec9cedcfd93fbca78497fe80b7bf
+  - instrument: DECam
+    detector: 49
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700bd76345b4e4ecbfc1fec465706eda3f9abfd377697bbebf3afa6ce4c8e1ecbfc0e864d3c06bda3fa25e59a5df4ebfbfb58a7254a1f5ecbff278b41f5c14da3fd91c2e19034ebfbfe3fd56f18df8ecbfa4ccf5f30217da3f64e4362bb57abebf
+  - instrument: DECam
+    detector: 49
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c2304daab2e4ecbf3e8fcd96786eda3fcd86513c597bbebf68e20d4bc7e1ecbf3c810a05c96bda3fb1717b6bcf4ebfbfc1ee1bc19ff5ecbf70f0d4566414da3f81e981dff24dbfbfc2b8495c8cf8ecbfb0d8792a0b17da3f47c3e6efa47abebf
+  - instrument: DECam
+    detector: 50
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7040e9703ae020edbf8c4ceadf99d6d93fb068c455aa80b7bfd36cf2389a1eedbf8b15fdf296d4d93fcae32f5e9c54b8bf3588fc6be431edbf799c3da4fb7cd93f16ecb62c6953b8bf14e1c2672b34edbfd138b89ef57ed93f2f40ab6bba7fb7bf
+  - instrument: DECam
+    detector: 50
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70311f1a740ff7ecbfae2c39cfaa1dda3f9451d862637abebfc6d7afa922f4ecbfd0a0979e041bda3f7db7de8eb54dbfbf2c164d48b207edbfcd931c00a7c3d93f8994a9bf5e4cbfbf61d28ede9f0aedbfa8a1d60f44c6d93f1e5c3c9e4f79bebf
+  - instrument: DECam
+    detector: 50
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706b8396de0df7ecbf77f15205b31dda3fdf598227537abebfbce1e21521f4ecbfc8cb4dd50c1bda3f0eb12c55a54dbfbf0b3c87bab007edbf9eaa383cafc3d93fec444a864e4cbfbf4d70134f9e0aedbfedfd564b4cc6d93fe4b739633f79bebf
+  - instrument: DECam
+    detector: 51
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f54962eea9cbecbf7878331f0140db3f9fa25f135e3bb8bf5caa1ab15bc9ecbfa6395bb6ca3ddb3f8b14c135e30eb9bf9e9f26afb5ddecbfc595bff309e7da3f96d5141f1f10b9bfa5851b4d07e0ecbf9d0133a735e9da3fc93c4e44643cb8bf
+  - instrument: DECam
+    detector: 51
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7000eaceae2aa0ecbf11d094457c85db3f13f74ce07834bfbfb0cc1b29369decbf103256d1a282db3fa0935c1aad03c0bfcf1366ddd2b1ecbf83f0ad2c212cdb3f914e99345904c0bfd4d9c9f6cab4ecbfbda2b51df02edb3fadf53b919b35bfbf
+  - instrument: DECam
+    detector: 51
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70aabbc60129a0ecbfbd96e9648485db3f7f8891a66834bfbfcefdcc7d349decbfc17944f1aa82db3fe16055fea403c0bfe6261438d1b1ecbf02235152292cdb3f374971185104c0bf3fe4be4fc9b4ecbf4bf5bf42f82edb3fb25a3e578b35bfbf
+  - instrument: DECam
+    detector: 52
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ebf7b76c7cdeecbf06535965d5efda3fc64aa2b0413cb8bfcf16d69b2bdcecbf879e3681a6edda3fc7358e89f90fb9bf9d75aa6955f0ecbfe602b1f28196da3f623ea7509410b9bfe10a8438a9f2ecbf82d790c6a598da3fcc8c5895c13cb8bf
+  - instrument: DECam
+    detector: 52
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70554077063bb3ecbfeee9c91a8b35db3f33bc226b7735bfbf9cfa06bf43b0ecbfadd6cefdb832db3f3d56a2a24504c0bfd2712917b1c4ecbf918e1773d3dbda3f21a041209a04c0bfd6458d7aabc7ecbff5be059d9adeda3f2a5a739e0536bfbf
+  - instrument: DECam
+    detector: 52
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70592cf75e39b3ecbfea70653f9335db3f1ac328316735bfbfdf21401942b0ecbf78720323c132db3fce1c7c863d04c0bf881d6577afc4ecbf77d0f29ddbdbda3f0cec0a049204c0bf5a4610d9a9c7ecbf019a48c7a2deda3f1e285864f535bfbf
+  - instrument: DECam
+    detector: 53
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7070dfc9222bf1ecbf48abacf0249fda3faab39723b63cb8bffa7b0e7dd7eeecbf819ba77e009dda3fc950ebe18710b9bf778a666cc902edbf618ebd4f9645da3ff261a06b9510b9bfe37b01ad1f05edbf7f677f56af47da3f46ae44b6c33cb8bf
+  - instrument: DECam
+    detector: 53
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70158b7a5b28c6ecbfa3bfc31c15e5da3fcc6793a9f935bfbfc33279222ec3ecbf30f5eb554de2da3ffcbbe0a79304c0bff47fde4864d7ecbf0510e2e9218bda3f7f8e03669a04c0bf80e1a22561daecbff5caa34dde8dda3f3da3c82e0736bfbf
+  - instrument: DECam
+    detector: 53
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d4d88ab926c6ecbfb7839b461de5da3fb064796fe935bfbfb73442822cc3ecbf212a5c8055e2da3ffc9daa8b8b04c0bf54baadae62d7ecbfe79de8192a8bda3faa81cd499204c0bf2f31ba895fdaecbfd4a2127de68dda3f8dc2aef4f635bfbf
+  - instrument: DECam
+    detector: 54
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7052d8037c9c03edbf0280ee2f564eda3f64256356323db8bf45dc97104701edbffde0a636394cda3fcad4e8dd0411b9bfb0c95078fa14edbf6432609fa8f4d93f541bb5c16b10b9bf5f20f91b5217edbf725c99d1b9f6d93f47ae201cb43cb8bf
+  - instrument: DECam
+    detector: 54
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700523e26ad8d8ecbf169332128094da3f60a0a0097636bfbfed10bc65dcd5ecbf16e8f0bdbf91da3f6376be3ad204c0bfecbb0cadd4e9ecbf57e256a66d3ada3f7c982a927e04c0bf457c49ded2ececbf9662bd26223dda3f018bf47fe935bfbf
+  - instrument: DECam
+    detector: 54
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ebec84ced6d8ecbf489a35418894da3fa64f86cf6536bfbfb20c17cbdad5ecbf53e28bedc791da3fc335881eca04c0bf074d6f18d3e9ecbf52e475db753ada3f9fd304767604c0bf62def447d1ececbf5439455b2a3dda3f7c75fb45d935bfbf
+  - instrument: DECam
+    detector: 55
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706ab45a14d715edbfb3c8609561fdd93f7d2b56614c3cb8bfb1d4f2d47f13edbfeacab5a34efbd93fefeb854a0710b9bfb648add3ed26edbf0c0e187db6a3d93ffab14305d90eb9bf35e595e74629edbfe03c3351bda5d93f7a9cb4d8533bb8bf
+  - instrument: DECam
+    detector: 55
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f941fdf552ebecbf9d13b18cc543da3f8702cebf8335bfbf3cdac52755e8ecbf361bac4b0f41da3f55c18d534d04c0bf56d89f8808fcecbfc6e8f23eb5e9d93ffe04e405a803c0bfcfa8230a08ffecbfb9c69c405fecd93f60d53dac6e34bfbf
+  - instrument: DECam
+    detector: 55
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704d77325f51ebecbf631ccec0cd43da3f5639d0857335bfbf9a63b29253e8ecbf347060801741da3fc9a365374504c0bf135593f906fcecbf12211779bde9d93f4fc8dce99f03c0bf6f0d617906ffecbf24872a7a67ecd93f1c5582725e34bfbf
+  - instrument: DECam
+    detector: 56
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7016c5996e11d3ecbfb8b59b320016db3f4bd60205a0f6b8bf3d284ed4b2d0ecbf8d58a731b713db3f27146880e0c9b9bf0c0ee72bf2e4ecbfee0bd167cdbcda3fcd33f1aae7cab9bfae83cdc054e7ecbf1e99bf5008bfda3f05b3fdf27ef7b8bf
+  - instrument: DECam
+    detector: 56
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7005fd91371ea7ecbfad556eb7085bdb3ff7bc5d8939efbfbfe7e0b69b19a4ecbf277226ac1c58db3f70e9ba10e960c0bf232393f69bb8ecbf1f08abd67101db3faf22e7367761c0bfd034fbb7a4bbecbfbd3211f44f04db3ff705fac32df0bfbf
+  - instrument: DECam
+    detector: 56
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708f0cd38e1ca7ecbfb026f0d9105bdb3fa379f95029efbfbfeb11b2f417a4ecbfc1d43ccf2458db3f6a0664f5e060c0bfc59f8d559ab8ecbff2a56eff7901db3fe8be771b6f61c0bf203c3c15a3bbecbf771f411c5804db3f5b54648b1df0bfbf
+  - instrument: DECam
+    detector: 57
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e44b0ac1c8e5ecbf7dd31bc0b8c5da3f4f25021162f7b8bf7d06eddd66e3ecbfaafc50067bc3da3ff0e722c7c8cab9bf8757d5a972f7ecbf2600b5fd3c6cda3fc52228331ccbb9bf12342d1cd8f9ecbfd72a323c6c6eda3fd8219309a8f7b8bf
+  - instrument: DECam
+    detector: 57
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706af07e9613baecbf23225e9afb0adb3f7dc326d80ff0bfbf7785aa8a0bb7ecbf3449c5af1a08db3ff95f80416761c0bf20d28a305bcbecbfab3483841bb1da3fe175b0829461c0bfe12296e166ceecbf62cae908eeb3da3fd4b863f55cf0bfbf
+  - instrument: DECam
+    detector: 57
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7020be49f311baecbfa0f91ec2030bdb3fce76939fffefbfbf5df62ee909b7ecbf8c001ad82208db3f202b12265f61c0bf5cfb129559cbecbfbcd575b223b1da3fb7083a678c61c0bfd18e654465ceecbf8e764936f6b3da3f26d7bfbc4cf0bfbf
+  - instrument: DECam
+    detector: 58
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7019c733bd57f8ecbf4db566c4f974da3fb5e0e75f1ef8b8bfe302fb6df4f5ecbf343c00f2c072da3f23f7514292cbb9bff45940f8c509edbf6d97bebe4d1bda3f1cfca7a2fccab9bfde519a6b2c0cedbf382f01b1771dda3ff809d71396f7b8bf
+  - instrument: DECam
+    detector: 58
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a5bdbb06e1ccecbf2770b67f76bada3f0331c7eed2f0bfbf27b88380d7c9ecbfa2ea566e9ab7da3f8001955acf61c0bfb29d8ecdedddecbf349796136660da3fbe857a1c8161c0bf7a31f178fae0ecbf405ae7443363da3f1c88f7b743f0bfbf
+  - instrument: DECam
+    detector: 58
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a5701869dfccecbf4e23abac7ebada3f654224b6c2f0bfbfe0d099e4d5c9ecbf902bdf9ba2b7da3fac101f3fc761c0bfbb51aa37ecddecbf0d3fab466e60da3f77820c017961c0bf909f54e1f8e0ecbfb36969773b63da3fa998647f33f0bfbf
+  - instrument: DECam
+    detector: 59
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d2f1aeaeae0aedbf93feabfd1a24da3fb4941b4276f7b8bffb50a3974708edbf138b1fd1f321da3f0fb374fcdecab9bf0ff02ffdd61bedbf1a11096769cad93f454541c9c1c9b9bfdd47cecb401eedbff06ed95381ccd93f09cbc74081f6b8bf
+  - instrument: DECam
+    detector: 59
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a5f1f1a577dfecbf053784f6d169da3fb13eb21b25f0bfbf6acdf9526adcecbf1d7f4c870767da3f817bd4e37261c0bf4c7b45ff3ef0ecbf572c3a90bb0fda3f65f4f4c2d960c0bfe131d0f54ef3ecbfeff0aeaa7612da3f828f0ae11aefbfbf
+  - instrument: DECam
+    detector: 59
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700c0ae00d76dfecbf76249b28da69da3f17771ce314f0bfbf01ff9fbc68dcecbf54daf5b90f67da3f0b0d65c86a61c0bf3ed4f16e3df0ecbfc6c85cc8c30fda3fc4ed9da7d160c0bf14cbc5634df3ecbf261f40e27e12da3f4404a6a80aefbfbf
+  - instrument: DECam
+    detector: 60
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701eebc5f85cdaecbf9fb767b2deebda3f4c153db0b5b1b9bf281647f6ecd7ecbf19cb466e89e9da3fafa31e499684babf389145340fececbf272f462f8192da3f2aa863c76885babf3db6c5c283eeecbfbc2dfeeec494da3fb1dbf06a6db2b9bf
+  - instrument: DECam
+    detector: 60
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708d43eb09f6adecbf9cc5a3617430db3fd0adb270e354c0bfb5e1675de0aaecbf257e06257c2ddb3f6ebb5cccfdbdc0bfd8d65fe345bfecbf83d304a9b2d6da3f4362c3066ebec0bfc12ad03e60c2ecbfb7b83b8399d9da3fe818a3584655c0bf
+  - instrument: DECam
+    detector: 60
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bd757765f4adecbfaa9f4a877c30db3fce503455db54c0bfe853aebadeaaecbf6d863c4b842ddb3f3439beb1f5bdc0bff643a74644bfecbfe3b7dfd4bad6da3f6db314ec65bec0bf055a5ea05ec2ecbf698c88aea1d9da3f9668143d3e55c0bf
+  - instrument: DECam
+    detector: 61
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d58ab5e901edecbf9e3b776d599bda3f2fad2ca310b2b9bfb5e14a4e8eeaecbf1828d1c71199da3f6f7cc03b0b85babf394028c679feecbf2c87e7e6c441da3f265c882f0b85babf292bdb78f100edbfcaf69a9efa43da3fcb78ad9810b2b9bf
+  - instrument: DECam
+    detector: 61
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7007345a8cd9c0ecbf9da0648729e0da3fdb3547d31755c0bf0217a527c0bdecbf1417ccca3eddda3f9ffc09213fbec0bf6c8177caefd1ecbf4ea066a23086da3f376a7a1a3fbec0bf1e8773540dd5ecbf04caec7d0989da3f0b1d93cd1755c0bf
+  - instrument: DECam
+    detector: 61
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70889d73edd7c0ecbfdfd444b231e0da3f24c9b8b70f55c0bfb201788abebdecbfe39e3af646ddda3fa58d5b0637bec0bfb4854e33eed1ecbfd39c69d33886da3f47fccbff36bec0bf8b4692bb0bd5ecbf559862ae1189da3f61b104b20f55c0bf
+  - instrument: DECam
+    detector: 62
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ff4029bb75ffecbfd5caa4f3834ada3f454e50ab41b2b9bfa173ec07fdfcecbf204f9c7e5248da3f85608c293d85babf75552ee5a910edbf7037632bdff0d93fc2243309ab84babf06956e3a2613edbf68133849fef2d93f7fb0cc6fcab1b9bf
+  - instrument: DECam
+    detector: 62
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70393df1548cd3ecbf629fe3028e8fda3f6a4c78893055c0bfd94b60c66dd0ecbff1ae3666b98cda3f8231414958bec0bf85c7ce665fe4ecbf6f9ee7788435da3f082ac32108bec0bfbfef5c9081e7ecbfc73e07b64638da3f590103c5ed54c0bf
+  - instrument: DECam
+    detector: 62
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707c0a9dbb8ad3ecbf9956ef32968fda3f6970e96d2855c0bf8714c42e6cd0ecbfe44dcf96c18cda3f3655922e50bec0bf902e38d55de4ecbf767a02af8c35da3fecc2240700bec0bf0dd20ffd7fe7ecbf416096eb4e38da3f63c184a9e554c0bf
 - type: collection
   collection_type: CALIBRATION
   name: DECam/calib
@@ -535,6 +1600,12 @@ data:
   timespan_end: null
 - type: collection
   collection_type: RUN
+  name: sso/cached
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
   name: templates/deep
   host: null
   timespan_begin: null
@@ -546,12 +1617,18 @@ data:
   - refcats/gen2
 - type: collection
   collection_type: CHAINED
+  name: sso
+  children:
+  - sso/cached
+- type: collection
+  collection_type: CHAINED
   name: DECam/defaults
   children:
   - templates/deep
   - skymaps
   - DECam/calib
   - refcats
+  - sso
 - type: dataset_type
   name: camera
   dimensions:
@@ -7994,6 +9071,41 @@ data:
     - skymap: deepCoadd_skyMap
     path: skymaps/skyMap/skyMap_deepCoadd_skyMap_skymaps.pickle
     formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
+- type: dataset_type
+  name: visitSsObjects
+  dimensions:
+  - band
+  - instrument
+  - physical_filter
+  - visit_system
+  - visit
+  storage_class: DataFrame
+  is_calibration: false
+- type: dataset
+  dataset_type: visitSsObjects
+  run: sso/cached
+  records:
+  - dataset_id:
+    - !uuid 'ddb175d7-7abc-4078-979c-d54fc75e9364'
+    data_id:
+    - instrument: DECam
+      visit: 411371
+    path: sso/cached/visitSsObjects/20150218/g/g_DECam_SDSS_c0001_4720.0_1520.0/411371/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411371_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'e3b44aa0-fee8-4d1e-96d2-b9c5ca788935'
+    data_id:
+    - instrument: DECam
+      visit: 411420
+    path: sso/cached/visitSsObjects/20150218/g/g_DECam_SDSS_c0001_4720.0_1520.0/411420/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411420_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '70d847b8-49b0-4219-a66b-e85bbe0593cd'
+    data_id:
+    - instrument: DECam
+      visit: 419802
+    path: sso/cached/visitSsObjects/20150309/g/g_DECam_SDSS_c0001_4720.0_1520.0/419802/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_419802_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: associations
   collection: DECam/calib
   collection_type: CALIBRATION
