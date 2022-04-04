@@ -1,8 +1,5 @@
 description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 #
-# This pipeline delegates to per-task config files to ensure consistency with Gen 2.
-# The config files can be merged into this once ap_verify no longer supports Gen 2.
-#
 # This pipeline does not depend on the local ApPipe.yaml, because the definition
 # of the primary ApVerify.yaml is more likely to change than the data-specific
 # overrides, and importing both pipelines can't merge changes to the same task.
@@ -10,6 +7,7 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 imports:
   - location: $AP_VERIFY_DIR/pipelines/DarkEnergyCamera/ApVerify.yaml
 parameters:
+  # Use dataset's specific templates
   coaddName: deep
   # TODO: redundant connection definitions workaround for DM-30210
   template: deepCoadd
@@ -26,23 +24,15 @@ tasks:
   isr:
     class: lsst.ip.isr.IsrTask
     config:
-      # Ignore missing calibrations
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/isr.py
+      # This dataset contains CP calibs, not regular ones
+      connections.bias: cpBias
+      connections.flat: cpFlat
   calibrate:
     class: lsst.pipe.tasks.calibrate.CalibrateTask
     config:
       # Use dataset's reference catalogs
       file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
-  imageDifference:
-    class: lsst.pipe.tasks.imageDifference.ImageDifferenceFromTemplateTask
-    config:
-      # Use dataset's specific templates
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/imageDifference.py
-  transformDiaSrcCat:
-    class: lsst.ap.association.TransformDiaSourceCatalogTask
-    config:
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/transformDiaSrcCat.py
   diaPipe:
     class: lsst.ap.association.DiaPipelineTask
     config:
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/diaPipe.py
+      doSolarSystemAssociation: true
