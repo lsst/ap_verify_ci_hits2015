@@ -6,6 +6,16 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 
 imports:
   - location: $AP_VERIFY_DIR/pipelines/DarkEnergyCamera/ApVerify.yaml
+    exclude:
+      # exclusions for new diffim
+      - imageDifference
+      - retrieveTemplate
+      - timing_imageDifference
+      - timing_imageDifference_astrometer
+      - timing_imageDifference_register
+      - timing_imageDifference_subtract
+      - timing_imageDifference_detection
+      - timing_imageDifference_measurement
 parameters:
   # Use dataset's specific templates
   coaddName: deep
@@ -21,6 +31,21 @@ tasks:
     config:
       # Use dataset's reference catalogs
       file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
+  # new difference imaging
+  getTemplate:
+    class: lsst.ip.diffim.getTemplate.GetTemplateTask
+    config:
+      connections.coaddName: parameters.coaddName
+  subtractImages:
+    class: lsst.ip.diffim.subtractImages.AlardLuptonSubtractTask
+    config:
+      connections.coaddName: parameters.coaddName
+      forceCompatibility: true
+  detectAndMeasure:
+    class: lsst.ip.diffim.detectAndMeasure.DetectAndMeasureTask
+    config:
+      connections.coaddName: parameters.coaddName
+      doSkySources: true
   diaPipe:
     class: lsst.ap.association.DiaPipelineTask
     config:

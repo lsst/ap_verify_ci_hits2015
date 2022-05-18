@@ -11,6 +11,9 @@ description: End to end Alert Production pipeline specialized for HiTS-2015
 
 imports:
   - location: $AP_PIPE_DIR/pipelines/DarkEnergyCamera/ApPipe.yaml
+    exclude:
+    - imageDifference
+    - retrieveTemplate
 parameters:
   # Use dataset's specific templates
   coaddName: deep
@@ -26,7 +29,24 @@ tasks:
     config:
       # Use dataset's reference catalogs
       file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
+  # new difference imaging
+  getTemplate:
+    class: lsst.ip.diffim.getTemplate.GetTemplateTask
+    config:
+      connections.coaddName: parameters.coaddName 
+  subtractImages:
+    class: lsst.ip.diffim.subtractImages.AlardLuptonSubtractTask
+    config:
+      connections.coaddName: parameters.coaddName
+      forceCompatibility: true
+  detectAndMeasure:
+    class: lsst.ip.diffim.detectAndMeasure.DetectAndMeasureTask
+    config:
+      connections.coaddName: parameters.coaddName
+      doSkySources: true
   diaPipe:
     class: lsst.ap.association.DiaPipelineTask
     config:
       doSolarSystemAssociation: true
+  exclude:
+    - imageDifference
