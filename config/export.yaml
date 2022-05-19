@@ -9086,21 +9086,21 @@ data:
   run: sso/cached
   records:
   - dataset_id:
-    - !uuid 'ddb175d7-7abc-4078-979c-d54fc75e9364'
+    - !uuid '7de5bd67-f704-4537-be98-6c7b33dbba6c'
     data_id:
     - instrument: DECam
       visit: 411371
     path: sso/cached/visitSsObjects/20150218/g/g_DECam_SDSS_c0001_4720.0_1520.0/411371/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411371_sso_cached.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'e3b44aa0-fee8-4d1e-96d2-b9c5ca788935'
+    - !uuid '0213caa7-1cc0-4527-9c9f-afd6de7e9990'
     data_id:
     - instrument: DECam
       visit: 411420
     path: sso/cached/visitSsObjects/20150218/g/g_DECam_SDSS_c0001_4720.0_1520.0/411420/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411420_sso_cached.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '70d847b8-49b0-4219-a66b-e85bbe0593cd'
+    - !uuid '0ffb7077-ab52-4bda-9ce7-a025d0b2e516'
     data_id:
     - instrument: DECam
       visit: 419802
