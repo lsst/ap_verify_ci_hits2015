@@ -29,10 +29,6 @@
 # $ nohup generate_calibs_gen3_template.sh -c "u/me/DM-123456" &
 # produces certified calibs in /repo/main in the u/me/DM-123456-calib
 # collection. See generate_calibs_gen3_template.sh -h for more options.
-#
-# The calibs produced by this script are the same as those produced by
-# ap_verify_hits2015/scripts/generate_calibs_gen3_template.sh, so if you are
-# running that script, there is no need to run this one as well.
 
 
 # Common definitions
