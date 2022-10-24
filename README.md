@@ -39,4 +39,4 @@ However, it can be installed explicitly with the [LSST Software Build Tool](http
     git clone https://github.com/lsst/ap_verify_ci_hits2015/
     setup -r ap_verify_ci_hits2015
 
-See the Science Pipelines documentation for more detailed instructions on [installing datasets](https://pipelines.lsst.io/modules/lsst.ap.verify/datasets-install.html) and [running `ap_verify`](https://pipelines.lsst.io/modules/lsst.ap.verify/running.html). The name of this dataset is `CI-HiTS2015`.
+See the Science Pipelines documentation for more detailed instructions on [installing datasets](https://pipelines.lsst.io/modules/lsst.ap.verify/datasets-install.html) and [running `ap_verify`](https://pipelines.lsst.io/modules/lsst.ap.verify/running.html).

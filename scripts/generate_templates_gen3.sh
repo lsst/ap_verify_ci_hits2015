@@ -30,10 +30,6 @@
 # $ nohup generate_templates_gen3.sh -c "u/me/DM-123456-calib" -o "u/me/DM-123456-template" &
 # produces templates in /repo/main in the u/me/DM-123456-template collection.
 # See generate_templates_gen3.sh -h for more options.
-#
-# The templates produced by this script are a subset of those produced by
-# ap_verify_hits2015/scripts/generate_templates_gen3.sh, so if you are running
-# that script, there is no need to run this one as well.
 
 
 # Abort script on any error
