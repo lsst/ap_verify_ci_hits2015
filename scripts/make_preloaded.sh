@@ -45,7 +45,6 @@ echo "Created fresh repo in ${REPO_DIR}."
 STD_CALIB="DECam/calib"
 CURATED_CALIB="${STD_CALIB}/curated"
 
-# TODO: this step may become unneccessary after DM-32975.
 butler write-curated-calibrations "$REPO_DIR" lsst.obs.decam.DarkEnergyCamera \
     --collection "$CURATED_CALIB"
 butler collection-chain "$REPO_DIR" "$STD_CALIB" "$CURATED_CALIB"
