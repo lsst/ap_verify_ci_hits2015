@@ -78,7 +78,7 @@ parse_args $@
 CALIB_COLLECTION_SCI="${COLLECT_ROOT}-calib-science"
 CALIB_COLLECTION_TMP="${COLLECT_ROOT}-calib-template"
 TEMPLATE_COLLECTION="${COLLECT_ROOT}-template"
-REPO_COLLECTION="refcats"
+REFCAT_COLLECTION="refcats"
 
 
 ########################################
@@ -106,7 +106,7 @@ REPO_COLLECTION="refcats"
 
 "${SCRIPT_DIR}/import_calibs_gen3.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_SCI}-calib"
 python "${SCRIPT_DIR}/import_templates_gen3.py" -b ${SCRATCH_REPO} -t "${TEMPLATE_COLLECTION}"
-python "${SCRIPT_DIR}/generate_refcats_gen3.py" -b ${SCRATCH_REPO} -i "${REPO_COLLECTION}"
+python "${SCRIPT_DIR}/generate_refcats_gen3.py" -b ${SCRATCH_REPO} -i "${REFCAT_COLLECTION}"
 
 
 ########################################
