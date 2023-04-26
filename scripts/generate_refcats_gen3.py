@@ -34,7 +34,7 @@ from astropy.coordinates import SkyCoord
 
 import lsst.log
 import lsst.sphgeom
-from lsst.daf.butler import Butler, CollectionType, FileDataset
+from lsst.daf.butler import Butler
 
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
@@ -140,10 +140,9 @@ id_ranges = [_make_range(start, end) for (start, end) in shards]
 
 DEST_DIR = "${AP_VERIFY_CI_HITS2015_DIR}/preloaded/"
 STD_REFCAT = "refcats"
-DEST_RUN = "refcats/imported"
 
 src_repo = Butler(args.src_dir, collections=args.src_collection, writeable=False)
-dest_repo = Butler(DEST_DIR, run=DEST_RUN, writeable=True)
+dest_repo = Butler(DEST_DIR, writeable=True)
 
 
 def _remove_refcat_runs(butler):
@@ -166,19 +165,14 @@ def _remove_refcat_runs(butler):
 
 logging.info("Preparing destination repository %s...", DEST_DIR)
 _remove_refcat_runs(dest_repo)
-dest_repo.registry.registerCollection(DEST_RUN, CollectionType.RUN)
-for cat_name in REFCATS:
-    cat_type = src_repo.registry.getDatasetType(cat_name)
-    dest_repo.registry.registerDatasetType(cat_type)
 dest_repo.registry.refresh()
 
 logging.info("Searching for refcats in %s:%s...", args.src_dir, args.src_collection)
 query = f"htm{HTM_LEVEL} in ({','.join(id_ranges)})"
-datasets = []
-for src_ref in src_repo.registry.queryDatasets(REFCATS, where=query, findFirst=True):
-    datasets.append(FileDataset(path=src_repo.getURI(src_ref), refs=src_ref))
+datasets = src_repo.registry.queryDatasets(REFCATS, where=query, findFirst=True)
 
 logging.info("Copying refcats...")
-dest_repo.ingest(*datasets, transfer="copy")
+# Copy to ensure that dataset is portable.
+dest_repo.transfer_from(src_repo, datasets, transfer="copy", register_dataset_types=True)
 
-logging.info("%d refcat shards copied to %s:%s", len(datasets), DEST_DIR, DEST_RUN)
+logging.info("%d refcat shards copied to %s:%s", datasets.count(), DEST_DIR, STD_REFCAT)
