@@ -146,33 +146,26 @@ src_repo = Butler(args.src_dir, collections=args.src_collection, writeable=False
 dest_repo = Butler(DEST_DIR, run=DEST_RUN, writeable=True)
 
 
-def _remove_refcat_run(butler, run):
-    """Remove a refcat run and any references from a repository.
+def _remove_refcat_runs(butler):
+    """Remove any old refcat runs from a repository.
 
     Parameters
     ----------
     butler : `lsst.daf.butler.Butler`
         The repository from which to remove ``run``.
-    run : `str`
-        The run to remove, if it exists.
     """
     try:
-        refcat_runs = butler.registry.getCollectionChain(STD_REFCAT)
-        if run in refcat_runs:
-            new_runs = list(refcat_runs)
-            new_runs.remove(run)
-            butler.registry.setCollectionChain(STD_REFCAT, new_runs)
+        refcat_runs = list(butler.registry.getCollectionChain(STD_REFCAT))
     except (lsst.daf.butler.registry.MissingCollectionError, TypeError):
-        pass  # No STD_REFCAT chain; nothing to do
+        return  # No STD_REFCAT chain; nothing to do
 
-    try:
-        butler.removeRuns([run], unstore=True)
-    except lsst.daf.butler.registry.MissingCollectionError:
-        pass  # Already removed; nothing to do
+    butler.registry.setCollectionChain(STD_REFCAT, [])
+
+    butler.removeRuns(refcat_runs, unstore=True)
 
 
 logging.info("Preparing destination repository %s...", DEST_DIR)
-_remove_refcat_run(dest_repo, DEST_RUN)
+_remove_refcat_runs(dest_repo)
 dest_repo.registry.registerCollection(DEST_RUN, CollectionType.RUN)
 for cat_name in REFCATS:
     cat_type = src_repo.registry.getDatasetType(cat_name)
