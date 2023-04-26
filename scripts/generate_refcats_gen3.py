@@ -174,5 +174,6 @@ datasets = src_repo.registry.queryDatasets(REFCATS, where=query, findFirst=True)
 logging.info("Copying refcats...")
 # Copy to ensure that dataset is portable.
 dest_repo.transfer_from(src_repo, datasets, transfer="copy", register_dataset_types=True)
+dest_repo.registry.setCollectionChain(STD_REFCAT, {ref.run for ref in datasets})
 
 logging.info("%d refcat shards copied to %s:%s", datasets.count(), DEST_DIR, STD_REFCAT)
