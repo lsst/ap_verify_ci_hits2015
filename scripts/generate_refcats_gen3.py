@@ -34,11 +34,10 @@ from astropy.coordinates import SkyCoord
 
 import lsst.log
 import lsst.sphgeom
-from lsst.daf.butler import Butler, CollectionType, DatasetRef, DatasetType, FileDataset
+from lsst.daf.butler import Butler
 
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-lsst.log.configure_pylog_MDC("DEBUG", MDC_class=None)
 
 
 ########################################
@@ -51,10 +50,7 @@ FIELDS = [SkyCoord("10h00m28.800s", "+02d12m36.00s"),  # field 26 (2014:04)
           ]
 FIELD_RADIUS = 2.0  # degrees
 
-# Key is catalog name in source repo, value is name in ap_verify_ci_hits2015.
-REFCATS = {"gaia_dr2_20200414": "gaia",
-           "ps1_pv3_3pi_20170110": "panstarrs",
-           }
+REFCATS = {"gaia_dr2_20200414", "ps1_pv3_3pi_20170110", }
 
 
 ########################################
@@ -143,75 +139,40 @@ id_ranges = [_make_range(start, end) for (start, end) in shards]
 
 DEST_DIR = "${AP_VERIFY_CI_HITS2015_DIR}/preloaded/"
 STD_REFCAT = "refcats"
-DEST_RUN = "refcats/imported"
-
-
-def _rename_dataset_type(type, name):
-    """Create a DatasetType that differs from an existing one in name only.
-
-    Parameters
-    ---------
-    type : `lsst.daf.butler.DatasetType`
-        The type to rename.
-    name : `str`
-        The new name to adopt.
-
-    Returns
-    -------
-    new_type : `lsst.daf.butler.DatasetType`
-        The new DatasetType.
-    """
-    return DatasetType(name, type.dimensions, type.storageClass, type.parentStorageClass)
-
 
 src_repo = Butler(args.src_dir, collections=args.src_collection, writeable=False)
-dest_repo = Butler(DEST_DIR, run=DEST_RUN, writeable=True)
+dest_repo = Butler(DEST_DIR, writeable=True)
 
 
-def _remove_refcat_run(butler, run):
-    """Remove a refcat run and any references from a repository.
+def _remove_refcat_runs(butler):
+    """Remove any old refcat runs from a repository.
 
     Parameters
     ----------
     butler : `lsst.daf.butler.Butler`
         The repository from which to remove ``run``.
-    run : `str`
-        The run to remove, if it exists.
     """
     try:
-        refcat_runs = butler.registry.getCollectionChain(STD_REFCAT)
-        if run in refcat_runs:
-            new_runs = list(refcat_runs)
-            new_runs.remove(run)
-            butler.registry.setCollectionChain(STD_REFCAT, new_runs)
+        refcat_runs = list(butler.registry.getCollectionChain(STD_REFCAT))
     except (lsst.daf.butler.registry.MissingCollectionError, TypeError):
-        pass  # No STD_REFCAT chain; nothing to do
+        return  # No STD_REFCAT chain; nothing to do
 
-    try:
-        butler.removeRuns([run], unstore=True)
-    except lsst.daf.butler.registry.MissingCollectionError:
-        pass  # Already removed; nothing to do
+    butler.registry.setCollectionChain(STD_REFCAT, [])
+
+    butler.removeRuns(refcat_runs, unstore=True)
 
 
 logging.info("Preparing destination repository %s...", DEST_DIR)
-_remove_refcat_run(dest_repo, DEST_RUN)
-dest_repo.registry.registerCollection(DEST_RUN, CollectionType.RUN)
-for src_cat, dest_cat in REFCATS.items():
-    src_type = src_repo.registry.getDatasetType(src_cat)
-    dest_type = _rename_dataset_type(src_type, dest_cat)
-    dest_repo.registry.registerDatasetType(dest_type)
+_remove_refcat_runs(dest_repo)
 dest_repo.registry.refresh()
 
 logging.info("Searching for refcats in %s:%s...", args.src_dir, args.src_collection)
 query = f"htm{HTM_LEVEL} in ({','.join(id_ranges)})"
-datasets = []
-for src_ref in src_repo.registry.queryDatasets(REFCATS.keys(), where=query, findFirst=True):
-    src_type = src_ref.datasetType
-    dest_type = _rename_dataset_type(src_type, REFCATS[src_type.name])
-    dest_ref = DatasetRef(dest_type, src_ref.dataId)
-    datasets.append(FileDataset(path=src_repo.getURI(src_ref), refs=dest_ref))
+datasets = src_repo.registry.queryDatasets(REFCATS, where=query, findFirst=True)
 
 logging.info("Copying refcats...")
-dest_repo.ingest(*datasets, transfer="copy")
+# Copy to ensure that dataset is portable.
+dest_repo.transfer_from(src_repo, datasets, transfer="copy", register_dataset_types=True)
+dest_repo.registry.setCollectionChain(STD_REFCAT, {ref.run for ref in datasets})
 
-logging.info("%d refcat shards copied to %s:%s", len(datasets), DEST_DIR, DEST_RUN)
+logging.info("%d refcat shards copied to %s:%s", datasets.count(), DEST_DIR, STD_REFCAT)

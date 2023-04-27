@@ -1597,7 +1597,7 @@ data:
   timespan_end: null
 - type: collection
   collection_type: RUN
-  name: refcats/gen2
+  name: refcats/DM-28636
   host: null
   timespan_begin: null
   timespan_end: null
@@ -1623,7 +1623,7 @@ data:
   collection_type: CHAINED
   name: refcats
   children:
-  - refcats/gen2
+  - refcats/DM-28636
 - type: collection
   collection_type: CHAINED
   name: sso
@@ -6716,956 +6716,956 @@ data:
     path: DECam/calib/curated/20150105T011500Z/defects/defects_DECam_S9_DECam_calib_curated_20150105T011500Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
-  name: gaia
+  name: gaia_dr2_20200414
   dimensions:
   - htm7
   storage_class: SimpleCatalog
   is_calibration: false
 - type: dataset
-  dataset_type: gaia
-  run: refcats/gen2
+  dataset_type: gaia_dr2_20200414
+  run: refcats/DM-28636
   records:
   - dataset_id:
-    - !uuid '7df31041-488a-4362-82d5-0746e908986a'
+    - !uuid '3f6c4335-7d75-4279-962b-e956c0ab5398'
     data_id:
     - htm7: 157216
-    path: refcats/gen2/gaia/gaia_157216_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157216_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7293850a-394a-4728-aff8-606330fea52a'
+    - !uuid 'a5198de2-7c0e-45cf-9754-735a9c5ea31d'
     data_id:
     - htm7: 157217
-    path: refcats/gen2/gaia/gaia_157217_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157217_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1ad18ac4-ad0d-482c-b63e-d87fa896d625'
+    - !uuid '7d1390f7-cba5-49c1-a004-fec8c4d79785'
     data_id:
     - htm7: 157218
-    path: refcats/gen2/gaia/gaia_157218_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157218_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1bc351d5-5e5e-4efa-91ee-d828caa157c9'
+    - !uuid '5489c988-4e06-456d-8ec6-5a8d82ab1647'
     data_id:
     - htm7: 157219
-    path: refcats/gen2/gaia/gaia_157219_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157219_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3db8e44d-54b3-434e-98da-dd768e7ecb72'
+    - !uuid '701327b9-8190-4c11-a6ed-b6d90a460b55'
     data_id:
     - htm7: 157220
-    path: refcats/gen2/gaia/gaia_157220_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157220_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd027116f-cf0b-4634-88ad-6f16231c1492'
+    - !uuid 'a49147d2-ebf2-4abc-b041-faa0f16a2fcf'
     data_id:
     - htm7: 157221
-    path: refcats/gen2/gaia/gaia_157221_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157221_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5aec6c3d-7cf3-4b70-b1b9-ff03662cad22'
+    - !uuid '4b106775-42de-4f60-9f51-488d8f9fb992'
     data_id:
     - htm7: 157222
-    path: refcats/gen2/gaia/gaia_157222_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157222_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bcc3ce6d-ffc3-4819-9c84-16f20f91954b'
+    - !uuid 'd1b64971-a99a-4807-972a-0fcb7707113f'
     data_id:
     - htm7: 157223
-    path: refcats/gen2/gaia/gaia_157223_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157223_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2f8861c4-8fbf-45b2-acca-6f4f3d5a5e43'
+    - !uuid '5f3a4009-d19c-425c-b9ce-40ccdf2088ce'
     data_id:
     - htm7: 157224
-    path: refcats/gen2/gaia/gaia_157224_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157224_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e131504b-d0da-421c-87a4-bd2bbfea3002'
+    - !uuid 'f0685985-ac53-49eb-90c3-5d6555773fc9'
     data_id:
     - htm7: 157225
-    path: refcats/gen2/gaia/gaia_157225_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157225_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2abc15f8-4ba9-453d-bb0d-d6a777e4fb5a'
+    - !uuid '655165f1-275e-47f4-99a3-009e3fb2546e'
     data_id:
     - htm7: 157226
-    path: refcats/gen2/gaia/gaia_157226_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157226_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ec9228e4-5740-487f-bcc2-49e4a5551856'
+    - !uuid '6257850b-4688-4472-8380-08ff2d1aa862'
     data_id:
     - htm7: 157227
-    path: refcats/gen2/gaia/gaia_157227_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157227_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd950b6ba-7e1f-412f-9530-3e0e24f87d9f'
+    - !uuid '8e73ee53-29c4-4caf-b772-64021288e7bd'
     data_id:
     - htm7: 157228
-    path: refcats/gen2/gaia/gaia_157228_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157228_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '60d13199-4126-4930-aa61-341fc0797909'
+    - !uuid '1bbc4fe6-72da-4f2f-aef6-28822c9564c3'
     data_id:
     - htm7: 157229
-    path: refcats/gen2/gaia/gaia_157229_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157229_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd8b69e93-f681-4c94-a731-7df51e5e70aa'
+    - !uuid 'c59a665f-c60e-4849-a072-7a34590a27b1'
     data_id:
     - htm7: 157230
-    path: refcats/gen2/gaia/gaia_157230_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157230_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f677227c-2e48-4158-a7ed-8d9903cd8663'
+    - !uuid '5d6e8aa1-70c3-426e-8932-3dc34c3ff29d'
     data_id:
     - htm7: 157231
-    path: refcats/gen2/gaia/gaia_157231_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157231_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd6f7a1a2-8622-4e1a-954e-a045cee7d73d'
+    - !uuid '05460a9d-7ba8-47ab-b392-183035b384da'
     data_id:
     - htm7: 157233
-    path: refcats/gen2/gaia/gaia_157233_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157233_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd46ed408-214f-41cc-b304-9be4ec833135'
+    - !uuid '9f80dff6-4285-4388-9a16-ee3fb5d7c9b7'
     data_id:
     - htm7: 157238
-    path: refcats/gen2/gaia/gaia_157238_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157238_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '841269ad-84ae-4440-9f65-04f1488e312c'
+    - !uuid 'bd27e455-625f-4f36-8c71-0690f4e43deb'
     data_id:
     - htm7: 157246
-    path: refcats/gen2/gaia/gaia_157246_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157246_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '57c4e94d-1f6d-4721-8b14-5336a389e067'
+    - !uuid 'f6fc2410-a86a-49df-bfd2-5e0e9f847504'
     data_id:
     - htm7: 157328
-    path: refcats/gen2/gaia/gaia_157328_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157328_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1f5add7f-b2eb-4d26-993e-834b00a335b8'
+    - !uuid '5feab3f6-0b4e-4cda-bd38-de11f21b255c'
     data_id:
     - htm7: 157329
-    path: refcats/gen2/gaia/gaia_157329_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157329_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd91868d7-c4c0-4245-bc13-8ba117689e8c'
+    - !uuid '149cbb05-0a84-4b74-9bcf-0c18e88af61c'
     data_id:
     - htm7: 157330
-    path: refcats/gen2/gaia/gaia_157330_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157330_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fdd58a7c-9cd8-4908-aa27-d9c2ccdf524f'
+    - !uuid 'b47a4e27-95d7-4d30-b269-bafbe0858e37'
     data_id:
     - htm7: 157331
-    path: refcats/gen2/gaia/gaia_157331_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157331_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0bccbfce-89ce-42fd-9860-4615741ce59c'
+    - !uuid '4ef9be85-dc0c-48ea-8618-405103b0ad43'
     data_id:
     - htm7: 157332
-    path: refcats/gen2/gaia/gaia_157332_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157332_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '694a46dd-b7c4-44df-9b26-a18669376d40'
+    - !uuid '7ca918d7-1781-4569-aa62-2a4658f7cb34'
     data_id:
     - htm7: 157333
-    path: refcats/gen2/gaia/gaia_157333_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157333_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '03e3032c-5c31-470f-800b-b0851aecf25a'
+    - !uuid '05e27b92-d740-4548-81ab-af08cca8b342'
     data_id:
     - htm7: 157334
-    path: refcats/gen2/gaia/gaia_157334_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157334_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '74fb3255-9143-4375-9920-d18f07e744ea'
+    - !uuid 'd922f7f4-5f88-42df-b22b-a1185817233f'
     data_id:
     - htm7: 157335
-    path: refcats/gen2/gaia/gaia_157335_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157335_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c941f28d-6522-4c2d-b73c-a3ad231a9976'
+    - !uuid '82624442-9920-4024-bb80-27cb53290aa6'
     data_id:
     - htm7: 157336
-    path: refcats/gen2/gaia/gaia_157336_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157336_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '39981af8-8eff-43cd-bdaa-a3c050f2c2b1'
+    - !uuid '12b75010-2553-42bf-8657-c00d2437435f'
     data_id:
     - htm7: 157337
-    path: refcats/gen2/gaia/gaia_157337_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157337_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8e611869-ae36-4b3e-b8be-b08d3286db90'
+    - !uuid '13c7aa93-9559-4718-b946-63b1ec6d4e68'
     data_id:
     - htm7: 157338
-    path: refcats/gen2/gaia/gaia_157338_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157338_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd7b312a0-6b94-40cd-bf86-bf570539a8f9'
+    - !uuid 'fb4b3826-95ee-4a79-a0e0-d3fff6b777f8'
     data_id:
     - htm7: 157339
-    path: refcats/gen2/gaia/gaia_157339_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157339_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ba722555-28c1-4222-9a0f-340c906fa563'
+    - !uuid 'bfa95be7-b131-4eca-9c83-d8c2b91cb6a9'
     data_id:
     - htm7: 157340
-    path: refcats/gen2/gaia/gaia_157340_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157340_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '67e39cd9-93e9-4178-8a39-b8619b1de109'
+    - !uuid '45011e21-a22b-464a-90a5-aae3b16c7cf0'
     data_id:
     - htm7: 157341
-    path: refcats/gen2/gaia/gaia_157341_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157341_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ffcb2049-0ffa-4963-a39e-6cc1c6699ecd'
+    - !uuid '98855e19-c1f7-4119-a7cc-87c1187a74dd'
     data_id:
     - htm7: 157342
-    path: refcats/gen2/gaia/gaia_157342_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157342_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'b0645607-bcd5-4374-99bb-26e7bc65ed62'
+    - !uuid 'bd1113d1-6589-49e8-8f5b-4c4de5c70ca6'
     data_id:
     - htm7: 157343
-    path: refcats/gen2/gaia/gaia_157343_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157343_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1e109fa5-74fb-4c66-b9ea-59d06863a885'
+    - !uuid '9deb951e-f677-4716-b0b7-69432ddcbc20'
     data_id:
     - htm7: 157349
-    path: refcats/gen2/gaia/gaia_157349_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157349_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1ab80aee-f284-4fe1-a392-95f02b5f79ca'
+    - !uuid 'bd6d9975-cfaa-47c1-9ea3-5a2eee623355'
     data_id:
     - htm7: 157352
-    path: refcats/gen2/gaia/gaia_157352_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157352_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1d710c05-5516-49b1-bb5b-4ac36e0c2f13'
+    - !uuid '2a1ea02f-f5c3-431e-ab72-8e6b722597f7'
     data_id:
     - htm7: 157354
-    path: refcats/gen2/gaia/gaia_157354_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157354_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'daf5e2dc-444d-4e66-8a82-01ccad94e0af'
+    - !uuid 'd82ae5a1-b7ae-4b27-95b7-db7346e4b181'
     data_id:
     - htm7: 157355
-    path: refcats/gen2/gaia/gaia_157355_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157355_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '41b119c4-b281-4840-b1b6-f5ff650d8c19'
+    - !uuid '16b167bb-f087-4c2e-978c-5c68d30bfcd9'
     data_id:
     - htm7: 157356
-    path: refcats/gen2/gaia/gaia_157356_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157356_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd6a626bf-46a8-4a90-bc0b-7cc483788959'
+    - !uuid 'f3c8f9c3-e0d9-4a27-b7db-cf5544cd1829'
     data_id:
     - htm7: 157360
-    path: refcats/gen2/gaia/gaia_157360_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157360_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '913b1240-abbd-4233-af34-ea64c152fe78'
+    - !uuid '55a78b28-048e-4ce8-921a-4331d43f8302'
     data_id:
     - htm7: 157361
-    path: refcats/gen2/gaia/gaia_157361_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157361_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '77029b6b-4269-467d-9dbb-16ba50bb1b25'
+    - !uuid 'f781e4a1-a148-4e30-aa1b-9059154cd621'
     data_id:
     - htm7: 157362
-    path: refcats/gen2/gaia/gaia_157362_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157362_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1a410fe8-b9fe-4cdd-bf52-8fa6ee681fc0'
+    - !uuid 'da0e2c6f-686f-4327-848b-8bdcad1049a4'
     data_id:
     - htm7: 157363
-    path: refcats/gen2/gaia/gaia_157363_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157363_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '999673d1-f095-4c54-bdaa-0a9da9b80374'
+    - !uuid 'ccbe435a-02cf-40f4-af19-2f985b0938e9'
     data_id:
     - htm7: 157366
-    path: refcats/gen2/gaia/gaia_157366_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157366_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fb003a15-70c2-40a8-8d95-ebd5493d98fb'
+    - !uuid 'a3113335-6b0f-41b3-bef4-cae237608981'
     data_id:
     - htm7: 157368
-    path: refcats/gen2/gaia/gaia_157368_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157368_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fe41cf90-9af6-4858-9ba1-9ece32789891'
+    - !uuid 'a472bddc-87f7-4ef7-8502-c39bda1ffe78'
     data_id:
     - htm7: 157369
-    path: refcats/gen2/gaia/gaia_157369_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157369_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '620a1059-33f6-494e-9b45-eafabed00744'
+    - !uuid '48ffa677-95c0-4004-83ba-abe68590b62c'
     data_id:
     - htm7: 157370
-    path: refcats/gen2/gaia/gaia_157370_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157370_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '974b8de0-fcf7-4816-8eb4-d9d9c86e6d9d'
+    - !uuid '753c2c55-3551-40e6-851d-29d618d4cf21'
     data_id:
     - htm7: 157371
-    path: refcats/gen2/gaia/gaia_157371_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157371_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd169926d-6b06-4cbd-9db3-3626ed462623'
+    - !uuid 'c750d766-a0f1-473b-b885-7c733440bde5'
     data_id:
     - htm7: 157372
-    path: refcats/gen2/gaia/gaia_157372_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157372_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '22ac2021-3d51-42b3-9e91-52253c3e5b7a'
+    - !uuid '5fd6a0ac-9816-4f83-b898-7b593578f27f'
     data_id:
     - htm7: 157373
-    path: refcats/gen2/gaia/gaia_157373_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157373_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8c11cb92-89a5-4f82-9095-4a159303b478'
+    - !uuid '73c652e3-b1b4-46d0-88e5-95fb0b5fc50d'
     data_id:
     - htm7: 157374
-    path: refcats/gen2/gaia/gaia_157374_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157374_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c1fce3ac-fc0c-4200-9d1f-e88d1a53b380'
+    - !uuid '21883510-fadc-4880-88e8-59e3056e8cbe'
     data_id:
     - htm7: 157375
-    path: refcats/gen2/gaia/gaia_157375_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157375_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '24a75d2d-b086-41c0-b80e-a7ea1b8d5eb2'
+    - !uuid 'f05afe5c-5e79-441d-8837-62bfe719c836'
     data_id:
     - htm7: 157380
-    path: refcats/gen2/gaia/gaia_157380_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157380_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '061e4f6a-af59-4bd1-b72e-a37f28aad06d'
+    - !uuid 'cafedabf-ffed-43d5-9eea-15192c2f3e24'
     data_id:
     - htm7: 157392
-    path: refcats/gen2/gaia/gaia_157392_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157392_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '19f8f0c8-e908-4929-a8a0-170c0f38f507'
+    - !uuid '40b39515-97d3-4843-bddc-b4e1e6cdfec5'
     data_id:
     - htm7: 157393
-    path: refcats/gen2/gaia/gaia_157393_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157393_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '17604828-0e32-4177-91c8-975a6a8414ff'
+    - !uuid 'ee67babb-c191-4640-88a5-adad5c17dd72'
     data_id:
     - htm7: 157394
-    path: refcats/gen2/gaia/gaia_157394_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157394_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '95fdda14-6944-4b87-930d-98214a503b92'
+    - !uuid 'c6792556-c3b1-486a-8888-c04537a4596f'
     data_id:
     - htm7: 157395
-    path: refcats/gen2/gaia/gaia_157395_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157395_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f67daaef-2218-49d5-8a94-69341cf90c68'
+    - !uuid '1b909620-c8e8-47cd-970e-9c5b697427d5'
     data_id:
     - htm7: 157396
-    path: refcats/gen2/gaia/gaia_157396_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157396_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3899f57b-2b8e-4af7-9f2e-8f35eb537d07'
+    - !uuid '606703e7-e755-4382-a95e-b6e71aee3055'
     data_id:
     - htm7: 157397
-    path: refcats/gen2/gaia/gaia_157397_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157397_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '84ea1e26-a0ff-4be7-b1a8-7057f0fa9cb1'
+    - !uuid 'f6b1e070-95aa-4a95-a5e5-adf36bd836e4'
     data_id:
     - htm7: 157398
-    path: refcats/gen2/gaia/gaia_157398_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157398_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6f580d34-4c15-45d4-a76d-34d0bfe86313'
+    - !uuid '6748a276-6698-47ad-9bc0-8e4fe213ee50'
     data_id:
     - htm7: 157399
-    path: refcats/gen2/gaia/gaia_157399_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157399_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'aa2796aa-91f3-4406-a24e-16b7346ce65a'
+    - !uuid 'af9e99a2-33b9-4636-8fdf-8d0d08b4ebeb'
     data_id:
     - htm7: 157400
-    path: refcats/gen2/gaia/gaia_157400_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157400_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6e81fc63-5c3f-46eb-bed5-699a496b4e52'
+    - !uuid '21663e07-3bb8-48d7-bc33-c76e99886361'
     data_id:
     - htm7: 157401
-    path: refcats/gen2/gaia/gaia_157401_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157401_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8785d134-3667-4559-8e76-5fcdb8a051d5'
+    - !uuid '4b99c3c9-1c41-45d6-b87c-6f4a8de7f681'
     data_id:
     - htm7: 157402
-    path: refcats/gen2/gaia/gaia_157402_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157402_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '60078575-6649-4ced-ba38-271c61519a15'
+    - !uuid '0d9471fb-d970-45f1-ac19-d49d2c2ac504'
     data_id:
     - htm7: 157403
-    path: refcats/gen2/gaia/gaia_157403_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157403_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '760441d2-2538-4dc2-b762-8d7044d4d041'
+    - !uuid 'f74f6f4d-e27a-4123-8d29-928dcdba42c7'
     data_id:
     - htm7: 157404
-    path: refcats/gen2/gaia/gaia_157404_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157404_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '88913ffb-d5fd-4aba-abdd-73db8716ce0d'
+    - !uuid '2cdc6d8e-eedf-47ee-a2aa-00e455a18f6a'
     data_id:
     - htm7: 157405
-    path: refcats/gen2/gaia/gaia_157405_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157405_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c0744e96-37c4-4f01-a6bd-3898793cdf9b'
+    - !uuid 'f8f5311c-c782-4f65-a1cb-90b512c4cf64'
     data_id:
     - htm7: 157406
-    path: refcats/gen2/gaia/gaia_157406_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157406_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '10c135ef-f788-46e2-8e2d-92619cf8066b'
+    - !uuid 'caa2fe8d-57b9-4bb9-b632-37c1820ab58f'
     data_id:
     - htm7: 157407
-    path: refcats/gen2/gaia/gaia_157407_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157407_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ac1b35bf-7127-4707-a01d-a50f906159cd'
+    - !uuid '19e44d05-dba4-4397-8a21-9215456ea43a'
     data_id:
     - htm7: 157424
-    path: refcats/gen2/gaia/gaia_157424_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157424_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5c83fa48-8a05-4302-a1ac-2f4661823f5e'
+    - !uuid '1d6713d0-544a-4b3c-afff-078f9a77484b'
     data_id:
     - htm7: 157426
-    path: refcats/gen2/gaia/gaia_157426_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157426_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4491f497-ad38-4a33-a19f-a29581b5e9ad'
+    - !uuid '1f1ec76f-ff71-4875-a864-d762ea7c317c'
     data_id:
     - htm7: 157427
-    path: refcats/gen2/gaia/gaia_157427_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157427_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '10b484ac-fc6b-4f5f-bb2f-c7dd495b3550'
+    - !uuid '074fbfce-9b5f-4e7d-b621-1b2328b885eb'
     data_id:
     - htm7: 157432
-    path: refcats/gen2/gaia/gaia_157432_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157432_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a27ecb5f-ff65-4e20-af8e-e92af0532e48'
+    - !uuid '44faa8d6-5a2a-4b21-bcb2-f93da0cae181'
     data_id:
     - htm7: 157433
-    path: refcats/gen2/gaia/gaia_157433_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157433_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a0f81199-f96f-4724-8ba5-fca54b92f0d8'
+    - !uuid '2c7f3cce-3962-4159-b573-152976852d02'
     data_id:
     - htm7: 157435
-    path: refcats/gen2/gaia/gaia_157435_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157435_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '06404bf8-fde4-45c0-b3a2-5c5476ea1b78'
+    - !uuid '47495b78-8d58-4944-a687-f3eb1bcc0c1c'
     data_id:
     - htm7: 157437
-    path: refcats/gen2/gaia/gaia_157437_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_157437_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cf776eae-f5cf-4924-aa8f-3bcdca03b485'
+    - !uuid '5d2d601e-9266-4927-b370-e43f1dbb4c44'
     data_id:
     - htm7: 159248
-    path: refcats/gen2/gaia/gaia_159248_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159248_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7ced7df7-d03f-4d77-a8b0-d355a038cf78'
+    - !uuid '5cd2273d-9a85-4075-9912-2082834efb96'
     data_id:
     - htm7: 159249
-    path: refcats/gen2/gaia/gaia_159249_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159249_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fc34872a-e922-45bf-8c42-abb4ccf6dd30'
+    - !uuid '8db24698-7006-4656-9f92-3b7c012f3a34'
     data_id:
     - htm7: 159250
-    path: refcats/gen2/gaia/gaia_159250_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159250_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '56b94196-3bc5-4eaa-b71f-e901b73346e4'
+    - !uuid 'bcb8042f-0912-4648-8a1c-c8ddd8c9437c'
     data_id:
     - htm7: 159251
-    path: refcats/gen2/gaia/gaia_159251_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159251_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '89c3a4e7-54c7-4474-9aba-4695dca898dd'
+    - !uuid 'f464cd1e-53d2-4a07-a1fe-3bd361d2052d'
     data_id:
     - htm7: 159256
-    path: refcats/gen2/gaia/gaia_159256_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159256_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'eee83df5-e838-4e3f-82dc-4663a50016b2'
+    - !uuid '4dcbdd26-cd30-4f9e-973d-ecb8b16c2b09'
     data_id:
     - htm7: 159257
-    path: refcats/gen2/gaia/gaia_159257_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159257_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '31d5df8f-a6d6-493e-a322-292a6ae0de39'
+    - !uuid '951b9d1a-d639-43fb-88e4-824d45c9a6e2'
     data_id:
     - htm7: 159259
-    path: refcats/gen2/gaia/gaia_159259_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159259_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0f5427e5-d28e-43df-befb-772a043b4be5'
+    - !uuid '19fe3715-b44d-4d2f-9d41-b93297ea1508'
     data_id:
     - htm7: 159261
-    path: refcats/gen2/gaia/gaia_159261_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159261_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '00b1fdcd-af3f-4568-8aa4-1f879a8e3f8b'
+    - !uuid 'f83d27dc-3a58-409d-96f1-f56036dc4bf1'
     data_id:
     - htm7: 159262
-    path: refcats/gen2/gaia/gaia_159262_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159262_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5913406c-ddaf-4702-bd6d-5d0a53b90a56'
+    - !uuid '0c176b1d-e5f7-488d-b7b6-7b9b4e233dfd'
     data_id:
     - htm7: 159263
-    path: refcats/gen2/gaia/gaia_159263_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159263_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f96f8be3-ab07-4148-9e97-db148ff7d62a'
+    - !uuid '6dd3def6-a07a-405f-a5f3-6b7e1bc51f5c'
     data_id:
     - htm7: 159328
-    path: refcats/gen2/gaia/gaia_159328_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159328_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a209590d-1869-45a6-837d-75426716e186'
+    - !uuid 'e5aa3a04-a992-418e-bf72-5e15b4a37000'
     data_id:
     - htm7: 159329
-    path: refcats/gen2/gaia/gaia_159329_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159329_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '9c90975b-d3dd-4741-b5f4-d7fc314d8e3d'
+    - !uuid '63800820-596b-4575-bf73-589eb575aab0'
     data_id:
     - htm7: 159331
-    path: refcats/gen2/gaia/gaia_159331_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159331_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '27111a80-8bb9-4ecc-a20e-d36880ca5663'
+    - !uuid '44d4039e-1d97-4b7d-b634-5206ac8f8c8d'
     data_id:
     - htm7: 159334
-    path: refcats/gen2/gaia/gaia_159334_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159334_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4dd4140d-ca13-4bcd-afce-05253ec5b7a1'
+    - !uuid 'ff4ba57d-6f59-4a6a-ac82-b5b47fe985f5'
     data_id:
     - htm7: 159342
-    path: refcats/gen2/gaia/gaia_159342_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159342_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3f9385bd-cce5-4af1-859a-a8df275947c0'
+    - !uuid '2de96236-27ad-4bc7-bcd2-9fe5897847fa'
     data_id:
     - htm7: 159456
-    path: refcats/gen2/gaia/gaia_159456_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_159456_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'b0003e5d-3747-4476-9ac5-5526e581a80a'
+    - !uuid '5814ed2c-ee4f-44ef-9e53-56a24da9284c'
     data_id:
     - htm7: 231812
-    path: refcats/gen2/gaia/gaia_231812_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231812_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '9e09d550-506b-4537-a69e-3744e6c1f564'
+    - !uuid '52255569-5e60-40c1-9a88-3fad042676a5'
     data_id:
     - htm7: 231813
-    path: refcats/gen2/gaia/gaia_231813_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231813_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e1b709c6-0d87-4391-8033-695914010ee0'
+    - !uuid '5a3fcfdb-0c5a-4cd3-8931-4648df80033e'
     data_id:
     - htm7: 231815
-    path: refcats/gen2/gaia/gaia_231815_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231815_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '81500ed1-a679-4de5-91d6-0ab0a986a245'
+    - !uuid '81cab4e0-1a3a-4b89-a7f3-768d65e555fb'
     data_id:
     - htm7: 231816
-    path: refcats/gen2/gaia/gaia_231816_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231816_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c622a97f-1c83-4ae3-9d55-10c6d1ce4407'
+    - !uuid '346fc33e-b402-4fb1-ae9d-951d9a166a42'
     data_id:
     - htm7: 231818
-    path: refcats/gen2/gaia/gaia_231818_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231818_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '33e35c32-9ab1-4ee1-ae21-5c862d9b8229'
+    - !uuid '2f9fa895-668a-4c27-9a56-f5da3a902a64'
     data_id:
     - htm7: 231819
-    path: refcats/gen2/gaia/gaia_231819_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231819_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8a2f35b9-4639-444e-9732-c75d768ee8bc'
+    - !uuid '0d4bfe10-e12e-4209-9e65-37224cad6b75'
     data_id:
     - htm7: 231820
-    path: refcats/gen2/gaia/gaia_231820_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231820_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '64ded8b0-3600-460b-8dbc-235bdb9ad0c2'
+    - !uuid 'cfee49f8-0c45-4c44-865d-f2d620744282'
     data_id:
     - htm7: 231825
-    path: refcats/gen2/gaia/gaia_231825_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231825_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e0578c24-5242-40b0-8965-f710112a3007'
+    - !uuid 'ee3dada9-8e40-41ea-bf7c-ce8e5bff3599'
     data_id:
     - htm7: 231826
-    path: refcats/gen2/gaia/gaia_231826_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231826_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a0d89bf0-c42a-4c84-85fb-0efd16284c69'
+    - !uuid '953beab5-686a-4ffe-94d3-9e1e633c71fd'
     data_id:
     - htm7: 231827
-    path: refcats/gen2/gaia/gaia_231827_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231827_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a5c01aee-2d73-4437-a514-624d70b9a060'
+    - !uuid '1a0441de-c3fb-4e6d-84d4-c73e5ee8cd3d'
     data_id:
     - htm7: 231828
-    path: refcats/gen2/gaia/gaia_231828_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231828_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'dd366b44-933e-4cc0-a391-4925645111ff'
+    - !uuid 'c4ba5df8-28d1-4f15-9aa0-5870a8cd71cf'
     data_id:
     - htm7: 231829
-    path: refcats/gen2/gaia/gaia_231829_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231829_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f5041151-245e-4789-baab-203fd0041a51'
+    - !uuid '1c2ee737-8e2d-4b68-b5e4-744bed6f83cd'
     data_id:
     - htm7: 231830
-    path: refcats/gen2/gaia/gaia_231830_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231830_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'baf1dc0f-2a5e-47a4-bcef-442cb0b349bc'
+    - !uuid 'b8a0ccb2-068e-4260-a26b-64f1bdc1fd73'
     data_id:
     - htm7: 231831
-    path: refcats/gen2/gaia/gaia_231831_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231831_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f8005d5f-c12a-423a-a0f2-8ac045942458'
+    - !uuid '8015eecb-3087-444e-b5ab-0c52d9c82026'
     data_id:
     - htm7: 231832
-    path: refcats/gen2/gaia/gaia_231832_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231832_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '967d0e7a-5a90-42cb-9de1-f35f4494b5bf'
+    - !uuid '37fac25e-fce5-46cc-88ca-d8c2be8b0a2f'
     data_id:
     - htm7: 231833
-    path: refcats/gen2/gaia/gaia_231833_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231833_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '9597c307-203f-4c6c-a5fe-f5705a7bfca3'
+    - !uuid '11182a29-3979-4315-84ef-57834c336cb4'
     data_id:
     - htm7: 231834
-    path: refcats/gen2/gaia/gaia_231834_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231834_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7cbd77d2-8384-4430-bbd9-127ba8a73081'
+    - !uuid '277d35a6-fc74-4f99-8d89-039db765c83b'
     data_id:
     - htm7: 231835
-    path: refcats/gen2/gaia/gaia_231835_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231835_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3a1f5e7c-f707-4b36-86d3-4cb45550f6ba'
+    - !uuid '66daa442-69d5-4916-8e49-6e84881f930b'
     data_id:
     - htm7: 231836
-    path: refcats/gen2/gaia/gaia_231836_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231836_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1041ba5a-a716-40ba-8d16-4f671931171e'
+    - !uuid '3a3f8163-1b48-4459-b771-19e83859ed49'
     data_id:
     - htm7: 231837
-    path: refcats/gen2/gaia/gaia_231837_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231837_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '43dde7c4-a099-421a-ae33-6641f887ef39'
+    - !uuid '20976ec8-d79c-452f-888e-c228fff3d0d5'
     data_id:
     - htm7: 231838
-    path: refcats/gen2/gaia/gaia_231838_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231838_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd6d1af5c-142d-41e1-9f4f-6a30e4d942f6'
+    - !uuid '6afff8c3-86bb-4f19-a078-28c739d919fd'
     data_id:
     - htm7: 231839
-    path: refcats/gen2/gaia/gaia_231839_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231839_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f4115b7f-c91f-4dff-bf46-360e53150e92'
+    - !uuid 'dfa9d861-2520-4f10-9708-7f6936099984'
     data_id:
     - htm7: 231844
-    path: refcats/gen2/gaia/gaia_231844_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231844_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ff0b1564-7781-4c9e-afe7-eac546bcd871'
+    - !uuid '3e115bed-f828-4973-826f-f30199b15def'
     data_id:
     - htm7: 231845
-    path: refcats/gen2/gaia/gaia_231845_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231845_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a38b2357-1857-4a84-bc65-09464e7c8fac'
+    - !uuid 'abff9c88-8c31-4e63-9e7f-97dca955e7cd'
     data_id:
     - htm7: 231846
-    path: refcats/gen2/gaia/gaia_231846_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231846_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cdf0da44-f7ac-4868-af35-223675bc1057'
+    - !uuid '3ddb0c02-18cf-4430-8a49-0a9df83a126d'
     data_id:
     - htm7: 231847
-    path: refcats/gen2/gaia/gaia_231847_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231847_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '60efbfb5-d2da-4fb9-a7e8-0b535a9998fe'
+    - !uuid 'e136721a-3acb-4bad-b26a-52580ad61b56'
     data_id:
     - htm7: 231848
-    path: refcats/gen2/gaia/gaia_231848_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231848_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '569286d0-ecd4-4691-a80a-3b38f246d1ab'
+    - !uuid 'da51f0ff-9edb-40e1-b4d5-4dfa3b7ad7fa'
     data_id:
     - htm7: 231849
-    path: refcats/gen2/gaia/gaia_231849_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231849_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2d42d79c-a7c1-4405-a73c-2667d1e85de7'
+    - !uuid 'befd71f9-f01a-414f-b25b-3b534288f45c'
     data_id:
     - htm7: 231850
-    path: refcats/gen2/gaia/gaia_231850_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231850_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5f3da872-b81e-4af1-995e-35737046d9fa'
+    - !uuid '5f50d82f-9f3d-4955-ba2a-85ea2f1b3c16'
     data_id:
     - htm7: 231851
-    path: refcats/gen2/gaia/gaia_231851_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231851_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '41529aae-e44b-4b37-a423-90e60d8f2248'
+    - !uuid 'ce6e61f8-5e40-4520-9e28-88a87fa813f2'
     data_id:
     - htm7: 231852
-    path: refcats/gen2/gaia/gaia_231852_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231852_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cd96e17f-97dc-48c9-a190-eb143472714b'
+    - !uuid '63ffab3c-0134-4a29-a138-66ae9672d9cf'
     data_id:
     - htm7: 231853
-    path: refcats/gen2/gaia/gaia_231853_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231853_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '70931a31-9d01-4ee3-b86d-ece7a13b1567'
+    - !uuid 'dcf0be20-29b4-454b-86fd-51b032a550cf'
     data_id:
     - htm7: 231854
-    path: refcats/gen2/gaia/gaia_231854_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231854_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'b92ad4df-cce6-4164-9117-a021ae1d837d'
+    - !uuid '7691c018-07d1-4890-a093-e9b4fd6f6156'
     data_id:
     - htm7: 231855
-    path: refcats/gen2/gaia/gaia_231855_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231855_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '9aa97abe-6fc1-4729-bb7e-a75638f09a44'
+    - !uuid 'eee50a71-6d26-4bfc-98d2-75760c311962'
     data_id:
     - htm7: 231856
-    path: refcats/gen2/gaia/gaia_231856_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231856_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '9f55ab60-e7ca-4f52-b66d-b32a309e3616'
+    - !uuid '80b3105d-e2b3-445c-9a0e-7591fb47e09f'
     data_id:
     - htm7: 231857
-    path: refcats/gen2/gaia/gaia_231857_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231857_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cde63426-e2b3-4b6d-a8b3-243928abf796'
+    - !uuid '94b51fee-3d44-437d-86f3-d815e4359e75'
     data_id:
     - htm7: 231858
-    path: refcats/gen2/gaia/gaia_231858_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231858_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ec95d3a0-012a-4b27-8cb9-32c2dcd4e225'
+    - !uuid 'efe7785e-6bf0-45bc-9ba4-0ad45775a20e'
     data_id:
     - htm7: 231859
-    path: refcats/gen2/gaia/gaia_231859_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231859_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '13866aea-2b35-4718-8ceb-efd9b277dcd2'
+    - !uuid 'd792b1dd-9ee8-4892-8f50-4ec364b5f10d'
     data_id:
     - htm7: 231860
-    path: refcats/gen2/gaia/gaia_231860_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231860_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'aaf9dd79-4e2f-41b2-b6fb-e0e4637eef1a'
+    - !uuid 'db00634c-9f35-4a65-a1e1-137d61c5e210'
     data_id:
     - htm7: 231861
-    path: refcats/gen2/gaia/gaia_231861_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231861_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e735e897-6e86-4bcb-b97c-02ef687a0729'
+    - !uuid 'bc8b09e3-d3a5-48a6-83a7-b1d1dd7b06e7'
     data_id:
     - htm7: 231862
-    path: refcats/gen2/gaia/gaia_231862_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231862_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c325544c-30b5-4191-b459-cd13101fe9b4'
+    - !uuid 'db0c9b0f-6d7f-4e9e-83a0-1b16f2872d7c'
     data_id:
     - htm7: 231863
-    path: refcats/gen2/gaia/gaia_231863_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231863_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd95cb3c9-b393-425b-9c1c-37944def0142'
+    - !uuid '73ad86a2-e7e3-49b0-b1f5-0f5b7ab5efa7'
     data_id:
     - htm7: 231864
-    path: refcats/gen2/gaia/gaia_231864_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231864_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f212be93-28f5-4119-9916-256d674ed7a5'
+    - !uuid '3b2f696e-241e-47c2-a9b4-70f8dc6a8eb2'
     data_id:
     - htm7: 231865
-    path: refcats/gen2/gaia/gaia_231865_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231865_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '71237683-1ee8-4d62-b9d6-a870e2cfb992'
+    - !uuid 'cd8a34a2-8b26-4a16-a4cd-97de5fab2fda'
     data_id:
     - htm7: 231866
-    path: refcats/gen2/gaia/gaia_231866_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231866_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '95bdc8a8-d779-458d-a771-11fcde027002'
+    - !uuid 'd231f199-1385-4b01-be03-c7cc3c4f403a'
     data_id:
     - htm7: 231867
-    path: refcats/gen2/gaia/gaia_231867_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231867_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2d5ed631-c2d6-4a47-8243-8c6c5b942fd7'
+    - !uuid 'e75837f4-9b4c-4047-ad7a-745c6986902f'
     data_id:
     - htm7: 231868
-    path: refcats/gen2/gaia/gaia_231868_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231868_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5572665e-5615-4b9d-bc95-9e1bef937030'
+    - !uuid '83771608-cebc-4fc0-bf27-7c73e8bffa6f'
     data_id:
     - htm7: 231869
-    path: refcats/gen2/gaia/gaia_231869_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231869_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fc2a6fd3-ebc0-454d-b5b9-e492fa12901c'
+    - !uuid '24d797ac-ad6d-4ab2-9798-2271a849f4bd'
     data_id:
     - htm7: 231870
-    path: refcats/gen2/gaia/gaia_231870_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231870_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'afa42953-11c7-4ee9-824f-c2d329c7113c'
+    - !uuid '204ad132-aa5b-42fe-887e-4357c2a7aaf0'
     data_id:
     - htm7: 231871
-    path: refcats/gen2/gaia/gaia_231871_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231871_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3a46b118-4870-43dc-a767-5cf1a4ccd34d'
+    - !uuid '2ea153fe-a122-4e82-a1e0-0841f7e1899a'
     data_id:
     - htm7: 231876
-    path: refcats/gen2/gaia/gaia_231876_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231876_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ba9cd5b5-a98e-4744-9985-472330482e5a'
+    - !uuid 'd0b0cc64-c520-485d-b792-1f86f2aaaaf5'
     data_id:
     - htm7: 231878
-    path: refcats/gen2/gaia/gaia_231878_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231878_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e8130423-8e1b-45fd-a9d4-86606a801089'
+    - !uuid 'ba5cb153-7dc9-4400-83d6-d08af209951d'
     data_id:
     - htm7: 231879
-    path: refcats/gen2/gaia/gaia_231879_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231879_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bea6f7c2-7d94-4ef2-b52f-799bd0b7e2c9'
+    - !uuid 'a3df469a-5b88-459d-8a01-0da87319270d'
     data_id:
     - htm7: 231890
-    path: refcats/gen2/gaia/gaia_231890_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231890_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3ba79248-4ada-485a-b55d-10c62579cf8e'
+    - !uuid 'a27c363c-6932-414c-b184-b161bde5b02c'
     data_id:
     - htm7: 231896
-    path: refcats/gen2/gaia/gaia_231896_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231896_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '745079ca-b920-4042-89c7-3253c8c1f6e9'
+    - !uuid 'f314c294-30dc-4a70-affb-03ebc3cde12d'
     data_id:
     - htm7: 231897
-    path: refcats/gen2/gaia/gaia_231897_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231897_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c05cd19f-0eed-4a29-89e4-3071ab3edc51'
+    - !uuid '38f26d90-b8c0-47de-b5b7-6e3e49d4b79b'
     data_id:
     - htm7: 231899
-    path: refcats/gen2/gaia/gaia_231899_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231899_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '81778072-ec28-4be6-8de6-894400bc6e6f'
+    - !uuid '0dd383fe-d993-4e6b-a92e-37842ce66fdb'
     data_id:
     - htm7: 231901
-    path: refcats/gen2/gaia/gaia_231901_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231901_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c2713963-ff2d-48f2-8eeb-36c416689934'
+    - !uuid '8caffbf5-ccb2-43e8-8127-952d15e4ffad'
     data_id:
     - htm7: 231928
-    path: refcats/gen2/gaia/gaia_231928_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_231928_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '61e1cc3c-7bbb-439b-8c53-5782da92eed7'
+    - !uuid 'c18472ac-1729-4574-825c-9876b48e0ea4'
     data_id:
     - htm7: 232324
-    path: refcats/gen2/gaia/gaia_232324_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_232324_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '266fcf24-da91-49d5-9085-a147f50cdd86'
+    - !uuid 'ec718077-37be-4b57-a409-bb33fc29b96b'
     data_id:
     - htm7: 232344
-    path: refcats/gen2/gaia/gaia_232344_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_232344_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'aeffd7bd-11d1-4dcb-bb7b-733fa4d81b78'
+    - !uuid 'ea6fdf99-6071-40f6-a487-6a7488e1012e'
     data_id:
     - htm7: 232345
-    path: refcats/gen2/gaia/gaia_232345_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_232345_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '960c9001-a86d-482b-8f1c-7b620dcd1a7f'
+    - !uuid '7535e597-e4fe-483e-a996-3a027abb77ac'
     data_id:
     - htm7: 232347
-    path: refcats/gen2/gaia/gaia_232347_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_232347_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c1d88b01-e9c3-446e-821a-905330da579b'
+    - !uuid 'ee216cfe-6e3c-43a0-b4a0-7747d227c992'
     data_id:
     - htm7: 232376
-    path: refcats/gen2/gaia/gaia_232376_refcats_gen2.fits
+    path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_232376_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
   name: linearizer
@@ -8113,956 +8113,956 @@ data:
     path: DECam/calib/curated/19700101T000000Z/linearizer/linearizer_DECam_S9_DECam_calib_curated_19700101T000000Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
-  name: panstarrs
+  name: ps1_pv3_3pi_20170110
   dimensions:
   - htm7
   storage_class: SimpleCatalog
   is_calibration: false
 - type: dataset
-  dataset_type: panstarrs
-  run: refcats/gen2
+  dataset_type: ps1_pv3_3pi_20170110
+  run: refcats/DM-28636
   records:
   - dataset_id:
-    - !uuid 'f0e88378-7210-46de-af47-2395fd8dc500'
+    - !uuid '7c5edd1e-006c-4d5d-8a32-a6da22488f40'
     data_id:
     - htm7: 157216
-    path: refcats/gen2/panstarrs/panstarrs_157216_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157216_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cc1b7a57-9a87-4c8b-bffb-9e7ee91e4fc5'
+    - !uuid '695b3f71-2ab2-4437-bdd9-f10836ce4b69'
     data_id:
     - htm7: 157217
-    path: refcats/gen2/panstarrs/panstarrs_157217_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157217_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '15a65500-e5e5-445d-85e2-5b571ac3f3fc'
+    - !uuid '405e797a-78f1-49ee-8cf4-7d630b048310'
     data_id:
     - htm7: 157218
-    path: refcats/gen2/panstarrs/panstarrs_157218_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157218_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '16afea54-a14f-47c0-9c99-6e044f796fba'
+    - !uuid '24952438-823a-485d-9ad2-2a226e7c102c'
     data_id:
     - htm7: 157219
-    path: refcats/gen2/panstarrs/panstarrs_157219_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157219_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd48c97c4-b348-476f-ad50-1c6523a322f0'
+    - !uuid 'cb6a12ef-4cbf-4836-86ff-cf5e2f525bb8'
     data_id:
     - htm7: 157220
-    path: refcats/gen2/panstarrs/panstarrs_157220_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157220_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6cd16148-cfd6-4a34-b384-a65be48362af'
+    - !uuid 'ba5d8df7-110d-4c86-beeb-fd5fabb1c618'
     data_id:
     - htm7: 157221
-    path: refcats/gen2/panstarrs/panstarrs_157221_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157221_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '946b4a80-11a7-4f4b-909a-4c5535978b1e'
+    - !uuid '34cfbe71-4e9e-4d78-8e9d-7ce95bcfd980'
     data_id:
     - htm7: 157222
-    path: refcats/gen2/panstarrs/panstarrs_157222_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157222_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '035757e3-d308-406a-9da9-c7cc20d30db3'
+    - !uuid 'b6a67a01-971f-4c24-a814-b9d39eaa1c13'
     data_id:
     - htm7: 157223
-    path: refcats/gen2/panstarrs/panstarrs_157223_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157223_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a4124b7c-90df-4b9b-8fcb-90a172b8492e'
+    - !uuid '3fe918a4-7416-4758-8e2b-ed1baf5809a9'
     data_id:
     - htm7: 157224
-    path: refcats/gen2/panstarrs/panstarrs_157224_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157224_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0e384e6a-3755-4408-b417-d0235f4d9aa0'
+    - !uuid 'e508ca91-4741-4d4c-a154-010afb95fa7d'
     data_id:
     - htm7: 157225
-    path: refcats/gen2/panstarrs/panstarrs_157225_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157225_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6e05ba09-99a0-477e-b57e-8355162dab87'
+    - !uuid '59abcf87-7f51-46de-bd44-71f84d634ac4'
     data_id:
     - htm7: 157226
-    path: refcats/gen2/panstarrs/panstarrs_157226_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157226_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '211bd42f-b4d1-4a7b-9c8f-3922e68fbbce'
+    - !uuid 'bec001ea-e5e0-4df8-a198-b1bf616bd918'
     data_id:
     - htm7: 157227
-    path: refcats/gen2/panstarrs/panstarrs_157227_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157227_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '890c99e4-f1e6-48ba-aaa3-c2977e2d64ea'
+    - !uuid '85ff91ed-6e20-4342-aa04-6bba624ba856'
     data_id:
     - htm7: 157228
-    path: refcats/gen2/panstarrs/panstarrs_157228_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157228_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'df19a819-060b-4869-bf59-bb6ecc9e7f88'
+    - !uuid '9d38d7ea-daf7-43a6-86aa-3bad8a50af87'
     data_id:
     - htm7: 157229
-    path: refcats/gen2/panstarrs/panstarrs_157229_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157229_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5c748ef3-1257-449a-b8fe-3349f54c33ce'
+    - !uuid '5d2e896b-63f2-448e-b381-f0ffb865991f'
     data_id:
     - htm7: 157230
-    path: refcats/gen2/panstarrs/panstarrs_157230_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157230_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4aafd28f-4dd3-401b-8145-028dfc05d683'
+    - !uuid '9f97bf8e-22fa-4793-b1a4-d2bf68b55d6f'
     data_id:
     - htm7: 157231
-    path: refcats/gen2/panstarrs/panstarrs_157231_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157231_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e3899672-bfab-4be7-9233-dd8b45e64727'
+    - !uuid '9bd09910-9ed8-44e0-b972-d6618ed0b99a'
     data_id:
     - htm7: 157233
-    path: refcats/gen2/panstarrs/panstarrs_157233_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157233_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '35218571-2b16-4451-b2b4-f5b94436e758'
+    - !uuid 'c4cfa333-026a-4d4d-90ca-11d9698152f6'
     data_id:
     - htm7: 157238
-    path: refcats/gen2/panstarrs/panstarrs_157238_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157238_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e8fb62cf-62ac-42af-9da6-8293c298faff'
+    - !uuid '6aa49028-986f-4186-b02a-60323026e6bf'
     data_id:
     - htm7: 157246
-    path: refcats/gen2/panstarrs/panstarrs_157246_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157246_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'f92f429c-4ac9-416b-9255-5f2501d8c4a5'
+    - !uuid '55204f54-2877-4df4-8b63-c13afb14af52'
     data_id:
     - htm7: 157328
-    path: refcats/gen2/panstarrs/panstarrs_157328_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157328_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3002990e-b7d2-4939-96f1-1426774e4361'
+    - !uuid 'e2fcfeca-ef3a-4c70-bb22-5e0bb2751a4a'
     data_id:
     - htm7: 157329
-    path: refcats/gen2/panstarrs/panstarrs_157329_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157329_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7c44b4f4-340f-41f5-8c0e-be069f8a2e9a'
+    - !uuid 'b855da4e-414f-4281-87d2-ca131f8288b5'
     data_id:
     - htm7: 157330
-    path: refcats/gen2/panstarrs/panstarrs_157330_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157330_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bcf00c65-b5cf-409d-be45-4d3a7129813c'
+    - !uuid 'a746ab57-d8c9-4017-86f2-15f157b9990e'
     data_id:
     - htm7: 157331
-    path: refcats/gen2/panstarrs/panstarrs_157331_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157331_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6a77a039-fd08-4de5-9b5a-5678ece74dd5'
+    - !uuid '3a6b63d7-6ab1-4c81-9c02-7f6588a94794'
     data_id:
     - htm7: 157332
-    path: refcats/gen2/panstarrs/panstarrs_157332_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157332_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2d6c0371-f394-4ede-9366-93c55d3c6e88'
+    - !uuid '889e67d8-2c12-4273-962c-02137a0af4b8'
     data_id:
     - htm7: 157333
-    path: refcats/gen2/panstarrs/panstarrs_157333_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157333_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'b0ea8a16-18f8-40bb-a45b-804a2c3dc347'
+    - !uuid '43c36881-ccf8-475f-8e99-329a453428b0'
     data_id:
     - htm7: 157334
-    path: refcats/gen2/panstarrs/panstarrs_157334_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157334_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '27596ad5-278a-4fd5-9c56-13b045813706'
+    - !uuid 'c22795eb-06c1-4ca7-9f89-f4f269c2586e'
     data_id:
     - htm7: 157335
-    path: refcats/gen2/panstarrs/panstarrs_157335_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157335_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '78bb9c3a-6812-40b9-990e-6f86caefa256'
+    - !uuid 'a550aa7b-6b8b-4951-b31d-3ade85a7211a'
     data_id:
     - htm7: 157336
-    path: refcats/gen2/panstarrs/panstarrs_157336_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157336_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e2635ff8-3333-4dc5-8198-30faf5a67cc1'
+    - !uuid 'b50fa7b7-bc76-4f09-9c5e-bb986047e0b1'
     data_id:
     - htm7: 157337
-    path: refcats/gen2/panstarrs/panstarrs_157337_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157337_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e68e1ec9-2ee2-4e7a-ab75-8a2f7a1fbf22'
+    - !uuid 'fe6cbe1e-b152-4e38-8a84-a8c8eaa4015b'
     data_id:
     - htm7: 157338
-    path: refcats/gen2/panstarrs/panstarrs_157338_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157338_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '26902cc4-3c86-446c-8732-7d16e11aa027'
+    - !uuid '53b15d79-47b2-41a0-a28a-777ad67e4ab9'
     data_id:
     - htm7: 157339
-    path: refcats/gen2/panstarrs/panstarrs_157339_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157339_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '99fae7d9-7c2c-4c94-ad01-c9f2d45799d1'
+    - !uuid '9a981479-0e81-4e51-b314-474f4c13a386'
     data_id:
     - htm7: 157340
-    path: refcats/gen2/panstarrs/panstarrs_157340_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157340_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '466657a2-210f-4118-b483-c8ada87493b3'
+    - !uuid '4753c6c4-ea47-4d9e-aa70-dddb38600ebf'
     data_id:
     - htm7: 157341
-    path: refcats/gen2/panstarrs/panstarrs_157341_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157341_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '275d1c20-7df3-4e07-8dbe-72f08f436a99'
+    - !uuid '4ae5f1e0-5b65-4297-9a26-fa4d24dd1b7d'
     data_id:
     - htm7: 157342
-    path: refcats/gen2/panstarrs/panstarrs_157342_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157342_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '85dc4dcd-1b20-4b05-aa22-39df16d033ca'
+    - !uuid '6c034b64-26f3-46a9-aa37-f5a1ca8a9414'
     data_id:
     - htm7: 157343
-    path: refcats/gen2/panstarrs/panstarrs_157343_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157343_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a3e0ae00-a043-4e49-b282-77287dea0bbe'
+    - !uuid '26fabe67-62b6-4e80-a7bc-eca5860704c4'
     data_id:
     - htm7: 157349
-    path: refcats/gen2/panstarrs/panstarrs_157349_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157349_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fa275198-1e7f-4690-a453-e6d51158dbf0'
+    - !uuid 'bc33ee89-5140-409d-883d-2aed85f78c70'
     data_id:
     - htm7: 157352
-    path: refcats/gen2/panstarrs/panstarrs_157352_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157352_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0e6ae9e8-1b19-43ae-bd9c-c199d9702714'
+    - !uuid 'f1a26ef1-ffaf-4d12-8166-23318a8f36a7'
     data_id:
     - htm7: 157354
-    path: refcats/gen2/panstarrs/panstarrs_157354_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157354_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ee7f5e80-ad39-42ed-8123-32acf658f79e'
+    - !uuid '2724c081-7948-442d-9925-4f3ad466a5a9'
     data_id:
     - htm7: 157355
-    path: refcats/gen2/panstarrs/panstarrs_157355_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157355_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bb535355-f6d6-4dcf-bcdf-9874b4e6cb4f'
+    - !uuid '834ef114-578e-4698-979b-dc264579cfb9'
     data_id:
     - htm7: 157356
-    path: refcats/gen2/panstarrs/panstarrs_157356_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157356_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '41511420-cfe3-46de-81d5-218e6d91c801'
+    - !uuid '01e4d350-1a30-42b2-b3f7-870733707297'
     data_id:
     - htm7: 157360
-    path: refcats/gen2/panstarrs/panstarrs_157360_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157360_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '39c654ac-7df1-48f0-97e2-be6ffd69d187'
+    - !uuid '610a3392-286c-4489-b4ff-ff83a09a9a38'
     data_id:
     - htm7: 157361
-    path: refcats/gen2/panstarrs/panstarrs_157361_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157361_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '37c25c99-8a70-4335-8bee-dc1e511cc103'
+    - !uuid '2a500687-6f94-4add-a5eb-97f9378cafaa'
     data_id:
     - htm7: 157362
-    path: refcats/gen2/panstarrs/panstarrs_157362_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157362_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cc864eb6-0a11-4d8c-8b80-ce11b344c9f3'
+    - !uuid 'b940effa-4157-4cbe-9f19-fedf8a5ccf50'
     data_id:
     - htm7: 157363
-    path: refcats/gen2/panstarrs/panstarrs_157363_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157363_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '27cbc57b-8c7a-42cb-90ca-ffa5ca24a814'
+    - !uuid '52605d3f-f2fe-4456-bed6-fdd1f18c6060'
     data_id:
     - htm7: 157366
-    path: refcats/gen2/panstarrs/panstarrs_157366_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157366_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7a4c63fb-6d02-4fd6-ab84-69b7de152135'
+    - !uuid '46d0f506-de7c-4a5d-8b65-75b02a4ecc9f'
     data_id:
     - htm7: 157368
-    path: refcats/gen2/panstarrs/panstarrs_157368_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157368_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'dabe8d39-7626-4bb2-8ff6-6f6e32def9ab'
+    - !uuid 'e775b7a6-e2da-4568-80da-56c951e7fd13'
     data_id:
     - htm7: 157369
-    path: refcats/gen2/panstarrs/panstarrs_157369_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157369_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd57fce6d-f69c-4e75-9fe6-f2828524e614'
+    - !uuid 'b48a1ff7-ef19-4b39-8413-cf746d779ae0'
     data_id:
     - htm7: 157370
-    path: refcats/gen2/panstarrs/panstarrs_157370_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157370_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '992e729e-6b29-4f61-98e3-50042d3e1fb0'
+    - !uuid '60ce3984-6947-45a1-83d1-50f14fa8336e'
     data_id:
     - htm7: 157371
-    path: refcats/gen2/panstarrs/panstarrs_157371_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157371_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2c408a46-1b7f-4601-9545-f41091fc1dfa'
+    - !uuid '945381b4-d24f-477e-a6f3-c138dccfaae2'
     data_id:
     - htm7: 157372
-    path: refcats/gen2/panstarrs/panstarrs_157372_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157372_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ac0ea612-8f97-4930-9435-c91583ba8e81'
+    - !uuid '5cad964d-a635-4e48-98e5-70e2cc076656'
     data_id:
     - htm7: 157373
-    path: refcats/gen2/panstarrs/panstarrs_157373_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157373_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '803a2b8a-f1ca-4fa4-9bc2-4f1ab06d6284'
+    - !uuid 'd46e0721-f9c8-4f9b-b227-4be1887268df'
     data_id:
     - htm7: 157374
-    path: refcats/gen2/panstarrs/panstarrs_157374_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157374_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7c545232-0811-4914-8826-e08a009276e8'
+    - !uuid '519134c5-8c70-4bbc-963c-5481dbda32f8'
     data_id:
     - htm7: 157375
-    path: refcats/gen2/panstarrs/panstarrs_157375_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157375_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8e19112f-f18f-47eb-b4b8-1acd26d3632d'
+    - !uuid '2ec417f4-c627-4dff-8f87-d4b78f4c93ad'
     data_id:
     - htm7: 157380
-    path: refcats/gen2/panstarrs/panstarrs_157380_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157380_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8e154d69-dc8e-4c44-a19a-59c22a6efc04'
+    - !uuid '9a2be13f-f957-48c4-9030-ee838262ff02'
     data_id:
     - htm7: 157392
-    path: refcats/gen2/panstarrs/panstarrs_157392_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157392_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3b570f3c-23ab-472a-9f4b-cd06784276a9'
+    - !uuid '6054161e-8d89-4352-bb81-203ae34c1238'
     data_id:
     - htm7: 157393
-    path: refcats/gen2/panstarrs/panstarrs_157393_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157393_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '49dc2c86-ab84-46c9-88d9-293e22ce78a7'
+    - !uuid '91b5dd56-91f6-481a-a77b-14125a054eef'
     data_id:
     - htm7: 157394
-    path: refcats/gen2/panstarrs/panstarrs_157394_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157394_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '23bde557-e222-4e2e-be30-8d07f2fbf23f'
+    - !uuid '9603d2fa-07ee-431b-a3c5-1ef985970f49'
     data_id:
     - htm7: 157395
-    path: refcats/gen2/panstarrs/panstarrs_157395_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157395_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '80dd6bb6-642e-45bf-a3d7-0732f8a3179d'
+    - !uuid 'd1c9426f-ce6e-4a75-923e-cf1907d3c9c5'
     data_id:
     - htm7: 157396
-    path: refcats/gen2/panstarrs/panstarrs_157396_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157396_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c945633f-c66b-4b60-8cb4-e1efa3c751ac'
+    - !uuid '926d50e0-9504-4422-90e1-0fba439e37c8'
     data_id:
     - htm7: 157397
-    path: refcats/gen2/panstarrs/panstarrs_157397_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157397_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '451a6d99-f9d8-4a3b-a48d-8b2e3947d9df'
+    - !uuid 'a07cf857-f5ec-4191-ae4f-686632b79a99'
     data_id:
     - htm7: 157398
-    path: refcats/gen2/panstarrs/panstarrs_157398_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157398_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a2f0f74d-c23c-4ee7-bd21-fd0e4abebc34'
+    - !uuid '53edf625-dcbf-4588-affa-4d239634f8b1'
     data_id:
     - htm7: 157399
-    path: refcats/gen2/panstarrs/panstarrs_157399_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157399_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6a3a6499-8e20-41f4-83f6-33f516c81668'
+    - !uuid '748e764f-3e22-4d31-9ff7-965da42afa07'
     data_id:
     - htm7: 157400
-    path: refcats/gen2/panstarrs/panstarrs_157400_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157400_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '862a94f9-25b9-4481-b3f0-a2fc279f3647'
+    - !uuid 'c710bbc6-d3f7-4e86-b20e-57cf1445c298'
     data_id:
     - htm7: 157401
-    path: refcats/gen2/panstarrs/panstarrs_157401_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157401_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '83b96b8a-5f80-430c-b691-3ca0f91939ef'
+    - !uuid 'ee1db7a9-f965-4344-8d15-cfd945cadc76'
     data_id:
     - htm7: 157402
-    path: refcats/gen2/panstarrs/panstarrs_157402_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157402_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a63b8c42-74b8-4a15-a8db-2d6f51bcc274'
+    - !uuid '4b9534ad-510b-45d0-9351-e37d720d9396'
     data_id:
     - htm7: 157403
-    path: refcats/gen2/panstarrs/panstarrs_157403_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157403_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '290920a1-ff6b-4300-bfd8-74b625cc53a6'
+    - !uuid '691a5838-a5df-479d-8e04-a06cee628464'
     data_id:
     - htm7: 157404
-    path: refcats/gen2/panstarrs/panstarrs_157404_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157404_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8b55b3f2-464f-47b7-a2ab-066abcdac9b5'
+    - !uuid 'c397932f-2d1f-47f5-972d-112dc3edd56a'
     data_id:
     - htm7: 157405
-    path: refcats/gen2/panstarrs/panstarrs_157405_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157405_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e4707ef7-e89a-406c-9869-67f90a7fa19c'
+    - !uuid 'a80c17be-f7ab-4868-8935-a94657c1ab2f'
     data_id:
     - htm7: 157406
-    path: refcats/gen2/panstarrs/panstarrs_157406_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157406_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'de889cc8-45bc-4fae-9055-f4c0fb21441b'
+    - !uuid '55758ff7-64fb-41cb-8996-0bb9912169c8'
     data_id:
     - htm7: 157407
-    path: refcats/gen2/panstarrs/panstarrs_157407_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157407_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4d4a9de0-23e0-4ffa-9918-f2a39d44a2f1'
+    - !uuid '2062082e-f173-4380-8043-caa504aac4a3'
     data_id:
     - htm7: 157424
-    path: refcats/gen2/panstarrs/panstarrs_157424_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157424_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '866af673-d2ca-46cf-840b-831198ed8cac'
+    - !uuid '026c6bc2-de22-4b73-a71b-5ddb899890f8'
     data_id:
     - htm7: 157426
-    path: refcats/gen2/panstarrs/panstarrs_157426_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157426_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '041b903c-4866-432d-b198-ea34f1d0b1b7'
+    - !uuid 'bcd93591-8039-48dd-911c-2f5200e8f9b2'
     data_id:
     - htm7: 157427
-    path: refcats/gen2/panstarrs/panstarrs_157427_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157427_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd1dd4f3b-0fbc-43cd-a94b-8b3d5522acd2'
+    - !uuid 'b9048d75-bb87-47ed-896c-a9e833d99d9c'
     data_id:
     - htm7: 157432
-    path: refcats/gen2/panstarrs/panstarrs_157432_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157432_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e6666272-6128-4cfc-9446-8656e4295f1d'
+    - !uuid '7b56968f-b1e9-412c-aea7-9620d55eef34'
     data_id:
     - htm7: 157433
-    path: refcats/gen2/panstarrs/panstarrs_157433_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157433_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd4d951cd-8c3c-46bd-ada5-77b448796c99'
+    - !uuid 'eacbd909-ea6a-4753-8311-8de53473309e'
     data_id:
     - htm7: 157435
-    path: refcats/gen2/panstarrs/panstarrs_157435_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157435_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4bb2a5aa-b6ad-497d-9db2-d9eb2b0380bf'
+    - !uuid 'c53d83a0-211e-4daf-aebe-fe89f74b3793'
     data_id:
     - htm7: 157437
-    path: refcats/gen2/panstarrs/panstarrs_157437_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_157437_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1db38cc2-4a88-4387-a3e5-4d8a4388d167'
+    - !uuid '3782879e-c603-4946-bf77-66933337cf7a'
     data_id:
     - htm7: 159248
-    path: refcats/gen2/panstarrs/panstarrs_159248_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159248_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '101c95e2-3598-492b-8ea5-8b35175cca70'
+    - !uuid 'de64c8c6-24de-4a2f-8e44-8102feb7e3ba'
     data_id:
     - htm7: 159249
-    path: refcats/gen2/panstarrs/panstarrs_159249_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159249_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd83ff382-3ea6-4187-b71a-ba4cd565c3cb'
+    - !uuid '2fdfd7da-92df-4ee6-b087-fb47c6148ccf'
     data_id:
     - htm7: 159250
-    path: refcats/gen2/panstarrs/panstarrs_159250_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159250_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a0bf0df3-cd33-4244-925a-1d97c9d6d53a'
+    - !uuid '75b15c66-6087-4657-9a93-7e8f7b57a98f'
     data_id:
     - htm7: 159251
-    path: refcats/gen2/panstarrs/panstarrs_159251_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159251_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '67b5aa2c-d9cc-41be-9877-c85b5775eb6a'
+    - !uuid '1c5fb5c8-7f24-42cd-beb8-8c73b4514b9e'
     data_id:
     - htm7: 159256
-    path: refcats/gen2/panstarrs/panstarrs_159256_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159256_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4deaeeeb-1c14-4358-aa4b-5208f3eabc74'
+    - !uuid '18a68995-1578-4c9b-a23b-4317de97bc0c'
     data_id:
     - htm7: 159257
-    path: refcats/gen2/panstarrs/panstarrs_159257_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159257_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '30a3ec57-a615-499e-bde4-ad38201c2b16'
+    - !uuid '262683b4-a3fa-48db-b280-86d22ede6e23'
     data_id:
     - htm7: 159259
-    path: refcats/gen2/panstarrs/panstarrs_159259_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159259_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a9186522-0559-4141-bd69-4d0f199fcdca'
+    - !uuid 'ab5aa494-25a4-4e41-b593-84f597a1060c'
     data_id:
     - htm7: 159261
-    path: refcats/gen2/panstarrs/panstarrs_159261_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159261_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3fdb4282-72fa-4f60-870e-96d795bf14fe'
+    - !uuid 'e3930e70-c0d8-4481-a64e-d8c04eaa9131'
     data_id:
     - htm7: 159262
-    path: refcats/gen2/panstarrs/panstarrs_159262_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159262_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fbc07d25-9a09-488c-b204-1b1ed732d9b8'
+    - !uuid 'ec2db658-958b-44be-9342-1b814246af7f'
     data_id:
     - htm7: 159263
-    path: refcats/gen2/panstarrs/panstarrs_159263_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159263_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7104cd3d-9a8f-4cd9-9d19-5a18461f6818'
+    - !uuid '725cf4e3-1bba-48ed-a1b4-46c778306f3b'
     data_id:
     - htm7: 159328
-    path: refcats/gen2/panstarrs/panstarrs_159328_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159328_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '33acc95a-a54e-4a63-b251-419d4ea85e58'
+    - !uuid '282048e3-55c1-4019-a3de-630d1829d7a7'
     data_id:
     - htm7: 159329
-    path: refcats/gen2/panstarrs/panstarrs_159329_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159329_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '582cf9cc-96f5-4fcd-a20f-5478cce19487'
+    - !uuid 'ebdf0ab0-c7af-4d6b-93ee-fc0eaf2474d2'
     data_id:
     - htm7: 159331
-    path: refcats/gen2/panstarrs/panstarrs_159331_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159331_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e05f651f-9104-4084-b57e-dd704734552a'
+    - !uuid 'afc66436-7c49-490c-b0a6-65c824eacbd2'
     data_id:
     - htm7: 159334
-    path: refcats/gen2/panstarrs/panstarrs_159334_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159334_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3637f701-cbc6-4fd2-98e2-846bab4b27ce'
+    - !uuid '76ecb7d0-a268-44f6-adc3-2e1b76009300'
     data_id:
     - htm7: 159342
-    path: refcats/gen2/panstarrs/panstarrs_159342_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159342_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '52c9a28b-4f0a-431b-8691-b6c244cfca8b'
+    - !uuid 'f0190f01-6985-4f40-b906-8cc249c1a54d'
     data_id:
     - htm7: 159456
-    path: refcats/gen2/panstarrs/panstarrs_159456_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_159456_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '01504277-aa78-4db3-9a1d-121a35673218'
+    - !uuid 'eb1c7a4d-5c41-4d83-9c05-1cd37048cfee'
     data_id:
     - htm7: 231812
-    path: refcats/gen2/panstarrs/panstarrs_231812_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231812_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8fd35950-ef59-4c90-ba90-89d0e6740067'
+    - !uuid '155652fe-1537-46af-9205-e704dcd6d1a4'
     data_id:
     - htm7: 231813
-    path: refcats/gen2/panstarrs/panstarrs_231813_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231813_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'dee12511-0712-426c-a62b-13d87662f44d'
+    - !uuid '51acfec9-066f-4bf2-a722-893cd18ef721'
     data_id:
     - htm7: 231815
-    path: refcats/gen2/panstarrs/panstarrs_231815_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231815_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '251d44d1-5467-47f3-a060-c2e0cbeddc1c'
+    - !uuid '2d0c1187-6287-48ac-be0d-1c3b3e3e7413'
     data_id:
     - htm7: 231816
-    path: refcats/gen2/panstarrs/panstarrs_231816_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231816_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '544f8543-6637-4a9f-865c-c66a0ea25e8a'
+    - !uuid '7b7170d0-07c0-4d04-9d75-be09efe68d26'
     data_id:
     - htm7: 231818
-    path: refcats/gen2/panstarrs/panstarrs_231818_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231818_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bf20619b-94c5-4eb2-914e-c73990a16908'
+    - !uuid 'd3f34ac1-d439-4095-862f-5196dca367b2'
     data_id:
     - htm7: 231819
-    path: refcats/gen2/panstarrs/panstarrs_231819_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231819_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '7f8b803c-9e94-459c-8fe6-a41a5a75e9c9'
+    - !uuid '25e450a1-c11f-49b0-af22-52205dc0d30d'
     data_id:
     - htm7: 231820
-    path: refcats/gen2/panstarrs/panstarrs_231820_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231820_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'fd969afb-0dce-433e-8005-09c52bbd0af7'
+    - !uuid '5e0ec6d7-2bdb-4760-94c8-c382a7294386'
     data_id:
     - htm7: 231825
-    path: refcats/gen2/panstarrs/panstarrs_231825_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231825_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c7c785cb-0c51-4913-a2ec-0b0ddd8fb78d'
+    - !uuid '56494d58-2743-4310-914f-b5d051e65b60'
     data_id:
     - htm7: 231826
-    path: refcats/gen2/panstarrs/panstarrs_231826_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231826_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4f98f4f8-bfb4-419e-9aa5-14da4d2af83c'
+    - !uuid '5192e883-3011-4ad0-af28-a26ed096d841'
     data_id:
     - htm7: 231827
-    path: refcats/gen2/panstarrs/panstarrs_231827_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231827_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e66bc1ab-f4bf-4c92-a40b-56dc1ec6b586'
+    - !uuid 'd19ccec2-e53f-4090-922b-627c0b00e61a'
     data_id:
     - htm7: 231828
-    path: refcats/gen2/panstarrs/panstarrs_231828_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231828_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8f543321-2b34-4c24-89de-0e56f7abc7aa'
+    - !uuid 'def2d962-92bd-4694-ae34-3e6e2957e998'
     data_id:
     - htm7: 231829
-    path: refcats/gen2/panstarrs/panstarrs_231829_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231829_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c346acd3-8b3b-40dd-ac1b-d3583a6145ed'
+    - !uuid '99698ff5-6ccf-46b3-affe-bf3f41ce7ff3'
     data_id:
     - htm7: 231830
-    path: refcats/gen2/panstarrs/panstarrs_231830_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231830_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '18e9fd51-ae21-44b8-8738-8d8ae4f0a781'
+    - !uuid '2bd1de6d-0d4e-46e1-b213-b9f054375a08'
     data_id:
     - htm7: 231831
-    path: refcats/gen2/panstarrs/panstarrs_231831_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231831_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4071c399-2422-46f1-b902-b7205720254d'
+    - !uuid 'fc35f278-a511-4e61-be72-4bd5679d5c11'
     data_id:
     - htm7: 231832
-    path: refcats/gen2/panstarrs/panstarrs_231832_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231832_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3afef33c-c193-4dbf-8463-c2fb7c55cc4d'
+    - !uuid '554a21df-7730-4f7e-ab98-a021c99856cd'
     data_id:
     - htm7: 231833
-    path: refcats/gen2/panstarrs/panstarrs_231833_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231833_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4c8c5322-82ea-49c5-89de-db48e478921c'
+    - !uuid 'b620a23e-6e41-4b2d-8ab6-6a46f4cb52f1'
     data_id:
     - htm7: 231834
-    path: refcats/gen2/panstarrs/panstarrs_231834_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231834_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '789705d8-bda6-42cf-9184-83e2070e5793'
+    - !uuid '15b15a4a-c758-45bd-972b-4504bc634b31'
     data_id:
     - htm7: 231835
-    path: refcats/gen2/panstarrs/panstarrs_231835_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231835_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '780451d1-03b8-4898-8e3e-18a1cb9ac3c4'
+    - !uuid 'a9d57e9f-46f0-4ca5-9faf-6e4c56b2f99f'
     data_id:
     - htm7: 231836
-    path: refcats/gen2/panstarrs/panstarrs_231836_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231836_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a7cac918-18cb-4422-a972-aecd24173fd7'
+    - !uuid '9a3fe28d-ac71-4cdb-8a56-425969a5c967'
     data_id:
     - htm7: 231837
-    path: refcats/gen2/panstarrs/panstarrs_231837_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231837_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '346b5171-d709-46bf-b543-6d9cb675a0b8'
+    - !uuid 'd3068795-cb05-4ca8-9512-0e694771aa1e'
     data_id:
     - htm7: 231838
-    path: refcats/gen2/panstarrs/panstarrs_231838_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231838_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e70cad2f-4a99-4482-a151-4e8187df2cbe'
+    - !uuid '0702764c-71d3-4cdb-8096-b94967b7a333'
     data_id:
     - htm7: 231839
-    path: refcats/gen2/panstarrs/panstarrs_231839_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231839_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '17b2be3c-db38-4088-8a6f-b0212d3fce70'
+    - !uuid '1a3978c0-0204-491a-b74f-4ead604031dd'
     data_id:
     - htm7: 231844
-    path: refcats/gen2/panstarrs/panstarrs_231844_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231844_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '397a7de8-5b3a-4cc3-a16b-59f467f9696a'
+    - !uuid '24dbe17b-18aa-44b9-af20-d489eb58ff8e'
     data_id:
     - htm7: 231845
-    path: refcats/gen2/panstarrs/panstarrs_231845_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231845_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1bfb1652-f513-44e3-b0c9-8d9c14b2f2df'
+    - !uuid '5bcd45fd-5ac7-460e-834c-5d090d18c6ee'
     data_id:
     - htm7: 231846
-    path: refcats/gen2/panstarrs/panstarrs_231846_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231846_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e16440be-25e8-4844-a490-0ceeb753398c'
+    - !uuid '3ffd9527-e173-4da1-981d-b2f0f1ac7e78'
     data_id:
     - htm7: 231847
-    path: refcats/gen2/panstarrs/panstarrs_231847_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231847_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5a4225a3-29ba-4b59-b98c-3a976ffad713'
+    - !uuid 'ac16072f-989d-4f12-9c00-25f16d52ef75'
     data_id:
     - htm7: 231848
-    path: refcats/gen2/panstarrs/panstarrs_231848_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231848_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8d099b61-0f0a-42cc-8459-8f822b77884a'
+    - !uuid '3a50a25e-e8c5-48a5-84d4-4d477117d24e'
     data_id:
     - htm7: 231849
-    path: refcats/gen2/panstarrs/panstarrs_231849_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231849_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '8725bba9-7e05-441f-9afd-ec9d254b1721'
+    - !uuid '776ef24e-c5f1-4763-91ae-20054aa49743'
     data_id:
     - htm7: 231850
-    path: refcats/gen2/panstarrs/panstarrs_231850_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231850_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3a555948-0172-4092-92c2-723044f207e1'
+    - !uuid 'b182fe95-0c0c-4ee5-b966-a6b6914f4040'
     data_id:
     - htm7: 231851
-    path: refcats/gen2/panstarrs/panstarrs_231851_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231851_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'b3bdd3aa-307f-41b3-a7d6-c533e1a77e57'
+    - !uuid 'f9b0e17e-47b5-4f4b-820e-0f522844eb66'
     data_id:
     - htm7: 231852
-    path: refcats/gen2/panstarrs/panstarrs_231852_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231852_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '89dae6b2-99c7-4d1b-9796-c13468e112ce'
+    - !uuid '60fff2f1-448d-42c1-88f4-9c09aa4ccd6f'
     data_id:
     - htm7: 231853
-    path: refcats/gen2/panstarrs/panstarrs_231853_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231853_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4e46891c-5dc4-4bc1-b536-39fd6cd25542'
+    - !uuid 'ceb4b3c5-e00a-40c4-acc3-62bc49665a96'
     data_id:
     - htm7: 231854
-    path: refcats/gen2/panstarrs/panstarrs_231854_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231854_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e35ea5f4-a13d-458d-afa5-df312540acc1'
+    - !uuid '983abcbf-346c-431d-89a3-3fd7557e508e'
     data_id:
     - htm7: 231855
-    path: refcats/gen2/panstarrs/panstarrs_231855_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231855_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5f4b41f7-bfb8-4bdd-9d79-f664b775c46f'
+    - !uuid 'a4ec54d2-014c-48e4-a9ae-288081690c27'
     data_id:
     - htm7: 231856
-    path: refcats/gen2/panstarrs/panstarrs_231856_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231856_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '86702b2c-1afe-4243-b86f-908db06bb176'
+    - !uuid '4c301a49-dd23-483b-b1d6-990a288d801b'
     data_id:
     - htm7: 231857
-    path: refcats/gen2/panstarrs/panstarrs_231857_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231857_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'cb1f4e56-b29a-4448-828a-3cbedc8149e0'
+    - !uuid '89aa688d-3c4f-403f-b181-728c266f1a3b'
     data_id:
     - htm7: 231858
-    path: refcats/gen2/panstarrs/panstarrs_231858_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231858_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd8c51404-0265-4b3e-a51c-13c612aba5f7'
+    - !uuid 'e8497fbf-fe7d-4562-bd9a-22b4dfb112c3'
     data_id:
     - htm7: 231859
-    path: refcats/gen2/panstarrs/panstarrs_231859_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231859_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2e54fb39-0b01-4cb7-a044-f5de342253fb'
+    - !uuid '05aefe2d-5662-472d-818a-62b13393b84a'
     data_id:
     - htm7: 231860
-    path: refcats/gen2/panstarrs/panstarrs_231860_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231860_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1fe491f3-deda-4466-8cfc-5b28082562d5'
+    - !uuid '91666597-de21-4f8c-b9d9-72aa4e9cf29b'
     data_id:
     - htm7: 231861
-    path: refcats/gen2/panstarrs/panstarrs_231861_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231861_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '71399027-670d-4068-a6bd-d3782018bb70'
+    - !uuid '01efda26-5a37-4071-acb0-96689adf12ef'
     data_id:
     - htm7: 231862
-    path: refcats/gen2/panstarrs/panstarrs_231862_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231862_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ff024530-5db3-4151-b418-6bd9f9524461'
+    - !uuid 'dcded9dd-b94d-4392-b26d-a3ee485295e8'
     data_id:
     - htm7: 231863
-    path: refcats/gen2/panstarrs/panstarrs_231863_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231863_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '73add6e7-249d-4d3c-a397-5743883c3749'
+    - !uuid 'd53238b3-49ae-4406-9abb-c382b8c26dfa'
     data_id:
     - htm7: 231864
-    path: refcats/gen2/panstarrs/panstarrs_231864_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231864_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5582dcc8-5ccc-42f3-98c8-43197fd7a68c'
+    - !uuid 'd7c40d8f-e971-4a4b-b535-054317b92cc9'
     data_id:
     - htm7: 231865
-    path: refcats/gen2/panstarrs/panstarrs_231865_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231865_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '45b04e0b-37c8-4c53-8f69-68d3d3446fbb'
+    - !uuid '7c3b679a-3667-4a17-a456-5f801b432870'
     data_id:
     - htm7: 231866
-    path: refcats/gen2/panstarrs/panstarrs_231866_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231866_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'b692affa-4326-4254-8e32-c08c05400f11'
+    - !uuid '1a2c66bf-6ff0-4e89-8b50-86b7244172b5'
     data_id:
     - htm7: 231867
-    path: refcats/gen2/panstarrs/panstarrs_231867_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231867_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'd5b94d15-e9ac-4c37-9cb1-4fb26a513fe7'
+    - !uuid '6b9778ad-1fa0-40c5-949e-1910d5370c2f'
     data_id:
     - htm7: 231868
-    path: refcats/gen2/panstarrs/panstarrs_231868_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231868_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '268cde58-689b-48ad-b4e7-cb781f158e3d'
+    - !uuid 'cb889bb2-019f-442b-90d2-0e14dcf7a02a'
     data_id:
     - htm7: 231869
-    path: refcats/gen2/panstarrs/panstarrs_231869_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231869_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2bf1e939-930d-4587-a6f8-485cf0aae25f'
+    - !uuid '7187e659-d2d7-4b1f-a479-030d107e36cd'
     data_id:
     - htm7: 231870
-    path: refcats/gen2/panstarrs/panstarrs_231870_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231870_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '84ff595f-4a51-440a-a26f-c3685aed0c92'
+    - !uuid '23d52f67-cee8-4326-a6d8-79d890f089b6'
     data_id:
     - htm7: 231871
-    path: refcats/gen2/panstarrs/panstarrs_231871_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231871_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '775e51b4-da6c-4343-9f80-7577a9428de8'
+    - !uuid 'a8e4598e-47a5-4b32-828f-dd5f22e13985'
     data_id:
     - htm7: 231876
-    path: refcats/gen2/panstarrs/panstarrs_231876_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231876_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bc03ab74-f3db-4bf7-a7ac-8e6cf595c4c6'
+    - !uuid '0180824b-fc42-42aa-871b-57eaac1023a2'
     data_id:
     - htm7: 231878
-    path: refcats/gen2/panstarrs/panstarrs_231878_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231878_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a556e02e-2327-4742-a5ed-71566d9c59a4'
+    - !uuid '5371eebc-25fb-42b9-b883-647cb324f305'
     data_id:
     - htm7: 231879
-    path: refcats/gen2/panstarrs/panstarrs_231879_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231879_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '034377fb-b3af-44be-ac29-0fa5de7851e4'
+    - !uuid 'bc6cd532-2461-4f1f-9a81-9dd7b7a39ac0'
     data_id:
     - htm7: 231890
-    path: refcats/gen2/panstarrs/panstarrs_231890_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231890_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e2551383-c6ee-4662-9be0-1e7a3faed987'
+    - !uuid '0c3635ae-ae91-44f0-aaed-ec1f2b0911db'
     data_id:
     - htm7: 231896
-    path: refcats/gen2/panstarrs/panstarrs_231896_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231896_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'dec41263-f2e4-4745-8095-450de6bfcb4e'
+    - !uuid '9c084af4-509c-4153-a66c-a9e3a29ccea8'
     data_id:
     - htm7: 231897
-    path: refcats/gen2/panstarrs/panstarrs_231897_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231897_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0509e930-ca87-4104-ac08-9b191618554f'
+    - !uuid '442c147c-1377-4a87-a5af-54642cf1c5c5'
     data_id:
     - htm7: 231899
-    path: refcats/gen2/panstarrs/panstarrs_231899_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231899_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '27a86065-2824-42e4-bd90-dc6654511140'
+    - !uuid 'b9591a04-e7a3-499d-8ae8-a438ee8f76d6'
     data_id:
     - htm7: 231901
-    path: refcats/gen2/panstarrs/panstarrs_231901_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231901_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '79b62b77-5a3e-4c45-b4f2-c0d41c0602e0'
+    - !uuid 'bc00fb1b-f239-4a90-9556-975853635ed9'
     data_id:
     - htm7: 231928
-    path: refcats/gen2/panstarrs/panstarrs_231928_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_231928_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'be9ca6c8-d189-42d6-8a75-4136154a615e'
+    - !uuid '73848d75-9992-492b-9fb0-90d4763a14ab'
     data_id:
     - htm7: 232324
-    path: refcats/gen2/panstarrs/panstarrs_232324_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_232324_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0a185197-0646-44f5-ba4b-4141284e7a0a'
+    - !uuid '14527f54-679f-4599-aa7f-139b2f979ffe'
     data_id:
     - htm7: 232344
-    path: refcats/gen2/panstarrs/panstarrs_232344_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_232344_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '28acf216-6abe-44d8-83fd-28c6b7e91d43'
+    - !uuid 'a8d3a977-e16f-4ca1-8df0-96211925072b'
     data_id:
     - htm7: 232345
-    path: refcats/gen2/panstarrs/panstarrs_232345_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_232345_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4e7a69bc-e393-4001-8101-717e5b010607'
+    - !uuid '6dc02639-d399-43d5-901d-070f5ffc8db6'
     data_id:
     - htm7: 232347
-    path: refcats/gen2/panstarrs/panstarrs_232347_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_232347_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'ce364c75-5c28-4142-b645-c8d00ecc5ed8'
+    - !uuid '65bd5431-4260-4398-99bd-4be02c3298b1'
     data_id:
     - htm7: 232376
-    path: refcats/gen2/panstarrs/panstarrs_232376_refcats_gen2.fits
+    path: refcats/DM-28636/ps1_pv3_3pi_20170110/ps1_pv3_3pi_20170110_232376_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
   name: skyMap
