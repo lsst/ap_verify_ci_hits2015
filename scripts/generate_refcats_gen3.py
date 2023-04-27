@@ -38,7 +38,6 @@ from lsst.daf.butler import Butler
 
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-lsst.log.configure_pylog_MDC("DEBUG", MDC_class=None)
 
 
 ########################################
