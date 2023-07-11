@@ -15,6 +15,12 @@ data:
 - type: dimension
   element: skymap
   records:
+  - name: decam_rings_v1
+    hash: !!binary |
+      mlZonTr4qsce4Jlj2uPC5h2OrOc=
+    tract_max: 18938
+    patch_nx_max: 6
+    patch_ny_max: 6
   - name: deepCoadd_skyMap
     hash: !!binary |
       PHJQQj+6R6HUt/6T06psEmfgJA4=
@@ -405,10 +411,18 @@ data:
 - type: dimension
   element: tract
   records:
-  - skymap: deepCoadd_skyMap
-    id: 0
+  - skymap: decam_rings_v1
+    id: 8363
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7054ce8ae11956eabf99e86d510683e13fd95d1069ab7cc3bf6fe98e789d9eedbfe5c43a511b2dd63f52926986ab7cc3bfbe74be7799e0edbf1852e9d58e70d63f5a8a9f7255b1b23fd98455e41598eabf32edf40bc0a4e13fe92f966855b1b23f
+      encoded: 7033f8df42e09fecbf3a0139954857db3fe8222ef5d1dac0bf973aeab0ff07edbf50e982496d91d93f4e0fa7fad1dac0bfa783c1a87322edbf8a65a7b7b3a9d93f7c5e78eed9f5b9bffb78d03a54baecbf6640c2028f6fdb3f1a9d0ae6d9f5b9bf
+  - skymap: decam_rings_v1
+    id: 8604
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708bcfc04b0d8fecbf5e6b306ea210dc3febeedb4a631cbbbf809294eeb5f9ecbfa7796cb8234dda3f8751a953631cbbbffc124f51320eedbf061fd0557f60da3f9e26fd0a3957b3bf814a97ae89a3ecbfb130fb0afe23dc3f419ab5043957b3bf
+  - skymap: decam_rings_v1
+    id: 8605
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7034c5a3c6d8e9ecbf074d37139d92da3feaeedb4a631cbbbfe5c660e89b4eedbf3c3ab4a0bbc9d83f8751a953631cbbbf088ef2d95663edbf5692e44605dcd83f9e26fd0a3957b3bf68884fb893feecbf645ecdb8e6a4da3f419ab5043957b3bf
 - type: dimension
   element: exposure
   records:
@@ -487,55 +501,76 @@ data:
 - type: dimension
   element: patch
   records:
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 419
-    cell_x: 14
-    cell_y: 9
+  - skymap: decam_rings_v1
+    tract: 8363
+    id: 33
+    cell_x: 3
+    cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7028104bd7d6daecbff2206e259dcada3faa470ee672a8bbbf9ab6b022fbececbfcb627e58fa7bda3ff54952ea69a7bbbf65c1aff412f1ecbf7c94996f0680da3f1b2d7d4eeb4ebabfbd66e1f7eddeecbfce98c7d5acceda3f7c99a2eeea4fbabf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 420
-    cell_x: 15
-    cell_y: 9
+      encoded: 700a619bbe53d9ecbf33f9978c2cd7da3f61a11db8ec49bbbf547a12eaa6ebecbf57a01fe9d387da3f3bb8e8f5044abbbfe0813b33afefecbf6195093f878bda3f5cb6fd7b9ff6b9bfad8ea6535cddecbfbf216989dedada3f9952776c88f6b9bf
+  - skymap: decam_rings_v1
+    tract: 8363
+    id: 34
+    cell_x: 4
+    cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7004a620f65dc9ecbfb608716b5515db3fec34cef84ea9bbbf5b0d6336b5dbecbf8b01f199dfc6da3f40975e1167a8bbbf9ae18f5fccdfecbf49a68c1eefcada3fc1cee784df4fbabf2ea7066874cdecbf13d3ec836819db3f0831cf3bbf50babf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 464
-    cell_x: 14
-    cell_y: 10
+      encoded: 70f377dd2eaec7ecbfa196475c8e22db3fa4fc3852a649bbbf8a9ad25934daecbf9d4e796d66d3da3f31170f07ef49bbbfade661eb3cdeecbfa46ad77a18d7da3fcd3fa09e8af6b9bfed17dc06b7cbecbfcf93a50b3f26db3f358b5f7445f6b9bf
+  - skymap: decam_rings_v1
+    tract: 8604
+    id: 0
+    cell_x: 0
+    cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70d794174abddeecbfe437117b7cceda3f2363c8625460babfbf32cb3ee2f0ecbffaac183fd67fda3f864a7b50545fbabf096ed03ec8f4ecbfdc76c217b283da3f9a9df3bb9906b9bf4c9123a7a2e2ecbf6fa53ca75bd2da3fb2d3646f9007b9bf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 465
-    cell_x: 15
-    cell_y: 10
+      encoded: 70e9848606fae7ecbf0bb1adcfb79ada3f1ca93739d81cbbbf809294eeb5f9ecbfa7796cb8234dda3f8751a953631cbbbf33626cd9b2fdecbfd866a4c5e350da3f2f2542ae01c9b9bf85ee31b8f6ebecbf8ebe863d799eda3f2d3837e070c9b9bf
+  - skymap: decam_rings_v1
+    tract: 8604
+    id: 1
+    cell_x: 1
+    cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 707d8c38c243cdecbfc49741013819db3f44b9c30e2961babf2d9c61b19bdfecbf6e4fd7c5becada3f19d6f4f34860babf7302521681e3ecbf3e3295c99dceda3f1a8fab6b8507b9bfefd4a97e28d1ecbfdadb70531a1ddb3feb5a15535d08b9bf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 466
-    cell_x: 16
-    cell_y: 10
+      encoded: 707559b0e47ad6ecbfdca7d6f73be6da3fb2b851db1b1dbbbfd44195b0d8e8ecbf3337c80ff096da3feeea6ca3d31cbbbf14283f65d5ececbfdffb9d6cb19ada3f97b4ac836cc9b9bf3419105677daecbf323ddab5fee9da3f6d92d535b1c9b9bf
+  - skymap: decam_rings_v1
+    tract: 8604
+    id: 2
+    cell_x: 2
+    cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 704ea2a6d699bbecbf8a0447e9c763db3f8f7eaf44df61babfb919f69524ceecbf2c1c5f757c15db3f2ec3bc251f61babfc70d8f5a09d2ecbfeaf55e9f5e19db3fe30ce5c65308b9bf4c993ded7dbfecbf653d975cad67db3f993812de0c09b9bf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 509
-    cell_x: 14
-    cell_y: 11
+      encoded: 70b34fd2c2cac4ecbffc8c069a9331db3fac0c79a2311dbbbfe0373a045cd7ecbf8378bc6776e2da3f5e4b6490191dbbbf8309047958dbecbf90a8201539e6da3f59a68807afc9b9bf90c480ebc6c8ecbf156a5ca05735db3f9e4f10edc5c9b9bf
+  - skymap: decam_rings_v1
+    tract: 8604
+    id: 6
+    cell_x: 0
+    cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70d3975f5874e2ecbfaea5559c2dd2da3f943b77aafc17b9bf20c3a1e899f4ecbf9a66be338483da3ffc93b7840517b9bff69f1d074ef8ecbfe4c9afbe2f87da3ffcc8fd4c12beb7bfc38554e227e6ecbf6528fb34dcd5da3fc48dca1000bfb7bf
-  - skymap: deepCoadd_skyMap
-    tract: 0
-    id: 510
-    cell_x: 15
-    cell_y: 11
+      encoded: 7043aa5f1ec6ebecbf724a8a6f4b9eda3f119c2f9d00dab9bf08fb803d82fdecbf44b89f05b650da3fc323f62391d9b9bfb4284b546501edbfb806ed715f54da3f1ee30525b27db8bffc87fb17a9efecbfed6c7fbbf5a1da3f444a4ec41b7eb8bf
+  - skymap: decam_rings_v1
+    tract: 8604
+    id: 7
+    cell_x: 1
+    cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7059ce3537fad0ecbf826bbb23ec1cdb3f4bb516edc918b9bf2e1132c752e3ecbf87d286c06fceda3f7979a3a1f117b9bf6631595806e7ecbfe4df0f341ed2da3f68653473f5beb7bf5f86a82eadd4ecbf6e5636a09d20db3f3f378e88c5bfb7bf
+      encoded: 70f80eaebe46daecbf180b9adad0e9da3ff0a9091c41dab9bf6a4650cba4ececbf0bbb4d9f839ada3f837bd93dfcd9b9bfa50388c687f0ecbf32ec85e02d9eda3fdd67b99f177eb8bff4b81e9429deecbf2d3e99f97bedda3fc8717de0587eb8bf
+  - skymap: decam_rings_v1
+    tract: 8604
+    id: 8
+    cell_x: 2
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b9c4f15696c8ecbf6ff234b82935db3f5e588be055dab9bf0d7080e127dbecbf760f883a0be6da3f55ea56ec3edab9bf6b44eeb80adfecbfab28254fb6e9da3f52b82bce567eb8bf0b8c9e0079ccecbfd6d31ea3d538db3fadd3ed8d6c7eb8bf
+  - skymap: decam_rings_v1
+    tract: 8605
+    id: 5
+    cell_x: 5
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7034c5a3c6d8e9ecbf074d37139d92da3feaeedb4a631cbbbf3af1d1688cfbecbf702dc16d0145da3f89e36b33d81cbbbf9344221f94ffecbf107ee29a9248da3f63d1b3da70c9b9bf4668241de0edecbfc457af7d2f96da3fc4aae2a501c9b9bf
+  - skymap: decam_rings_v1
+    tract: 8605
+    id: 11
+    cell_x: 5
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7046b96efeaeedecbf4af672fa0396da3f9a4b911b91d9b9bf4b1d85fc62ffecbf1e9af7236748da3faeaca89700dab9bf6316771d5103edbf1b0e4797e04bda3f48a011bf1b7eb8bfebacf8dd9cf1ecbf8fed532c7e99da3f64d6111db27db8bf
 - type: dimension
   element: visit
   records:
@@ -1615,7 +1650,7 @@ data:
   timespan_end: null
 - type: collection
   collection_type: RUN
-  name: templates/deep
+  name: u/elhoward/DM-38243/templates/20230320T214145Z
   host: null
   timespan_begin: null
   timespan_end: null
@@ -1631,9 +1666,14 @@ data:
   - sso/cached
 - type: collection
   collection_type: CHAINED
+  name: templates/goodSeeing
+  children:
+  - u/elhoward/DM-38243/templates/20230320T214145Z
+- type: collection
+  collection_type: CHAINED
   name: DECam/defaults
   children:
-  - templates/deep
+  - templates/goodSeeing
   - skymaps
   - DECam/calib
   - refcats
@@ -4007,82 +4047,6 @@ data:
       detector: 20
     path: DECam/calib/curated/19700101T000000Z/crosstalk/crosstalk_DECam_S9_DECam_calib_curated_19700101T000000Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-- type: dataset_type
-  name: deepCoadd
-  dimensions:
-  - band
-  - skymap
-  - tract
-  - patch
-  storage_class: ExposureF
-  is_calibration: false
-- type: dataset
-  dataset_type: deepCoadd
-  run: templates/deep
-  records:
-  - dataset_id:
-    - !uuid 'dbd56e07-55b3-447d-99d0-d03d16db1db4'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 419
-    path: templates/deep/deepCoadd/0/419/g/deepCoadd_0_419_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
-  - dataset_id:
-    - !uuid '0f8fe36b-2a1e-4f52-8e67-79bd8dd4a51e'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 420
-    path: templates/deep/deepCoadd/0/420/g/deepCoadd_0_420_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
-  - dataset_id:
-    - !uuid '5e76380b-cb92-4e31-95c4-0d89e9560e19'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 464
-    path: templates/deep/deepCoadd/0/464/g/deepCoadd_0_464_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
-  - dataset_id:
-    - !uuid 'dc421ace-123c-4cf7-9991-a8796536e079'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 465
-    path: templates/deep/deepCoadd/0/465/g/deepCoadd_0_465_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
-  - dataset_id:
-    - !uuid '621529f1-0bc9-435b-be4b-5ed7f19d4acc'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 466
-    path: templates/deep/deepCoadd/0/466/g/deepCoadd_0_466_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
-  - dataset_id:
-    - !uuid '22f1db1c-8f83-4aff-b5c0-362e318e48c4'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 509
-    path: templates/deep/deepCoadd/0/509/g/deepCoadd_0_509_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
-  - dataset_id:
-    - !uuid 'e7cb30a2-54b2-4a34-915d-d015b782e53e'
-    data_id:
-    - band: g
-      skymap: deepCoadd_skyMap
-      tract: 0
-      patch: 510
-    path: templates/deep/deepCoadd/0/510/g/deepCoadd_0_510_g_deepCoadd_skyMap_templates_deep.fits
-    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
 - type: dataset_type
   name: defects
   dimensions:
@@ -7668,6 +7632,109 @@ data:
     path: refcats/DM-28636/gaia_dr2_20200414/gaia_dr2_20200414_232376_refcats_DM-28636.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
+  name: goodSeeingCoadd
+  dimensions:
+  - band
+  - skymap
+  - tract
+  - patch
+  storage_class: ExposureF
+  is_calibration: false
+- type: dataset
+  dataset_type: goodSeeingCoadd
+  run: u/elhoward/DM-38243/templates/20230320T214145Z
+  records:
+  - dataset_id:
+    - !uuid '9811af5c-d577-4c7d-9817-71b00e8a76f7'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8363
+      patch: 33
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8363/33/g/goodSeeingCoadd_8363_33_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid 'd14787f8-35f3-48c9-bf1f-79cfc3399cd0'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8363
+      patch: 34
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8363/34/g/goodSeeingCoadd_8363_34_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid '1441ca94-f5b6-42cd-a8d9-9663532ea23a'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8604
+      patch: 0
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8604/0/g/goodSeeingCoadd_8604_0_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid 'af209017-edfc-4727-a506-330905fb1976'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8604
+      patch: 1
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8604/1/g/goodSeeingCoadd_8604_1_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid 'a0ed9096-fc27-472e-b5b9-a5b0674dc380'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8604
+      patch: 2
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8604/2/g/goodSeeingCoadd_8604_2_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid 'b5539e49-97d7-43da-9515-5b8eaea7bf6a'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8604
+      patch: 6
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8604/6/g/goodSeeingCoadd_8604_6_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid '1aa864ad-3650-46d1-8556-084aa4c316a1'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8604
+      patch: 7
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8604/7/g/goodSeeingCoadd_8604_7_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid 'c9ee3ef0-c74a-4bd5-8557-463b775fced6'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8604
+      patch: 8
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8604/8/g/goodSeeingCoadd_8604_8_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid '6981d192-ce3e-4890-b820-0a54b5459fdb'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8605
+      patch: 11
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8605/11/g/goodSeeingCoadd_8605_11_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid '11c6371d-e0b1-486d-8d57-6feb4e60adaa'
+    data_id:
+    - band: g
+      skymap: decam_rings_v1
+      tract: 8605
+      patch: 5
+    path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8605/5/g/goodSeeingCoadd_8605_5_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+- type: dataset_type
   name: linearizer
   dimensions:
   - instrument
@@ -9074,6 +9141,12 @@ data:
   dataset_type: skyMap
   run: skymaps
   records:
+  - dataset_id:
+    - !uuid '9d3816dd-2fdf-4446-b30f-f2f943519f4d'
+    data_id:
+    - skymap: decam_rings_v1
+    path: skymaps/skyMap/skyMap_decam_rings_v1_skymaps.pickle
+    formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
   - dataset_id:
     - !uuid '9481ff5c-f3a0-4b2e-a70f-7d0769e0f54f'
     data_id:

@@ -41,7 +41,7 @@ set -e
 
 # Exposure filter is a safeguard against queries that can't be constrained by
 # tract/patch, or against inclusion of non-HiTS data. Patch filter specifies
-# the area covered by the CI dataset in the hsc_rings_v1 skymap.
+# the area covered by the CI dataset in the decam_rings_v1 skymap.
 
 FIELDS="'Blind14A_09', 'Blind14A_10'"
 EXPOSURES="288934, 288935, 288975, 288976, 289015, 289016, 289055, 289056, 289160, 289161, 289201,
@@ -49,8 +49,9 @@ EXPOSURES="288934, 288935, 288975, 288976, 289015, 289016, 289055, 289056, 28916
            289492, 289493, 289572, 289573, 289613, 289614, 289655, 289656, 289696, 289697, 289782,
            289783, 289818, 289820, 289828, 289870, 289871, 289912, 289913"
 declare -A PATCHES
-PATCHES[8363]="76..79"
-PATCHES[8604]="1, 2, 3, 10, 11, 12, 20, 21"
+PATCHES[8363]="33, 34"
+PATCHES[8604]="0, 1, 2, 6, 7, 8"
+PATCHES[8605]="5, 11"
 DATE_CUTOFF=20141231
 
 
@@ -103,7 +104,7 @@ parse_args "$@"
 ########################################
 # Generate templates
 
-FILTER="instrument='DECam' AND skymap='hsc_rings_v1'
+FILTER="instrument='DECam' AND skymap='decam_rings_v1'
         AND exposure IN (${EXPOSURES}) AND detector NOT IN (2, 61)
         AND ("
 OR=""

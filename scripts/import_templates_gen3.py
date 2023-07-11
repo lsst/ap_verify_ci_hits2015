@@ -52,8 +52,8 @@ lsst.log.configure_pylog_MDC("DEBUG", MDC_class=None)
 
 def _make_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-b", dest="src_dir", default="/repo/main",
-                        help="Repo to import from, defaults to '/repo/main'.")
+    parser.add_argument("-b", dest="src_dir", default="/sdf/group/rubin/repo/main",
+                        help="Repo to import from, defaults to '/sdf/group/rubin/repo/main'.")
     parser.add_argument("-t", dest="src_collection", required=True,
                         help="Template collection to import from.")
     return parser
@@ -65,7 +65,7 @@ args = _make_parser().parse_args()
 ########################################
 # Export/Import
 
-TEMPLATE_TYPE = "deep"
+TEMPLATE_TYPE = "goodSeeing"
 TEMPLATE_NAME = TEMPLATE_TYPE + "Coadd"
 TEMPLATE_COLLECT = "templates/" + TEMPLATE_TYPE
 DATASET_REPO = os.path.join(os.environ["AP_VERIFY_CI_HITS2015_DIR"], "preloaded")
@@ -88,7 +88,7 @@ def _export(butler, export_file):
         The names of the runs containing exported templates.
     """
     skymaps = butler.registry.queryDataIds("skymap", datasets=TEMPLATE_NAME, collections=butler.collections)
-    skymap_query = f"skymap IN ({', '.join(repr(id['skymap']) for id in skymaps)})"
+    skymap_query = " or ".join(f"skymap = '{id['skymap']}'" for id in skymaps)
     with butler.export(filename=export_file, transfer=None) as contents:
         contents.saveDatasets(
             butler.registry.queryDatasets(

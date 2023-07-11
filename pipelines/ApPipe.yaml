@@ -11,7 +11,7 @@ imports:
   - location: $AP_PIPE_DIR/pipelines/DarkEnergyCamera/ApPipe.yaml
 parameters:
   # Use dataset's specific templates
-  coaddName: deep
+  coaddName: goodSeeing
 tasks:
   isr:
     class: lsst.ip.isr.IsrTask
