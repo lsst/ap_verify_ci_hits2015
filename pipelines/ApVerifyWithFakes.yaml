@@ -9,7 +9,7 @@ imports:
   - location: $AP_VERIFY_DIR/pipelines/DarkEnergyCamera/ApVerifyWithFakes.yaml
 parameters:
   # Use dataset's specific templates
-  coaddName: deep
+  coaddName: goodSeeing
 tasks:
   isr:
     class: lsst.ip.isr.IsrTask
