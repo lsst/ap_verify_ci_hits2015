@@ -27,8 +27,8 @@ script in this directory.
 
 Example:
 $ python import_templates_gen3.py -t "u/me/DM-123456-template"
-imports deep templates from u/me/DM-123456-template in /repo/main to
-templates/deep in this dataset's preloaded repo. See
+imports goodSeeing templates from u/me/DM-123456-template in /repo/main to
+templates/goodSeeing in this dataset's preloaded repo. See
 generate_templates_gen3.sh -h for more options.
 """
 
