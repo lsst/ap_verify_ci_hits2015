@@ -21,12 +21,6 @@ data:
     tract_max: 18938
     patch_nx_max: 6
     patch_ny_max: 6
-  - name: deepCoadd_skyMap
-    hash: !!binary |
-      PHJQQj+6R6HUt/6T06psEmfgJA4=
-    tract_max: 1
-    patch_nx_max: 45
-    patch_ny_max: 45
 - type: dimension
   element: detector
   records:
@@ -9146,12 +9140,6 @@ data:
     data_id:
     - skymap: decam_rings_v1
     path: skymaps/skyMap/skyMap_decam_rings_v1_skymaps.pickle
-    formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
-  - dataset_id:
-    - !uuid '9481ff5c-f3a0-4b2e-a70f-7d0769e0f54f'
-    data_id:
-    - skymap: deepCoadd_skyMap
-    path: skymaps/skyMap/skyMap_deepCoadd_skyMap_skymaps.pickle
     formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
 - type: dataset_type
   name: visitSsObjects
