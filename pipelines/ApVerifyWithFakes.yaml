@@ -6,7 +6,7 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 # the same task.
 
 imports:
-  - location: $AP_VERIFY_DIR/pipelines/DarkEnergyCamera/ApVerifyWithFakes.yaml
+  - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyWithFakes.yaml
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
