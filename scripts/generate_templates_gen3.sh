@@ -116,7 +116,7 @@ FILTER="${FILTER})"
 
 
 pipetask run -j 12 -d "${FILTER}" -b ${BUTLER_REPO} -i DECam/defaults,${CALIBS} -o ${TEMPLATES} \
-    -p $AP_PIPE_DIR/pipelines/DarkEnergyCamera/RunIsrForCrosstalkSources.yaml
+    -p $AP_PIPE_DIR/pipelines/DECam/RunIsrForCrosstalkSources.yaml
 
 # Run single-frame processing and coaddition separately, so that isolated
 # errors in SFP do not prevent coaddition from running. Instead, coadds will

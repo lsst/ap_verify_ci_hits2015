@@ -3,6 +3,6 @@ description: Alert Production template building pipeline specialized for HiTS-20
 # and that you have already run the RunIsrForCrosstalkSources.yaml pipeline.
 
 imports:
-  - location: $AP_PIPE_DIR/pipelines/DarkEnergyCamera/ApTemplate.yaml
+  - location: $AP_PIPE_DIR/pipelines/DECam/ApTemplate.yaml
 parameters:
   coaddName: goodSeeing
