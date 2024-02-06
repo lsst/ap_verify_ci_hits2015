@@ -110,6 +110,12 @@ python "${SCRIPT_DIR}/generate_refcats_gen3.py" -b ${SCRATCH_REPO} -i "${REFCAT_
 
 
 ########################################
+# Import pretrained NN models
+
+python "${SCRIPT_DIR}/get_nn_models.py" -m "rbResnet50-DC2"
+
+
+########################################
 # Download solar system ephemerides
 
 python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
@@ -118,7 +124,8 @@ python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
 # Final clean-up
 
 butler collection-chain "${DATASET_REPO}" sso sso/cached
-butler collection-chain "${DATASET_REPO}" DECam/defaults templates/deep skymaps DECam/calib refcats sso
+butler collection-chain "${DATASET_REPO}" DECam/defaults templates/deep skymaps DECam/calib refcats sso \
+    models
 python "${SCRIPT_DIR}/make_preloaded_export.py" --dataset ap_verify_ci_hits2015
 
 echo "Gen 3 preloaded repository complete."
