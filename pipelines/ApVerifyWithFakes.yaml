@@ -30,7 +30,7 @@ tasks:
         import os.path
         from lsst.utils import getPackageDir
         config.calibrate.load(os.path.join(getPackageDir("ap_verify_ci_hits2015"), "config", "calibrate.py"))
-  rbClassifyWithFakes:
+  rbClassify:
     class: lsst.meas.transiNet.RBTransiNetTask
     config:
       # Use dataset's model
