@@ -1,14 +1,11 @@
-description: End to end Alert Production pipeline specialized for HiTS-2015
+description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 #
-# NOTES
-# Remember to run make_apdb.py and use the same configs for diaPipe
-# A db_url is always required, e.g.,
-# -c diaPipe:apdb.db_url: 'sqlite:////project/user/association.db'
-# Option to specify connection_timeout for sqlite APDBs encountering lock errors, i.e.,
-# -c diaPipe:apdb.connection_timeout: 240
+# This pipeline does not depend on the local ApPipe.yaml, because the definition
+# of the primary ApVerify.yaml is more likely to change than the data-specific
+# overrides, and importing both pipelines can't merge changes to the same task.
 
 imports:
-  - location: $AP_PIPE_DIR/pipelines/DECam/ApPipe.yaml
+  - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyCalibrate.yaml
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
