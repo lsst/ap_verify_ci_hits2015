@@ -8,7 +8,7 @@ description: End to end Alert Production pipeline specialized for HiTS-2015
 # -c diaPipe:apdb.connection_timeout: 240
 
 imports:
-  - location: $AP_PIPE_DIR/pipelines/DECam/ApPipeCalibrateImage.yaml
+  - location: $AP_PIPE_DIR/pipelines/DECam/ApPipe.yaml
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
