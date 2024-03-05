@@ -19,11 +19,11 @@ tasks:
       # This dataset contains CP calibs, not regular ones
       connections.bias: cpBias
       connections.flat: cpFlat
-  calibrate:
-    class: lsst.pipe.tasks.calibrate.CalibrateTask
+  calibrateImage:
+    class: lsst.pipe.tasks.calibrateImage.CalibrateImageTask
     config:
       # Use dataset's reference catalogs
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
+      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrateImage.py
   rbClassify:
     class: lsst.meas.transiNet.RBTransiNetTask
     config:

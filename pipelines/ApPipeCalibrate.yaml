@@ -1,11 +1,14 @@
-description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
+description: End to end Alert Production pipeline specialized for HiTS-2015
 #
-# This pipeline does not depend on the local ApPipe.yaml, because the definition
-# of the primary ApVerify.yaml is more likely to change than the data-specific
-# overrides, and importing both pipelines can't merge changes to the same task.
+# NOTES
+# Remember to run make_apdb.py and use the same configs for diaPipe
+# A db_url is always required, e.g.,
+# -c diaPipe:apdb.db_url: 'sqlite:////project/user/association.db'
+# Option to specify connection_timeout for sqlite APDBs encountering lock errors, i.e.,
+# -c diaPipe:apdb.connection_timeout: 240
 
 imports:
-  - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyCalibrateImage.yaml
+  - location: $AP_PIPE_DIR/pipelines/DECam/ApPipeCalibrate.yaml
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
@@ -16,11 +19,11 @@ tasks:
       # This dataset contains CP calibs, not regular ones
       connections.bias: cpBias
       connections.flat: cpFlat
-  calibrateImage:
-    class: lsst.pipe.tasks.calibrateImage.CalibrateImageTask
+  calibrate:
+    class: lsst.pipe.tasks.calibrate.CalibrateTask
     config:
       # Use dataset's reference catalogs
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrateImage.py
+      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
   rbClassify:
     class: lsst.meas.transiNet.RBTransiNetTask
     config:

@@ -5,7 +5,7 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 # overrides, and importing both pipelines can't merge changes to the same task.
 
 imports:
-  - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerify.yaml
+  - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyCalibrate.yaml
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
@@ -16,11 +16,11 @@ tasks:
       # This dataset contains CP calibs, not regular ones
       connections.bias: cpBias
       connections.flat: cpFlat
-  calibrateImage:
-    class: lsst.pipe.tasks.calibrateImage.CalibrateImageTask
+  calibrate:
+    class: lsst.pipe.tasks.calibrate.CalibrateTask
     config:
       # Use dataset's reference catalogs
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrateImage.py
+      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
   rbClassify:
     class: lsst.meas.transiNet.RBTransiNetTask
     config:
