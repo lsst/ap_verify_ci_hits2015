@@ -1626,6 +1626,12 @@ data:
   timespan_end: null
 - type: collection
   collection_type: RUN
+  name: fake-injection-catalog
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
   name: pretrained_models/rbResnet50-DC2
   host: null
   timespan_begin: null
@@ -1684,6 +1690,7 @@ data:
   - refcats
   - sso
   - models
+  - fake-injection-catalog
 - type: dataset_type
   name: camera
   dimensions:
@@ -7740,6 +7747,108 @@ data:
       patch: 5
     path: u/elhoward/DM-38243/templates/20230320T214145Z/goodSeeingCoadd/8605/5/g/goodSeeingCoadd_8605_5_g_decam_rings_v1_u_elhoward_DM-38243_templates_20230320T214145Z.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+- type: dataset_type
+  name: injection_catalog
+  dimensions:
+  - band
+  - htm7
+  storage_class: ArrowAstropy
+  is_calibration: false
+- type: dataset
+  dataset_type: injection_catalog
+  run: fake-injection-catalog
+  records:
+  - dataset_id:
+    - !uuid '06572d44-5a1c-4f55-8388-4408b0ede896'
+    data_id:
+    - band: g
+      htm7: 157377
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157377_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '03e2a001-1e66-44d6-a7d5-2d5b80ea3ecc'
+    data_id:
+    - band: g
+      htm7: 157380
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157380_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'bfa0e324-9c81-4b40-a7c2-7115612b67d3'
+    data_id:
+    - band: g
+      htm7: 157382
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157382_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '4712367a-c439-4090-8db2-95d6a7eab64b'
+    data_id:
+    - band: g
+      htm7: 157383
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157383_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '2b633a0b-dea2-4b7a-a664-17a41540f831'
+    data_id:
+    - band: g
+      htm7: 157390
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157390_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'd85c7e7e-d028-4abf-bf48-fe7eb86fd5aa'
+    data_id:
+    - band: g
+      htm7: 157392
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157392_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '0f2dd28e-8f25-4fc5-9d7e-0ddf0054ddc6'
+    data_id:
+    - band: g
+      htm7: 157394
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157394_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'c109c127-5524-42d8-9d6a-d9b521afac88'
+    data_id:
+    - band: g
+      htm7: 157395
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157395_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '707e7542-108e-4280-b3ca-2d18d17763e7'
+    data_id:
+    - band: g
+      htm7: 157400
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157400_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'beaff44e-16f0-4531-bf3e-6e4f3d424a49'
+    data_id:
+    - band: g
+      htm7: 157401
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157401_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'f0495969-8b07-45d8-a817-4fe14b2bcaf3'
+    data_id:
+    - band: g
+      htm7: 157403
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157403_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '3b85c61d-529a-4d60-98d7-75f31e8a67db'
+    data_id:
+    - band: g
+      htm7: 157405
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157405_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'd0af68ed-a984-48bc-bbe2-b891f77e13ee'
+    data_id:
+    - band: g
+      htm7: 157432
+    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157432_fake-injection-catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
   name: linearizer
   dimensions:

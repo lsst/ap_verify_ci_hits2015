@@ -7,9 +7,13 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 
 imports:
   - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyWithFakes.yaml
+    exclude: 
+      - writeSourceTable
+        
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
+  fakesType: fakes_
 tasks:
   isr:
     class: lsst.ip.isr.IsrTask
@@ -31,3 +35,38 @@ tasks:
     class: lsst.ap.association.DiaPipelineTask
     config:
       doSolarSystemAssociation: true
+
+  # Merging of fakes_source [detector-level] to fakes_sourceTable_visit [visit-level]
+  consolidateSourceTable:
+    class: lsst.pipe.tasks.postprocess.ConsolidateSourceTableTask
+    config:
+      # This is output directly by CalibrateImageTask.
+      connections.inputCatalogs: initial_stars_detector
+      connections.outputCatalog: initial_stars
+  # Merging of fakes_*Diff_diaSrcTable [detector-level Parquet] to fakes_diaSourceTable [visit-level]
+  consolidateDiaSourceTable:
+    class: lsst.pipe.tasks.postprocess.ConsolidateSourceTableTask
+    config:
+      # Task doesn't support coaddName, so coopt catalogType instead.
+      connections.catalogType: parameters.coaddName
+      # TODO: hard-code the "fakes_" label because I can't insert two templates,
+      # and fakesType is more stable than coaddName.
+      connections.inputCatalogs: "fakes_{catalogType}Diff_diaSrcTable"
+      connections.outputCatalog: fakes_diaSourceTable
+  # Creation of fakes_visitSummary
+  consolidateVisitSummary:
+    class: lsst.pipe.tasks.postprocess.ConsolidateVisitSummaryTask
+    config:
+      connections.calexp: initial_pvi
+  # Conversion of fakes_visitSummary [visit-level afw.table] to fakes_visitTable [instrument-level Parquet]
+  makeVisitTable:
+    class: lsst.pipe.tasks.postprocess.MakeVisitTableTask
+    config:
+      connections.calexpType: parameters.fakesType
+      connections.visitSummaries: "{calexpType}visitSummary"
+  # Conversion of fakes_visitSummary [visit-level afw.table] to fakes_ccdVisitTable [instrument-level Parquet]
+  makeCcdVisitTable:
+    class: lsst.pipe.tasks.postprocess.MakeCcdVisitTableTask
+    config:
+      connections.calexpType: parameters.fakesType
+      connections.visitSummaryRefs: "{calexpType}visitSummary"
