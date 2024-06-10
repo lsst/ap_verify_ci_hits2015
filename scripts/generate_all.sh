@@ -24,9 +24,9 @@
 # It takes roughly 10 hours to run on lsst-devl.
 #
 # Example:
-# $ nohup generate_all_gen3.sh -c "u/me/DM-123456" &
+# $ nohup generate_all.sh -c "u/me/DM-123456" &
 # fills this dataset, using collections prefixed by u/me/DM-123456 in
-# /repo/main as a staging area. See generate_all_gen3.sh -h for more options.
+# /repo/main as a staging area. See generate_all.sh -h for more options.
 
 
 # Abort script on any error
@@ -84,14 +84,14 @@ REFCAT_COLLECTION="refcats"
 ########################################
 # Prepare calibs
 
-"${SCRIPT_DIR}/generate_calibs_gen3_science.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_SCI}"
+"${SCRIPT_DIR}/generate_calibs_science.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_SCI}"
 
 
 ########################################
 # Prepare templates
 
-"${SCRIPT_DIR}/generate_calibs_gen3_template.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_TMP}"
-"${SCRIPT_DIR}/generate_templates_gen3.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_TMP}-calib" \
+"${SCRIPT_DIR}/generate_calibs_template.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_TMP}"
+"${SCRIPT_DIR}/generate_templates.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_TMP}-calib" \
     -o "${TEMPLATE_COLLECTION}"
 
 
@@ -104,9 +104,9 @@ REFCAT_COLLECTION="refcats"
 ########################################
 # Import calibs, templates, and refcats
 
-"${SCRIPT_DIR}/import_calibs_gen3.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_SCI}-calib"
-python "${SCRIPT_DIR}/import_templates_gen3.py" -b ${SCRATCH_REPO} -t "${TEMPLATE_COLLECTION}"
-python "${SCRIPT_DIR}/generate_refcats_gen3.py" -b ${SCRATCH_REPO} -i "${REFCAT_COLLECTION}"
+"${SCRIPT_DIR}/import_calibs.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_SCI}-calib"
+python "${SCRIPT_DIR}/import_templates.py" -b ${SCRATCH_REPO} -t "${TEMPLATE_COLLECTION}"
+python "${SCRIPT_DIR}/generate_refcats.py" -b ${SCRATCH_REPO} -i "${REFCAT_COLLECTION}"
 
 
 ########################################
@@ -118,7 +118,7 @@ python "${SCRIPT_DIR}/get_nn_models.py" -m "rbResnet50-DC2"
 ########################################
 # Download solar system ephemerides
 
-python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
+python "${SCRIPT_DIR}/generate_ephemerides.py"
 
 ########################################
 # Final clean-up

@@ -45,7 +45,7 @@ lsst.log.configure_pylog_MDC("DEBUG", MDC_class=None)
 
 
 MODEL_PREFIX = StorageAdapterButler.packages_parent_collection
-MODEL_CHAIN = "models"  # Interface to generate_all_gen3.sh
+MODEL_CHAIN = "models"  # Interface to generate_all.sh
 
 # Avoid explicit references to dataset package to maximize portability.
 SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))

@@ -27,9 +27,9 @@
 # are hard-coded into the file.
 #
 # Example:
-# $ nohup generate_templates_gen3.sh -c "u/me/DM-123456-calib" -o "u/me/DM-123456-template" &
+# $ nohup generate_templates.sh -c "u/me/DM-123456-calib" -o "u/me/DM-123456-template" &
 # produces templates in /repo/main in the u/me/DM-123456-template collection.
-# See generate_templates_gen3.sh -h for more options.
+# See generate_templates.sh -h for more options.
 
 
 # Abort script on any error

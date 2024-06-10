@@ -27,14 +27,14 @@
 # ranges; they are hard-coded into the file.
 #
 # Example:
-# $ nohup generate_calibs_gen3_science.sh -c "u/me/DM-123456" &
+# $ nohup generate_calibs_science.sh -c "u/me/DM-123456" &
 # produces certified calibs in /repo/main in the u/me/DM-123456-calib
-# collection. See generate_calibs_gen3_science.sh -h for more options.
+# collection. See generate_calibs_science.sh -h for more options.
 
 
 # Common definitions
 SCRIPT_DIR="$( dirname -- "${BASH_SOURCE[0]}" )"
-source "${SCRIPT_DIR}/generate_calibs_gen3.sh"
+source "${SCRIPT_DIR}/generate_calibs.sh"
 
 
 ########################################

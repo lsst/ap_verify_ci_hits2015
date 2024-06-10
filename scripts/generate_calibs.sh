@@ -19,7 +19,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# Common code for generate_calibs_gen3_*.
+# Common code for generate_calibs_*.
 # This script is intended to be included by other scripts, rather than
 # called directly.
 

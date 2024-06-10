@@ -23,10 +23,10 @@
 # Script for importing certified calibs from a work repository.
 #
 # Example:
-# $ import_calibs_gen3 -c "u/me/DM-123456-calib"
+# $ import_calibs -c "u/me/DM-123456-calib"
 # imports certified calibs from u/me/DM-123456-calib in /repo/main to
 # DECam/calib in this dataset's preloaded repo. See
-# import_calibs_gen3.sh -h for more options.
+# import_calibs.sh -h for more options.
 
 
 # Abort script on any error
