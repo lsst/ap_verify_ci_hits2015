@@ -7,11 +7,10 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 
 imports:
   - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyWithFakes.yaml
-        
+
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
-  # fakesType: fakes_
 tasks:
   isr:
     class: lsst.ip.isr.IsrTask
