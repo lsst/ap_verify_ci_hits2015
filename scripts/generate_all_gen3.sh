@@ -128,7 +128,7 @@ python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
 ########################################
 # Final clean-up
 
-butler collection-chain "${DATASET_REPO}" sso sso/cached 
+butler collection-chain "${DATASET_REPO}" sso sso/cached
 butler collection-chain "${DATASET_REPO}" DECam/defaults templates/goodSeeing skymaps DECam/calib refcats sso \
     models ${INJECTION_CATALOG_COLLECTION}
 python "${SCRIPT_DIR}/make_preloaded_export.py" --dataset ap_verify_ci_hits2015
