@@ -79,7 +79,7 @@ CALIB_COLLECTION_SCI="${COLLECT_ROOT}-calib-science"
 CALIB_COLLECTION_TMP="${COLLECT_ROOT}-calib-template"
 TEMPLATE_COLLECTION="${COLLECT_ROOT}-template"
 REFCAT_COLLECTION="refcats"
-
+INJECTION_CATALOG_COLLECTION="fake-injection-catalog"
 
 ########################################
 # Prepare calibs
@@ -121,11 +121,16 @@ python "${SCRIPT_DIR}/get_nn_models.py" -m "rbResnet50-DC2"
 python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
 
 ########################################
+# Create fake source injecteion catalogs
+
+"${SCRIPT_DIR}/generate_fake_injection_catalog.sh" -b ${DATASET_REPO} -o ${INJECTION_CATALOG_COLLECTION}
+
+########################################
 # Final clean-up
 
 butler collection-chain "${DATASET_REPO}" sso sso/cached
-butler collection-chain "${DATASET_REPO}" DECam/defaults templates/deep skymaps DECam/calib refcats sso \
-    models
+butler collection-chain "${DATASET_REPO}" DECam/defaults templates/goodSeeing skymaps DECam/calib refcats sso \
+    models ${INJECTION_CATALOG_COLLECTION}
 python "${SCRIPT_DIR}/make_preloaded_export.py" --dataset ap_verify_ci_hits2015
 
 echo "Gen 3 preloaded repository complete."

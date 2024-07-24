@@ -7,6 +7,7 @@ description: Instrumented Alert Production pipeline specialized for CI-HiTS-2015
 
 imports:
   - location: $AP_VERIFY_DIR/pipelines/DECam/ApVerifyWithFakes.yaml
+
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
@@ -17,19 +18,11 @@ tasks:
       # This dataset contains CP calibs, not regular ones
       connections.bias: cpBias
       connections.flat: cpFlat
-  calibrate:
-    class: lsst.pipe.tasks.calibrate.CalibrateTask
+  calibrateImage:
+    class: lsst.pipe.tasks.calibrateImage.CalibrateImageTask
     config:
       # Use dataset's reference catalogs
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrate.py
-  processVisitFakes:
-    class: lsst.pipe.tasks.processCcdWithFakes.ProcessCcdWithVariableFakesTask
-    config:
-      python: |
-        # Use dataset's reference catalogs
-        import os.path
-        from lsst.utils import getPackageDir
-        config.calibrate.load(os.path.join(getPackageDir("ap_verify_ci_hits2015"), "config", "calibrate.py"))
+      file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrateImage.py
   rbClassify:
     class: lsst.meas.transiNet.RBTransiNetTask
     config:
