@@ -88,14 +88,6 @@ INJECTION_CATALOG_COLLECTION="fake-injection-catalog"
 
 
 ########################################
-# Prepare templates
-
-"${SCRIPT_DIR}/generate_calibs_gen3_template.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_TMP}"
-"${SCRIPT_DIR}/generate_templates_gen3.sh" -b ${SCRATCH_REPO} -c "${CALIB_COLLECTION_TMP}-calib" \
-    -o "${TEMPLATE_COLLECTION}"
-
-
-########################################
 # Repository creation
 
 "${SCRIPT_DIR}/make_preloaded.sh"
