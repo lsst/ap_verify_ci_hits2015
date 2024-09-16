@@ -14,7 +14,7 @@ It is intended for continuous integration.
 Using ap_verify_ci_hits2015
 ===========================
 
-This dataset is intended for fast integration testing of difference imaging analysis, using "deep" coadd templates, by ``ap_verify``.
+This dataset is intended for fast integration testing of difference imaging analysis, using "goodSeeing" coadd templates, by ``ap_verify``.
 Because of the small data volume it is not recommended for "stress tests" or other large-scale testing.
 
 .. _ap_verify_ci_hits2015-contents:
