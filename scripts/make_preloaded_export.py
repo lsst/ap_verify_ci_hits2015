@@ -76,12 +76,12 @@ def _export_for_copy(repo, export_dir):
         contents.saveCollection(lsst.skymap.BaseSkyMap.SKYMAP_RUN_COLLECTION_NAME)
         # Dataset export exports visits, but need matching visit definitions as
         # well (DefineVisitsTask won't add them back in).
+        contents.saveDimensionData("day_obs",
+                                   butler.registry.queryDimensionRecords("day_obs"))
         contents.saveDimensionData("exposure",
                                    butler.registry.queryDimensionRecords("exposure"))
         contents.saveDimensionData("group",
                                    butler.registry.queryDimensionRecords("group"))
-        contents.saveDimensionData("instrument",
-                                   butler.registry.queryDimensionRecords("instrument"))
         contents.saveDimensionData("visit_definition",
                                    butler.registry.queryDimensionRecords("visit_definition"))
         contents.saveDimensionData("visit_detector_region",
