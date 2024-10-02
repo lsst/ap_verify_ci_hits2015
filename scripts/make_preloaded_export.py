@@ -1,6 +1,31 @@
 #!/usr/bin/env python
+# This file is part of ap_verify_ci_hits2015.
+#
+# Developed for the LSST Data Management System.
+# This product includes software developed by the LSST Project
+# (https://www.lsst.org).
+# See the COPYRIGHT file at the top-level directory of this distribution
+# for details of code ownership.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import argparse
+"""Make the butler export yaml file to be used by ap_verify runs.
+
+This script must be run after **any** change to the preloaded repository;
+otherwise, ingestion may fail or the changes may not be visible.
+"""
+
 import logging
 import os
 import sys
@@ -8,14 +33,12 @@ import sys
 import lsst.log
 import lsst.skymap
 import lsst.daf.butler as daf_butler
-import lsst.ap.verify as ap_verify
 
 
-def _make_parser():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", required=True,
-                        help="The name of the dataset as recognized by ap_verify.py.")
-    return parser
+# Avoid explicit references to dataset package to maximize portability.
+SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
+REPO_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "preloaded"))
+CONFIG_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "config"))
 
 
 def main():
@@ -23,26 +46,22 @@ def main():
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     lsst.log.configure_pylog_MDC("DEBUG", MDC_class=None)
 
-    args = _make_parser().parse_args()
-    dataset = ap_verify.dataset.Dataset(args.dataset)
-    gen3_repo = os.path.join(dataset.datasetRoot, "preloaded")
-
-    logging.info("Exporting Gen 3 registry to configure new repos...")
-    _export_for_copy(dataset, gen3_repo)
+    logging.info("Exporting registry to configure new repos...")
+    _export_for_copy(REPO_DIR, CONFIG_DIR)
 
 
-def _export_for_copy(dataset, repo):
-    """Export a Gen 3 repository so that a dataset can make copies later.
+def _export_for_copy(repo, export_dir):
+    """Export a butler repository so that a dataset can make copies later.
 
     Parameters
     ----------
-    dataset : `lsst.ap.verify.dataset.Dataset`
-        The dataset needing the ability to copy the repository.
     repo : `str`
-        The location of the Gen 3 repository.
+        The location of the repository.
+    export_dir : `str`
+        The location at which to create the export file.
     """
     butler = daf_butler.Butler(repo)
-    with butler.export(directory=dataset.configLocation, format="yaml") as contents:
+    with butler.export(directory=export_dir, format="yaml") as contents:
         # Need all detectors, even those without data, for visit definition
         contents.saveDataIds(butler.registry.queryDataIds({"detector"}).expanded())
         contents.saveDatasets(butler.registry.queryDatasets(datasetType=..., collections=...))
@@ -57,8 +76,12 @@ def _export_for_copy(dataset, repo):
         contents.saveCollection(lsst.skymap.BaseSkyMap.SKYMAP_RUN_COLLECTION_NAME)
         # Dataset export exports visits, but need matching visit definitions as
         # well (DefineVisitsTask won't add them back in).
+        contents.saveDimensionData("day_obs",
+                                   butler.registry.queryDimensionRecords("day_obs"))
         contents.saveDimensionData("exposure",
                                    butler.registry.queryDimensionRecords("exposure"))
+        contents.saveDimensionData("group",
+                                   butler.registry.queryDimensionRecords("group"))
         contents.saveDimensionData("visit_definition",
                                    butler.registry.queryDimensionRecords("visit_definition"))
         contents.saveDimensionData("visit_detector_region",

@@ -1,6 +1,6 @@
 description: Butler Data Repository Export
 version: 1.0.2
-universe_version: 4
+universe_version: 7
 universe_namespace: daf_butler
 data:
 - type: dimension
@@ -21,6 +21,17 @@ data:
     tract_max: 18938
     patch_nx_max: 6
     patch_ny_max: 6
+- type: dimension
+  element: day_obs
+  records:
+  - instrument: DECam
+    id: 20150217
+    datetime_begin: !butler_time/tai/iso '2015-02-17 12:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 12:00:00.000000000'
+  - instrument: DECam
+    id: 20150308
+    datetime_begin: !butler_time/tai/iso '2015-03-08 12:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-09 12:00:00.000000000'
 - type: dimension
   element: detector
   records:
@@ -397,6 +408,15 @@ data:
     raft: N
     purpose: SCIENCE
 - type: dimension
+  element: group
+  records:
+  - instrument: DECam
+    name: '411371'
+  - instrument: DECam
+    name: '411420'
+  - instrument: DECam
+    name: '419802'
+- type: dimension
   element: physical_filter
   records:
   - instrument: DECam
@@ -422,18 +442,17 @@ data:
   records:
   - instrument: DECam
     id: 411371
+    day_obs: 20150217
+    group: '411371'
     physical_filter: g DECam SDSS c0001 4720.0 1520.0
     obs_id: ct4m20150218t052637
     exposure_time: 86.0
     dark_time: 87.1173
     observation_type: science
     observation_reason: science
-    day_obs: 20150217
     seq_num: 411371
     seq_start: 411371
     seq_end: 411371
-    group_name: '411371'
-    group_id: 411371
     target_name: Blind15A_42
     science_program: 2015A-0608
     tracking_ra: 155.47028496089578
@@ -442,22 +461,22 @@ data:
     azimuth: 353.1027
     zenith_angle: 25.289999999999992
     has_simulated: false
+    can_see_sky: true
     datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
     datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
   - instrument: DECam
     id: 411420
+    day_obs: 20150217
+    group: '411420'
     physical_filter: g DECam SDSS c0001 4720.0 1520.0
     obs_id: ct4m20150218t070355
     exposure_time: 86.0
     dark_time: 87.3794801
     observation_type: science
     observation_reason: science
-    day_obs: 20150217
     seq_num: 411420
     seq_start: 411420
     seq_end: 411420
-    group_name: '411420'
-    group_id: 411420
     target_name: Blind15A_40
     science_program: 2015A-0608
     tracking_ra: 155.12027235395627
@@ -466,22 +485,22 @@ data:
     azimuth: 306.579
     zenith_angle: 35.09
     has_simulated: false
+    can_see_sky: true
     datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
     datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
   - instrument: DECam
     id: 419802
+    day_obs: 20150308
+    group: '419802'
     physical_filter: g DECam SDSS c0001 4720.0 1520.0
     obs_id: ct4m20150309t055516
     exposure_time: 102.0
     dark_time: 103.1057501
     observation_type: science
     observation_reason: science
-    day_obs: 20150308
     seq_num: 419802
     seq_start: 419802
     seq_end: 419802
-    group_name: '419802'
-    group_id: 419802
     target_name: Blind15A_40
     science_program: 2015A-0608
     tracking_ra: 155.12015152062799
@@ -490,6 +509,7 @@ data:
     azimuth: 304.7488
     zenith_angle: 36.15
     has_simulated: false
+    can_see_sky: true
     datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
     datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
 - type: dimension
@@ -570,9 +590,9 @@ data:
   records:
   - instrument: DECam
     id: 411371
+    day_obs: 20150217
     physical_filter: g DECam SDSS c0001 4720.0 1520.0
     name: ct4m20150218t052637
-    day_obs: 20150217
     seq_num: 411371
     exposure_time: 86.0
     target_name: Blind15A_42
@@ -586,9 +606,9 @@ data:
     datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
   - instrument: DECam
     id: 411420
+    day_obs: 20150217
     physical_filter: g DECam SDSS c0001 4720.0 1520.0
     name: ct4m20150218t070355
-    day_obs: 20150217
     seq_num: 411420
     exposure_time: 86.0
     target_name: Blind15A_40
@@ -602,9 +622,9 @@ data:
     datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
   - instrument: DECam
     id: 419802
+    day_obs: 20150308
     physical_filter: g DECam SDSS c0001 4720.0 1520.0
     name: ct4m20150309t055516
-    day_obs: 20150308
     seq_num: 419802
     exposure_time: 102.0
     target_name: Blind15A_40
@@ -9282,6 +9302,7 @@ data:
   dimensions:
   - band
   - instrument
+  - day_obs
   - physical_filter
   - visit
   storage_class: DataFrame
