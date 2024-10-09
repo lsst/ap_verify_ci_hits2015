@@ -586,57 +586,6 @@ data:
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 7046b96efeaeedecbf4af672fa0396da3f9a4b911b91d9b9bf4b1d85fc62ffecbf1e9af7236748da3faeaca89700dab9bf6316771d5103edbf1b0e4797e04bda3f48a011bf1b7eb8bfebacf8dd9cf1ecbf8fed532c7e99da3f64d6111db27db8bf
 - type: dimension
-  element: visit
-  records:
-  - instrument: DECam
-    id: 411371
-    day_obs: 20150217
-    physical_filter: g DECam SDSS c0001 4720.0 1520.0
-    name: ct4m20150218t052637
-    seq_num: 411371
-    exposure_time: 86.0
-    target_name: Blind15A_42
-    observation_reason: science
-    science_program: 2015A-0608
-    azimuth: 353.1027
-    zenith_angle: 25.289999999999992
-    region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706d6767f746eeecbf5e0bfb47f3fdda3fc0d67a55e4a6b1bf6ef2cfb75de3ecbf6b2e9fb2c824db3f0ea608dce861b2bfc792b52d38cdecbf2985ee210072db3fd40c9258a6d8b3bff8e290843ac0ecbff013c5dada96db3f532e40abcc4eb5bfeeddb35f69beecbf434809b94295db3f21ef4fd18309b6bf202ab64b4abcecbfe43004d55293db3f2659141763ddb6bf833b40f7e6c1ecbfbf1df52cc467db3f5b0102a8c253b8bf5caa1ab15bc9ecbfa6395bb6ca3ddb3f8b14c135e30eb9bf3d284ed4b2d0ecbf8d58a731b713db3f27146880e0c9b9bf281647f6ecd7ecbf19cb466e89e9da3fafa31e499684babf389145340fececbf272f462f8192da3f2aa863c76885babfa173ec07fdfcecbf204f9c7e5248da3f85608c293d85babf75552ee5a910edbf7037632bdff0d93fc2243309ab84babfb648add3ed26edbf0c0e187db6a3d93ffab14305d90eb9bf3588fc6be431edbf799c3da4fb7cd93f16ecb62c6953b8bf167641d3a83eedbf3355937ff857d93f9082dbf36cddb6bf08f260d98e40edbf5d50b60b9a59d93f865d6dba1122b6bf04c73b049a42edbf46fff1fa835bd93fc32aa40f254eb5bffaab0efe333dedbf8462cee13b87d93f0fcaa18855d8b3bff138019aec35edbfe045905b5bb1d93f5a151a5a251db3bfca37b062852eedbf8cc78fcc6adbd93fbf4c897ccc61b2bf5fbe73530427edbf5608b5c14905da3f451f6d21c8a6b1bf61caf2c75913edbf4f46b52ebf5cda3f5fde573665a6b1bf0d9c2aa1ea00edbfa6d8434c7cadda3f1ef2081d7ba6b1bf
-    datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
-    datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
-  - instrument: DECam
-    id: 411420
-    day_obs: 20150217
-    physical_filter: g DECam SDSS c0001 4720.0 1520.0
-    name: ct4m20150218t070355
-    seq_num: 411420
-    exposure_time: 86.0
-    target_name: Blind15A_40
-    observation_reason: science
-    science_program: 2015A-0608
-    azimuth: 306.579
-    zenith_angle: 35.09
-    region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700983c88335c8ecbfcb2a014eb448db3f391243a086a4b8bfef63cf5b99bcecbf30d5fe95dd6edb3f4cc18883105fb9bfba8dbad40da5ecbfb348c03fbbbadb3fe8c3a0d8c2d4babfabde352cca96ecbf2ddcee7759dedb3fbe44cb51db49bcbf4761acf06594ecbfe84d321232dcdb3f88c805321104bdbf846c2e10a091ecbfd421cb6e9fd9db3f80912f3e59d7bdbf2b693b533596ecbfc47aa1a80eaddb3fc6b949f2b74cbfbfadcc1b29369decbf1e3256d1a282db3fa0935c1aad03c0bfe4e0b69b19a4ecbf357226ac1c58db3f70e9ba10e960c0bfb2e1675de0aaecbf337e06257c2ddb3f6ebb5cccfdbdc0bfd4d65fe345bfecbf92d304a9b2d6da3f4462c3066ebec0bfd64b60c66dd0ecbf00af3666b98cda3f8331414958bec0bf82c7ce665fe4ecbf7c9ee7788435da3f082ac32108bec0bf53d89f8808fcecbfd5e8f23eb5e9d93ffe04e405a803c0bf29164d48b207edbfdb931c00a7c3d93f8994a9bf5e4cbfbfe6729cb2bc15edbfc4a90a8fdf9fd93ffc3e711a63d7bdbfc6b5a0483618edbfd5f3cb1711a2d93fba7336ce8d1cbdbfd3d81351e81aedbf1cf79c939da4d93fb3277f203449bcbfe8c2391b8916edbffdd451d457d1d93f25e2962e72d4babf59605b85b50fedbf4dbaf043eafbd93fd5560412cb19babfb8dd164cc208edbff290f6676c26da3f47bfdd36f45eb9bf12b6a420b501edbf08d0e683bd50da3f9d23fb796aa4b8bfe8b30093c6edecbf906ecf46f5a7da3f526ef56316a4b8bf7d10c24f18dbecbf71ef7e4978f8da3fa10510b22ba4b8bf
-    datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
-    datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
-  - instrument: DECam
-    id: 419802
-    day_obs: 20150308
-    physical_filter: g DECam SDSS c0001 4720.0 1520.0
-    name: ct4m20150309t055516
-    seq_num: 419802
-    exposure_time: 102.0
-    target_name: Blind15A_40
-    observation_reason: science
-    science_program: 2015A-0608
-    azimuth: 304.7488
-    zenith_angle: 36.15
-    region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 707f0fc9ce33c8ecbf0eb81e6dbc48db3f42c4805a76a4b8bf42a986a597bcecbff19327b3e56edb3ff2140e3f005fb9bfd27ee81b0ca5ecbf777ae958c3badb3fd67ce896b2d4babf1865a173c896ecbf6637a88f61dedb3fe588db12cb49bcbf8a3c97396494ecbfd4a0822a3adcdb3f77126df40004bdbfd880ce5a9e91ecbf368bc287a7d9db3f86a9260249d7bdbf421da4a33396ecbf113f5fc516addb3f9127ebb8a74cbfbfcefdcc7d349decbfc17944f1aa82db3fe96055fea403c0bfeb11b2f417a4ecbfc1d43ccf2458db3f720664f5e060c0bfe853aebadeaaecbf6d863c4b842ddb3f3c39beb1f5bdc0bff643a74644bfecbfe3b7dfd4bad6da3f75b314ec65bec0bf8614c42e6cd0ecbfe34dcf96c18cda3f3e55922e50bec0bf8f2e38d55de4ecbf757a02af8c35da3ff4c2240700bec0bf135593f906fcecbf12211779bde9d93f57c8dce99f03c0bf0b3c87bab007edbf9eaa383cafc3d93ffc444a864e4cbfbf28129c24bb15edbfe3f586cce79fd93f6e5a68de52d7bdbf4e251fb93418edbf331db65419a2d93fdb8ccb907d1cbdbf7c5bddbfe61aedbf6d6fdacfa5a4d93f9a4e8ee12349bcbfa2ea38848716edbfd7f0d80c60d1d93fa930deec61d4babf41570feab30fedbf92cc5379f2fbd93fa359e2ceba19babf926b80acc008edbfaf882c9a7426da3fb1e062f2e35eb9bf43cdc77cb301edbfcd05e9b2c550da3f3eaf38345aa4b8bf7b351ce9c4edecbf7a9c4e70fda7da3fea54101e06a4b8bf00634da016dbecbfee53d46d80f8da3fa8542c6c1ba4b8bf
-    datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
-    datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
-- type: dimension
   element: visit_definition
   records:
   - instrument: DECam
@@ -8315,6 +8264,66 @@ data:
     path: DECam/calib/curated/19700101T000000Z/linearizer/linearizer_DECam_S9_DECam_calib_curated_19700101T000000Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
+  name: preloaded_SsObjects
+  dimensions:
+  - instrument
+  - detector
+  - group
+  storage_class: DataFrame
+  is_calibration: false
+- type: dataset
+  dataset_type: preloaded_SsObjects
+  run: sso/cached
+  records:
+  - dataset_id:
+    - !uuid 'ca995f91-40f8-4dc2-9fb5-fdcb37c436d9'
+    data_id:
+    - instrument: DECam
+      detector: 56
+      group: '411371'
+    path: sso/cached/preloaded_SsObjects/411371/preloaded_SsObjects_DECam_411371_N25_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'ff0b1579-3018-41b5-832f-de7951caa8b5'
+    data_id:
+    - instrument: DECam
+      detector: 60
+      group: '411371'
+    path: sso/cached/preloaded_SsObjects/411371/preloaded_SsObjects_DECam_411371_N29_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '692d3282-5fde-45a7-aebb-3b50f10cbe1d'
+    data_id:
+    - instrument: DECam
+      detector: 10
+      group: '411420'
+    path: sso/cached/preloaded_SsObjects/411420/preloaded_SsObjects_DECam_411420_S22_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '7003813f-c6a8-4157-beb1-6faab95a4988'
+    data_id:
+    - instrument: DECam
+      detector: 5
+      group: '411420'
+    path: sso/cached/preloaded_SsObjects/411420/preloaded_SsObjects_DECam_411420_S26_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid 'be1df728-6f1e-4859-9869-09698aa30a4f'
+    data_id:
+    - instrument: DECam
+      detector: 10
+      group: '419802'
+    path: sso/cached/preloaded_SsObjects/419802/preloaded_SsObjects_DECam_419802_S22_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '1fa81cef-9ae5-46f9-8fae-c90fe1db32e8'
+    data_id:
+    - instrument: DECam
+      detector: 5
+      group: '419802'
+    path: sso/cached/preloaded_SsObjects/419802/preloaded_SsObjects_DECam_419802_S26_sso_cached.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+- type: dataset_type
   name: pretrainedModelPackage
   dimensions: []
   storage_class: NNModelPackagePayload
@@ -9297,41 +9306,6 @@ data:
     - skymap: decam_rings_v1
     path: skymaps/skyMap/skyMap_decam_rings_v1_skymaps.pickle
     formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
-- type: dataset_type
-  name: visitSsObjects
-  dimensions:
-  - band
-  - instrument
-  - day_obs
-  - physical_filter
-  - visit
-  storage_class: DataFrame
-  is_calibration: false
-- type: dataset
-  dataset_type: visitSsObjects
-  run: sso/cached
-  records:
-  - dataset_id:
-    - !uuid 'f559ba2e-371b-4d5f-846e-babedfa458bd'
-    data_id:
-    - instrument: DECam
-      visit: 411371
-    path: sso/cached/visitSsObjects/20150217/g/g_DECam_SDSS_c0001_4720.0_1520.0/411371/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411371_sso_cached.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '8ed21fb1-ad38-4077-8fe5-4a8091e3c9e5'
-    data_id:
-    - instrument: DECam
-      visit: 411420
-    path: sso/cached/visitSsObjects/20150217/g/g_DECam_SDSS_c0001_4720.0_1520.0/411420/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411420_sso_cached.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid 'cfdc5734-fe7b-4d6e-a2a7-833b89aa970c'
-    data_id:
-    - instrument: DECam
-      visit: 419802
-    path: sso/cached/visitSsObjects/20150308/g/g_DECam_SDSS_c0001_4720.0_1520.0/419802/visitSsObjects_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_419802_sso_cached.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: associations
   collection: DECam/calib
   collection_type: CALIBRATION
