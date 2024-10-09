@@ -1,4 +1,8 @@
 description: Pipeline for downloading solar system ephemerides given raw images
 instrument: lsst.obs.decam.DarkEnergyCamera
 tasks:
-  SkyBotEphemerisQuery: lsst.ap.association.skyBotEphemerisQuery.SkyBotEphemerisQueryTask
+  getRegionTimeFromVisit:
+    class: lsst.pipe.tasks.getRegionTimeFromVisit.GetRegionTimeFromVisitTask
+    config:
+      connections.dummy_visit = visit_dummy
+  mpSkyEphemerisQuery: lsst.ap.association.MPSkyEphemerisQueryTask
