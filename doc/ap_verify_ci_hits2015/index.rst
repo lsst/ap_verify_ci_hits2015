@@ -30,6 +30,7 @@ It contains:
 * biases (``zci``) and g-band flats (``fci``)
 * reference catalogs for Gaia and Pan-STARRS1, covering the raw images' footprint.
 * image differencing templates coadded from HiTS 2014 data, covering the raw images' footprint.
+* mock APDB catalogs based on processing the raw images in order.
 * the rbResnet50-DC2 pretrained machine learning model for real/bogus classification
 
 .. _ap_verify_ci_hits2015-contributing:

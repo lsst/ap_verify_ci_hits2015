@@ -118,11 +118,16 @@ python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
 "${SCRIPT_DIR}/generate_fake_injection_catalog.sh" -b ${DATASET_REPO} -o ${INJECTION_CATALOG_COLLECTION}
 
 ########################################
+# Generate self-consistent APDB data
+
+python "${SCRIPT_DIR}/generate_self_preload.py"  # Must be run after all other ApPipe inputs available
+
+########################################
 # Final clean-up
 
 butler collection-chain "${DATASET_REPO}" sso sso/cached
-butler collection-chain "${DATASET_REPO}" DECam/defaults templates/goodSeeing skymaps DECam/calib refcats sso \
-    models ${INJECTION_CATALOG_COLLECTION}
+butler collection-chain "${DATASET_REPO}" DECam/defaults templates/goodSeeing skymaps DECam/calib \
+    refcats sso dia_catalogs models ${INJECTION_CATALOG_COLLECTION}
 python "${SCRIPT_DIR}/make_preloaded_export.py"
 
 echo "Gen 3 preloaded repository complete."

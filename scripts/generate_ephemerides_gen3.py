@@ -25,6 +25,9 @@ fields and observation times.
 
 Running this script allows for updates to the ephemerides to be incorporated
 into the dataset.
+
+This script takes no command-line arguments; it infers everything it needs from
+the `preloaded/` repository.
 """
 
 import glob
@@ -34,9 +37,11 @@ import subprocess
 import sys
 import tempfile
 
+import pandas
+
 import lsst.log
 import lsst.sphgeom
-from lsst.daf.butler import Butler, FileDataset
+from lsst.daf.butler import Butler, CollectionType, DatasetType
 import lsst.obs.base
 
 
@@ -46,12 +51,14 @@ lsst.log.configure_pylog_MDC("DEBUG", MDC_class=None)
 
 # Avoid explicit references to dataset package to maximize portability.
 SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
-PIPE_DIR = os.path.join(SCRIPT_DIR, "..", "pipelines")
-RAW_DIR = os.path.join(SCRIPT_DIR, "..", "raw")
+PIPE_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "pipelines"))
+RAW_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "raw"))
 RAW_RUN = "raw"
-EPHEM_DATASET = "visitSsObjects"
-DEST_DIR = os.path.join(SCRIPT_DIR, "..", "preloaded")
-DEST_RUN = "sso/cached"
+VISIT_DATASET = "visit_dummy"
+EPHEM_DATASET = "preloaded_SsObjects"
+DEST_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "preloaded"))
+DEST_COLLECTION = "sso"
+DEST_RUN = DEST_COLLECTION + "/mpsky"
 
 
 ########################################
@@ -92,13 +99,14 @@ def _make_repo_with_instruments(repo_dir, instruments):
     """
     config = Butler.makeRepo(repo_dir)
     repo = Butler(config, writeable=True)
+    logging.debug("Temporary repo has universe version %d.", repo.dimensions.version)
     for instrument in instruments:
         instrument.register(repo.registry)
     return repo
 
 
 ########################################
-# Ingest raws (needed for visitinfo)
+# Ingest raws (needed for visit records)
 
 def _ingest_raws(repo, raw_dir, run):
     """Ingest this dataset's raws into a specific repo.
@@ -112,21 +120,41 @@ def _ingest_raws(repo, raw_dir, run):
     run : `str`
         The name of the run into which to import the raws.
     """
-    raws = glob.glob(os.path.join(raw_dir, '**', '*.fits.fz'), recursive=True)
-    # explicit config workaround for DM-971
+    raws = glob.glob(os.path.join(raw_dir, '**', '*.fits*'), recursive=True)
     ingester = lsst.obs.base.RawIngestTask(butler=repo, config=lsst.obs.base.RawIngestConfig())
     ingester.run(raws, run=run)
     exposures = set(repo.registry.queryDataIds(["exposure"]))
-    # explicit config workaround for DM-971
     definer = lsst.obs.base.DefineVisitsTask(butler=repo, config=lsst.obs.base.DefineVisitsConfig())
     definer.run(exposures)
+
+
+########################################
+# Dummy pipeline inputs
+
+def _make_visit_datasets(repo, run):
+    """Create stub datasets for running GetRegionTimeFromVisitTask.
+
+    Parameters
+    ---------
+    repo : `lsst.daf.butler.Butler`
+        A writeable Butler in which to create datasets.
+    run : `str`
+        The name of the run into which to create datasets.
+    """
+    dummy_type = DatasetType(VISIT_DATASET, {"instrument", "visit", "detector"}, "DataFrame")
+    repo.registry.registerDatasetType(dummy_type)
+    # Exclude unused detectors
+    data_ids = {ref.dataId for ref in repo.query_datasets("raw", collections="*", find_first=False)}
+    exp_table = pandas.DataFrame()
+    for id in data_ids:
+        repo.put(exp_table, dummy_type, id, run=run)
 
 
 ########################################
 # Download ephemerides
 
 def _get_ephem(repo_dir, raw_collection, ephem_collection):
-    """Run the task for downloading ephemerides.
+    """Run the tasks for downloading ephemerides.
 
     Parameters
     ----------
@@ -176,25 +204,12 @@ def _transfer_ephems(ephem_type, src_repo, src_dir, run, dest_repo):
     dest_repo : `lsst.daf.butler.Butler`
         The repository to which to copy the datasets.
     """
-    # Need to transfer visit definitions as well; Butler.export is the easiest
+    # Need to transfer group definitions as well; Butler.export is the easiest
     # way to do this.
     with tempfile.NamedTemporaryFile(suffix=".yaml") as export_file:
         with src_repo.export(filename=export_file.name, transfer=None) as contents:
             contents.saveDatasets(src_repo.registry.queryDatasets(ephem_type, collections=run),
-                                  elements=["visit"])
-            # Because of how the temp repo was constructed, there should not be
-            # any visit/exposure records other than those needed to support the
-            # ephemerides datasets.
-            contents.saveDimensionData("visit_system",
-                                       src_repo.registry.queryDimensionRecords("visit_system"))
-            contents.saveDimensionData("visit",
-                                       src_repo.registry.queryDimensionRecords("visit"))
-            contents.saveDimensionData("exposure",
-                                       src_repo.registry.queryDimensionRecords("exposure"))
-            contents.saveDimensionData("visit_definition",
-                                       src_repo.registry.queryDimensionRecords("visit_definition"))
-            contents.saveDimensionData("visit_detector_region",
-                                       src_repo.registry.queryDimensionRecords("visit_detector_region"))
+                                  elements=["group"])
             # runs included automatically by saveDatasets
         dest_repo.import_(directory=src_dir, filename=export_file.name, transfer="copy")
 
@@ -207,11 +222,15 @@ with tempfile.TemporaryDirectory() as workspace:
     temp_repo = _make_repo_with_instruments(workspace, _get_instruments(DEST_DIR))
     logging.info("Ingesting raws...")
     _ingest_raws(temp_repo, RAW_DIR, RAW_RUN)
+    _make_visit_datasets(temp_repo, RAW_RUN)
     logging.info("Downloading ephemerides...")
     _get_ephem(workspace, RAW_RUN, DEST_RUN)
     temp_repo.registry.refresh()    # Pipeline added dataset types
     preloaded = Butler(DEST_DIR, writeable=True)
+    logging.debug("Preloaded repo has universe version %d.", preloaded.dimensions.version)
     logging.info("Transferring ephemerides to dataset...")
     _transfer_ephems(EPHEM_DATASET, temp_repo, workspace, DEST_RUN, preloaded)
+preloaded.registry.registerCollection(DEST_COLLECTION, CollectionType.CHAINED)
+preloaded.registry.setCollectionChain(DEST_COLLECTION, [DEST_RUN])
 
-logging.info("Solar system catalogs copied to %s:%s", DEST_DIR, DEST_RUN)
+logging.info("Solar system catalogs copied to %s:%s", DEST_DIR, DEST_COLLECTION)
