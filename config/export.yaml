@@ -22,17 +22,6 @@ data:
     patch_nx_max: 6
     patch_ny_max: 6
 - type: dimension
-  element: day_obs
-  records:
-  - instrument: DECam
-    id: 20150217
-    datetime_begin: !butler_time/tai/iso '2015-02-17 12:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-02-18 12:00:00.000000000'
-  - instrument: DECam
-    id: 20150308
-    datetime_begin: !butler_time/tai/iso '2015-03-08 12:00:00.000000000'
-    datetime_end: !butler_time/tai/iso '2015-03-09 12:00:00.000000000'
-- type: dimension
   element: detector
   records:
   - instrument: DECam
@@ -437,81 +426,6 @@ data:
     id: 8605
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 7034c5a3c6d8e9ecbf074d37139d92da3feaeedb4a631cbbbfe5c660e89b4eedbf3c3ab4a0bbc9d83f8751a953631cbbbf088ef2d95663edbf5692e44605dcd83f9e26fd0a3957b3bf68884fb893feecbf645ecdb8e6a4da3f419ab5043957b3bf
-- type: dimension
-  element: exposure
-  records:
-  - instrument: DECam
-    id: 411371
-    day_obs: 20150217
-    group: '411371'
-    physical_filter: g DECam SDSS c0001 4720.0 1520.0
-    obs_id: ct4m20150218t052637
-    exposure_time: 86.0
-    dark_time: 87.1173
-    observation_type: science
-    observation_reason: science
-    seq_num: 411371
-    seq_start: 411371
-    seq_end: 411371
-    target_name: Blind15A_42
-    science_program: 2015A-0608
-    tracking_ra: 155.47028496089578
-    tracking_dec: -4.9500504054240375
-    sky_angle: 90.0
-    azimuth: 353.1027
-    zenith_angle: 25.289999999999992
-    has_simulated: false
-    can_see_sky: true
-    datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
-    datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
-  - instrument: DECam
-    id: 411420
-    day_obs: 20150217
-    group: '411420'
-    physical_filter: g DECam SDSS c0001 4720.0 1520.0
-    obs_id: ct4m20150218t070355
-    exposure_time: 86.0
-    dark_time: 87.3794801
-    observation_type: science
-    observation_reason: science
-    seq_num: 411420
-    seq_start: 411420
-    seq_end: 411420
-    target_name: Blind15A_40
-    science_program: 2015A-0608
-    tracking_ra: 155.12027235395627
-    tracking_dec: -6.5201342700889855
-    sky_angle: 90.0
-    azimuth: 306.579
-    zenith_angle: 35.09
-    has_simulated: false
-    can_see_sky: true
-    datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
-    datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
-  - instrument: DECam
-    id: 419802
-    day_obs: 20150308
-    group: '419802'
-    physical_filter: g DECam SDSS c0001 4720.0 1520.0
-    obs_id: ct4m20150309t055516
-    exposure_time: 102.0
-    dark_time: 103.1057501
-    observation_type: science
-    observation_reason: science
-    seq_num: 419802
-    seq_start: 419802
-    seq_end: 419802
-    target_name: Blind15A_40
-    science_program: 2015A-0608
-    tracking_ra: 155.12015152062799
-    tracking_dec: -6.52007843674732
-    sky_angle: 90.0
-    azimuth: 304.7488
-    zenith_angle: 36.15
-    has_simulated: false
-    can_see_sky: true
-    datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
-    datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
 - type: dimension
   element: patch
   records:
