@@ -18,7 +18,7 @@ path                  | description
 `config`              | Dataset-specific configs to help the Science Pipelines work with this dataset.
 `pipelines`           | Dataset-specific pipelines to run on this dataset.
 `dataIds.list`        | List of dataIds for use in running Tasks. Currently set to run all Ids.
-`preloaded`           | Starter Gen3 Butler repo containing a skymap, DECam Community Pipeline MasterCalibs from the 2015 HiTS campaign, deep g-band coadds for use as differencing templates, Gaia and PS1 reference catalogs in HTM format for regions overlapping any visit in the dataset, and a pretrained machine learning model for real/bogus classification.
+`preloaded`           | Starter Gen3 Butler repo containing a skymap, DECam Community Pipeline MasterCalibs from the 2015 HiTS campaign, deep g-band coadds for use as differencing templates, Gaia and PS1 reference catalogs in HTM format for regions overlapping any visit in the dataset, mock APDB outputs based on the raw images, and a pretrained machine learning model for real/bogus classification.
 `scripts`             | Scripts and data for generating this dataset.
 
 Git LFS
