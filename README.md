@@ -14,10 +14,11 @@ Relevant Files and Directories
 -----
 path                  | description
 :---------------------|:-----------------------------
-`raw`                 | Raw, compressed DECam fits images from the HiTS (2015) fields `Blind15A_40` and `Blind15A_42`.
 `config`              | Dataset-specific configs to help the Science Pipelines work with this dataset.
+`doc`                 | Contains Sphinx package documentation for the dataset.
 `pipelines`           | Dataset-specific pipelines to run on this dataset.
 `preloaded`           | Starter Gen3 Butler repo containing a skymap, DECam Community Pipeline MasterCalibs from the 2015 HiTS campaign, deep g-band coadds for use as differencing templates, Gaia and PS1 reference catalogs in HTM format for regions overlapping any visit in the dataset, mock APDB outputs based on the raw images, and a pretrained machine learning model for real/bogus classification.
+`raw`                 | Raw, compressed DECam fits images from the HiTS (2015) fields `Blind15A_40` and `Blind15A_42`.
 `scripts`             | Scripts and data for generating this dataset.
 
 Git LFS
