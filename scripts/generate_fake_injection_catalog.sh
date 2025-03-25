@@ -7,7 +7,7 @@ print_error() {
 
 usage() {
     print_error
-    print_error "Usage: $0 [-b BUTLER_REPO] -c ROOT_COLLECTION [-h]"
+    print_error "Usage: $0 [-b BUTLER_REPO] -o OUTPUT_COLLECTION [-h]"
     print_error
     print_error "Specific options:"
     print_error "   -b          Butler repo yaml file URI, defaults to preloaded repo"
