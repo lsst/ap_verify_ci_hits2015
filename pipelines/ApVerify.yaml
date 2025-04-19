@@ -21,12 +21,17 @@ tasks:
     config:
       # Use dataset's reference catalogs
       file: $AP_VERIFY_CI_HITS2015_DIR/config/calibrateImage.py
-  rbClassify:
+  rewarpTemplate:
+    # TODO: remove in DM-50200 when goodSeeingCoadd is renamed to template_coadd
+    class: lsst.ip.diffim.getTemplate.GetTemplateTask
+    config:
+      connections.coaddExposures: goodSeeingCoadd
+  computeReliability:
     class: lsst.meas.transiNet.RBTransiNetTask
     config:
       # Use dataset's model
-      file: $AP_VERIFY_CI_HITS2015_DIR/config/rbClassify.py
-  diaPipe:
+      file: $AP_VERIFY_CI_HITS2015_DIR/config/computeReliability.py
+  associateApdb:
     class: lsst.ap.association.DiaPipelineTask
     config:
       doSolarSystemAssociation: true

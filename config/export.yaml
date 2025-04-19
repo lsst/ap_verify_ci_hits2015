@@ -7305,184 +7305,184 @@ data:
     path: sso/cached/preloaded_SsObjects/419802/preloaded_SsObjects_DECam_419802_S26_sso_cached.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
-  name: preloaded_diaForcedSources
+  name: preloaded_dia_forced_source
   dimensions:
   - instrument
   - detector
   - group
-  storage_class: DataFrame
+  storage_class: ArrowAstropy
   is_calibration: false
 - type: dataset
-  dataset_type: preloaded_diaForcedSources
+  dataset_type: preloaded_dia_forced_source
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid 'f064bd12-42ab-45f8-8b56-77fdfb9abfcf'
+    - !uuid '1a5524f7-654f-4477-97c5-1cc385d3379e'
     data_id:
     - instrument: DECam
       detector: 56
       group: '411371'
-    path: dia_catalogs/apdb/preloaded_diaForcedSources/411371/preloaded_diaForcedSources_DECam_411371_N25_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_forced_source/411371/preloaded_dia_forced_source_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'd0f22118-c4ce-4b40-a8f0-558e8d3b358f'
+    - !uuid '1d9c6470-61a4-45b9-840b-233dbc844626'
     data_id:
     - instrument: DECam
       detector: 60
       group: '411371'
-    path: dia_catalogs/apdb/preloaded_diaForcedSources/411371/preloaded_diaForcedSources_DECam_411371_N29_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_forced_source/411371/preloaded_dia_forced_source_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '49918caf-0e89-47b9-b948-7bc347a6f3b9'
+    - !uuid 'effefbce-3c53-470a-888d-d10d5338d5ae'
     data_id:
     - instrument: DECam
       detector: 10
       group: '411420'
-    path: dia_catalogs/apdb/preloaded_diaForcedSources/411420/preloaded_diaForcedSources_DECam_411420_S22_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_forced_source/411420/preloaded_dia_forced_source_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'c7c36d00-7c1c-4b3e-a11b-b7eed472a78e'
+    - !uuid '317aa0c9-7554-4c72-a214-c373a696d795'
     data_id:
     - instrument: DECam
       detector: 5
       group: '411420'
-    path: dia_catalogs/apdb/preloaded_diaForcedSources/411420/preloaded_diaForcedSources_DECam_411420_S26_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_forced_source/411420/preloaded_dia_forced_source_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'b36a379d-837f-4b89-af55-8d7a6356ec58'
+    - !uuid 'a14903ee-613d-4320-b446-efdb3b00741c'
     data_id:
     - instrument: DECam
       detector: 10
       group: '419802'
-    path: dia_catalogs/apdb/preloaded_diaForcedSources/419802/preloaded_diaForcedSources_DECam_419802_S22_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_forced_source/419802/preloaded_dia_forced_source_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '3a9e9bc2-def4-4417-8391-ced479a314ac'
+    - !uuid '70dc6712-978a-4626-b7f6-370026c17c19'
     data_id:
     - instrument: DECam
       detector: 5
       group: '419802'
-    path: dia_catalogs/apdb/preloaded_diaForcedSources/419802/preloaded_diaForcedSources_DECam_419802_S26_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_forced_source/419802/preloaded_dia_forced_source_DECam_419802_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
-  name: preloaded_diaObjects
+  name: preloaded_dia_object
   dimensions:
   - instrument
   - detector
   - group
-  storage_class: DataFrame
+  storage_class: ArrowAstropy
   is_calibration: false
 - type: dataset
-  dataset_type: preloaded_diaObjects
+  dataset_type: preloaded_dia_object
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid 'e3104a2d-e984-48c6-86f7-aff2137fed33'
+    - !uuid '4861d47c-dee5-4d1b-a2ea-ae34fdf3171d'
     data_id:
     - instrument: DECam
       detector: 56
       group: '411371'
-    path: dia_catalogs/apdb/preloaded_diaObjects/411371/preloaded_diaObjects_DECam_411371_N25_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_object/411371/preloaded_dia_object_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'e262c19a-2d54-42fe-b1ba-3f80fc050be9'
+    - !uuid '4b379c87-d235-459f-9eac-203e704e58e9'
     data_id:
     - instrument: DECam
       detector: 60
       group: '411371'
-    path: dia_catalogs/apdb/preloaded_diaObjects/411371/preloaded_diaObjects_DECam_411371_N29_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_object/411371/preloaded_dia_object_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'c2ed684e-e415-4648-9cc6-149e03b1059d'
+    - !uuid 'dedba985-17cf-4763-b021-a3e2594f1eca'
     data_id:
     - instrument: DECam
       detector: 10
       group: '411420'
-    path: dia_catalogs/apdb/preloaded_diaObjects/411420/preloaded_diaObjects_DECam_411420_S22_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_object/411420/preloaded_dia_object_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '19ed7a4c-43ee-431c-9679-a9b751a51657'
+    - !uuid '725cf946-e5d0-48b3-b887-c2638f306053'
     data_id:
     - instrument: DECam
       detector: 5
       group: '411420'
-    path: dia_catalogs/apdb/preloaded_diaObjects/411420/preloaded_diaObjects_DECam_411420_S26_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_object/411420/preloaded_dia_object_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '30cb40ff-2620-4131-b232-29063e5ac22c'
+    - !uuid 'cd0e3d3b-0787-4218-a2d1-76820744d71f'
     data_id:
     - instrument: DECam
       detector: 10
       group: '419802'
-    path: dia_catalogs/apdb/preloaded_diaObjects/419802/preloaded_diaObjects_DECam_419802_S22_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_object/419802/preloaded_dia_object_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '3b8263e7-418d-4984-b95e-2e4c1ff29adc'
+    - !uuid '5f4cfd2f-1671-4204-961e-4cd9aa1654c1'
     data_id:
     - instrument: DECam
       detector: 5
       group: '419802'
-    path: dia_catalogs/apdb/preloaded_diaObjects/419802/preloaded_diaObjects_DECam_419802_S26_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_object/419802/preloaded_dia_object_DECam_419802_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
-  name: preloaded_diaSources
+  name: preloaded_dia_source
   dimensions:
   - instrument
   - detector
   - group
-  storage_class: DataFrame
+  storage_class: ArrowAstropy
   is_calibration: false
 - type: dataset
-  dataset_type: preloaded_diaSources
+  dataset_type: preloaded_dia_source
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '5a797e3a-2b47-4e72-af42-eef4ed2e1684'
+    - !uuid '8f9106b0-faf9-4f61-b4e1-0487ac501536'
     data_id:
     - instrument: DECam
       detector: 56
       group: '411371'
-    path: dia_catalogs/apdb/preloaded_diaSources/411371/preloaded_diaSources_DECam_411371_N25_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_source/411371/preloaded_dia_source_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '362a05c8-bf37-49ba-9c05-4a1e11947787'
+    - !uuid '25d7e540-069c-49ea-a1bf-4e7a5ef4c6e5'
     data_id:
     - instrument: DECam
       detector: 60
       group: '411371'
-    path: dia_catalogs/apdb/preloaded_diaSources/411371/preloaded_diaSources_DECam_411371_N29_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_source/411371/preloaded_dia_source_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '8ea8321a-7e59-41f9-a215-f0419d609edb'
+    - !uuid '72ee95c5-60f7-428b-81ec-3612c6af1412'
     data_id:
     - instrument: DECam
       detector: 10
       group: '411420'
-    path: dia_catalogs/apdb/preloaded_diaSources/411420/preloaded_diaSources_DECam_411420_S22_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_source/411420/preloaded_dia_source_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '11f1535a-a4b6-4a71-b92f-299966879980'
+    - !uuid 'ea236fd9-5268-4a94-bce0-542835817158'
     data_id:
     - instrument: DECam
       detector: 5
       group: '411420'
-    path: dia_catalogs/apdb/preloaded_diaSources/411420/preloaded_diaSources_DECam_411420_S26_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_source/411420/preloaded_dia_source_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '792b8c69-ee8d-469f-a9cf-a6fb5c2fc68c'
+    - !uuid '66244c8a-0c90-4884-8c4a-01a52e3f17e7'
     data_id:
     - instrument: DECam
       detector: 10
       group: '419802'
-    path: dia_catalogs/apdb/preloaded_diaSources/419802/preloaded_diaSources_DECam_419802_S22_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_source/419802/preloaded_dia_source_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'fbf13a2a-12b9-46ab-b745-882a25984eeb'
+    - !uuid '8dc25972-d5af-4350-926d-69d9ccba3027'
     data_id:
     - instrument: DECam
       detector: 5
       group: '419802'
-    path: dia_catalogs/apdb/preloaded_diaSources/419802/preloaded_diaSources_DECam_419802_S26_dia_catalogs_apdb.parq
+    path: dia_catalogs/apdb/preloaded_dia_source/419802/preloaded_dia_source_DECam_419802_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
   name: pretrainedModelPackage
