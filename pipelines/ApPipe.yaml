@@ -38,3 +38,5 @@ tasks:
     class: lsst.ap.association.DiaPipelineTask
     config:
       doSolarSystemAssociation: true
+      # TODO: remove in DM-50364 when the preloaded datasets are regenerated
+      connections.solarSystemObjectTable: preloaded_SsObjects
