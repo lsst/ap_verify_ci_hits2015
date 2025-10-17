@@ -9,8 +9,6 @@ description: End to end Alert Production pipeline specialized for HiTS-2015
 
 imports:
   - location: $AP_PIPE_DIR/pipelines/DECam/ApPipe.yaml
-    include:
-        - apPipe
 parameters:
   # Use dataset's specific templates
   coaddName: goodSeeing
