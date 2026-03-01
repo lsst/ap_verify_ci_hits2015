@@ -31,7 +31,7 @@ It contains:
 * reference catalogs for Gaia and Pan-STARRS1, covering the raw images' footprint.
 * image differencing templates coadded from HiTS 2014 data, covering the raw images' footprint.
 * mock APDB catalogs based on processing the raw images in order.
-* the tac_cnn_comcam_2025-02-18 pretrained machine learning model for real/bogus classification
+* the tac_cnn_lsstcam_2026-02-13 pretrained machine learning model for real/bogus classification
 
 .. _ap_verify_ci_hits2015-contributing:
 
