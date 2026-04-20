@@ -85,7 +85,7 @@ def _clean_dataset(butler):
         return
 
     butler.registry.setCollectionChain(MODEL_CHAIN, [])
-    butler.removeRuns(model_runs, unstore=True)
+    butler.removeRuns(model_runs)
 
 
 dest = Butler(DATASET_REPO, writeable=True)
