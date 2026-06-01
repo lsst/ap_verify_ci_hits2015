@@ -59,6 +59,14 @@ PRELOAD_TYPES = ["preloaded_*"]
 DEST_DIR = os.path.join(SCRIPT_DIR, "..", "preloaded")
 DEST_COLLECTION = "dia_catalogs"
 DEST_RUN = DEST_COLLECTION + "/apdb"
+AP_PIPE_DIR = os.environ.get("AP_PIPE_DIR")
+FAKE_PIPELINE_FILE = os.path.join(AP_PIPE_DIR, "pipelines", "CreateInjectionCatalogs.yaml")
+SHARD_SCRIPT = os.path.join(AP_PIPE_DIR, "scripts", "fakes", "shard_fake_catalogs.py")
+FAKE_COLLECTION = "fake-injection-catalog"
+FAKE_TYPES = ["VisitDetectorFakeSourceCat"]
+SHARDED_FAKE_TYPES = ["injection_catalog"]
+FAKE_RUN = FAKE_COLLECTION + "/fake_injection_catalog"
+SHARDED_FAKE_RUN = FAKE_RUN + "_sharded"
 
 
 ########################################
@@ -67,21 +75,26 @@ DEST_RUN = DEST_COLLECTION + "/apdb"
 def _clear_preloaded(butler):
     """Remove preloaded datasets from the collection's chain.
 
-    If it exists, ``DEST_RUN`` is removed entirely to keep it from interfering
-    with the rest of this script. Other runs are merely unlinked in case they
-    would still be useful.
+    If they exist, output runs from this script are removed entirely to keep
+    them from interfering with the rest of this script. Other runs are merely
+    unlinked in case they would still be useful.
 
     Parameters
     ----------
     butler : `lsst.daf.butler.Butler`
         A writeable Butler pointing to this repository.
     """
-    try:
-        butler.collections.redefine_chain(DEST_COLLECTION, [])
-    except MissingCollectionError:
-        # No preloaded datasets to begin with
-        return
-    butler.removeRuns([DEST_RUN], unstore=True)
+    for collection in (DEST_COLLECTION, FAKE_COLLECTION):
+        try:
+            butler.collections.redefine_chain(collection, [])
+        except MissingCollectionError:
+            # Collection may not exist in a fresh repo.
+            continue
+
+    current_runs = set(butler.collections.query("*", include_chains=False))
+    runs_to_remove = [run for run in (DEST_RUN, FAKE_RUN, SHARDED_FAKE_RUN) if run in current_runs]
+    if runs_to_remove:
+        butler.removeRuns(runs_to_remove, unstore=True)
 
 
 def _copy_repo_to(src_butler, repo_dir):
@@ -149,6 +162,10 @@ def _check_pipeline(butler):
     pipeline.addConfigOverride("parameters", "apdb_config", "foo")
     # Check that the configs load correctly; raises if there's a setup missing
     pipeline.to_graph()
+    if not os.path.isfile(FAKE_PIPELINE_FILE):
+        raise RuntimeError(f"Missing fake-catalog pipeline file: {FAKE_PIPELINE_FILE}")
+    if not os.path.isfile(SHARD_SCRIPT):
+        raise RuntimeError(f"Missing fake-catalog sharding script: {SHARD_SCRIPT}")
 
 
 def _build_catalogs(repo_dir, input_collections, output_collection):
@@ -166,7 +183,7 @@ def _build_catalogs(repo_dir, input_collections, output_collection):
     Raises
     ------
     RuntimeError
-        Raised on any pipeline failure.
+        Raised on any pipeline or fake-catalog generation failure.
     """
     # Should be only one instrument
     butler = Butler(repo_dir)
@@ -203,6 +220,29 @@ def _build_catalogs(repo_dir, input_collections, output_collection):
             run_exists = True
             if results.returncode:
                 raise RuntimeError("Pipeline failed to run; see log for details.")
+
+    logging.info("Generating fake catalogs...")
+    fake_args = ["pipetask", "run",
+                 "--butler-config", repo_dir,
+                 "--pipeline", FAKE_PIPELINE_FILE,
+                 "--input", output_collection,
+                 "--output-run", FAKE_RUN,
+                 "--register-dataset-types",
+                 ]
+    fake_results = subprocess.run(fake_args, capture_output=False, shell=False, check=False)
+    if fake_results.returncode:
+        raise RuntimeError("Fake-catalog pipeline failed; see log for details.")
+
+    logging.info("Sharding fake catalogs...")
+    shard_args = [sys.executable, SHARD_SCRIPT,
+                  "--butler-config", repo_dir,
+                  "--input-collections", FAKE_RUN,
+                  "--dataset-type-name", FAKE_TYPES[0],
+                  "--output-collection", SHARDED_FAKE_RUN,
+                  ]
+    shard_results = subprocess.run(shard_args, capture_output=False, shell=False, check=False)
+    if shard_results.returncode:
+        raise RuntimeError("Fake-catalog sharding failed; see log for details.")
 
 
 def _transfer_catalogs(catalog_types, src_repo, run, dest_repo):
@@ -248,7 +288,12 @@ with tempfile.TemporaryDirectory() as workspace:
     logging.debug("Preloaded repo has universe version %d.", preloaded.dimensions.version)
     logging.info("Transferring catalogs to data set...")
     _transfer_catalogs(PRELOAD_TYPES, temp_repo, DEST_RUN, preloaded)
+    _transfer_catalogs(FAKE_TYPES, temp_repo, FAKE_RUN, preloaded)
+    _transfer_catalogs(SHARDED_FAKE_TYPES, temp_repo, SHARDED_FAKE_RUN, preloaded)
 preloaded.collections.register(DEST_COLLECTION, CollectionType.CHAINED)
 preloaded.collections.prepend_chain(DEST_COLLECTION, DEST_RUN)
+preloaded.collections.register(FAKE_COLLECTION, CollectionType.CHAINED)
+preloaded.collections.prepend_chain(FAKE_COLLECTION, FAKE_RUN)
+preloaded.collections.prepend_chain(FAKE_COLLECTION, SHARDED_FAKE_RUN)
 
 logging.info("Preloaded APDB catalogs copied to %s:%s", DEST_DIR, DEST_COLLECTION)
