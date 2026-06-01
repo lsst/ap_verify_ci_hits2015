@@ -227,6 +227,9 @@ def _build_catalogs(repo_dir, input_collections, output_collection):
                  "--pipeline", FAKE_PIPELINE_FILE,
                  "--input", output_collection,
                  "--output-run", FAKE_RUN,
+                 "--config", "createFakesVisitDetector:magMin=18.5",
+                 "--config", "createFakesVisitDetector:magMax=25",
+                 "--config", "createFakesVisitDetector:randomFakeDensity=3000",
                  "--register-dataset-types",
                  ]
     fake_results = subprocess.run(fake_args, capture_output=False, shell=False, check=False)

@@ -39,4 +39,5 @@ tasks:
     config:
       doSolarSystemAssociation: true
       # TODO: remove in DM-50364 when the preloaded datasets are regenerated
-      connections.solarSystemObjectTable: preloaded_SsObjects
+      # connections.solarSystemObjectTable: preloaded_SsObjects
+      connections.solarSystemObjectTable: preloaded_ss_object
