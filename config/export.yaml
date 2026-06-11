@@ -22,6 +22,17 @@ data:
     patch_nx_max: 6
     patch_ny_max: 6
 - type: dimension
+  element: day_obs
+  records:
+  - instrument: DECam
+    id: 20150217
+    datetime_begin: !butler_time/tai/iso '2015-02-17 12:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 12:00:00.000000000'
+  - instrument: DECam
+    id: 20150308
+    datetime_begin: !butler_time/tai/iso '2015-03-08 12:00:00.000000000'
+    datetime_end: !butler_time/tai/iso '2015-03-09 12:00:00.000000000'
+- type: dimension
   element: detector
   records:
   - instrument: DECam
@@ -427,6 +438,87 @@ data:
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 7034c5a3c6d8e9ecbf074d37139d92da3feaeedb4a631cbbbfe5c660e89b4eedbf3c3ab4a0bbc9d83f8751a953631cbbbf088ef2d95663edbf5692e44605dcd83f9e26fd0a3957b3bf68884fb893feecbf645ecdb8e6a4da3f419ab5043957b3bf
 - type: dimension
+  element: visit_system
+  records:
+  - instrument: DECam
+    id: 0
+    name: one-to-one
+- type: dimension
+  element: exposure
+  records:
+  - instrument: DECam
+    id: 411371
+    day_obs: 20150217
+    group: '411371'
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    obs_id: ct4m20150218t052637
+    exposure_time: 86.0
+    dark_time: 87.1173
+    observation_type: science
+    observation_reason: science
+    seq_num: 411371
+    seq_start: 411371
+    seq_end: 411371
+    target_name: Blind15A_42
+    science_program: 2015A-0608
+    tracking_ra: 155.47028496089578
+    tracking_dec: -4.9500504054240375
+    sky_angle: 90.0
+    azimuth: 353.1027
+    zenith_angle: 25.289999999999992
+    has_simulated: false
+    can_see_sky: true
+    datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
+  - instrument: DECam
+    id: 411420
+    day_obs: 20150217
+    group: '411420'
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    obs_id: ct4m20150218t070355
+    exposure_time: 86.0
+    dark_time: 87.3794801
+    observation_type: science
+    observation_reason: science
+    seq_num: 411420
+    seq_start: 411420
+    seq_end: 411420
+    target_name: Blind15A_40
+    science_program: 2015A-0608
+    tracking_ra: 155.12027235395627
+    tracking_dec: -6.5201342700889855
+    sky_angle: 90.0
+    azimuth: 306.579
+    zenith_angle: 35.09
+    has_simulated: false
+    can_see_sky: true
+    datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
+  - instrument: DECam
+    id: 419802
+    day_obs: 20150308
+    group: '419802'
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    obs_id: ct4m20150309t055516
+    exposure_time: 102.0
+    dark_time: 103.1057501
+    observation_type: science
+    observation_reason: science
+    seq_num: 419802
+    seq_start: 419802
+    seq_end: 419802
+    target_name: Blind15A_40
+    science_program: 2015A-0608
+    tracking_ra: 155.12015152062799
+    tracking_dec: -6.52007843674732
+    sky_angle: 90.0
+    azimuth: 304.7488
+    zenith_angle: 36.15
+    has_simulated: false
+    can_see_sky: true
+    datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
+    datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
+- type: dimension
   element: patch
   records:
   - skymap: decam_rings_v1
@@ -499,6 +591,114 @@ data:
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
       encoded: 7046b96efeaeedecbf4af672fa0396da3f9a4b911b91d9b9bf4b1d85fc62ffecbf1e9af7236748da3faeaca89700dab9bf6316771d5103edbf1b0e4797e04bda3f48a011bf1b7eb8bfebacf8dd9cf1ecbf8fed532c7e99da3f64d6111db27db8bf
+- type: dimension
+  element: visit
+  records:
+  - instrument: DECam
+    id: 411371
+    day_obs: 20150217
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    name: ct4m20150218t052637
+    seq_num: 411371
+    exposure_time: 86.0
+    target_name: Blind15A_42
+    observation_reason: science
+    science_program: 2015A-0608
+    azimuth: 353.1027
+    zenith_angle: 25.289999999999992
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706d6767f746eeecbf5e0bfb47f3fdda3fc0d67a55e4a6b1bf6ef2cfb75de3ecbf6b2e9fb2c824db3f0ea608dce861b2bfc792b52d38cdecbf2985ee210072db3fd40c9258a6d8b3bff8e290843ac0ecbff013c5dada96db3f532e40abcc4eb5bfeeddb35f69beecbf434809b94295db3f21ef4fd18309b6bf202ab64b4abcecbfe43004d55293db3f2659141763ddb6bf833b40f7e6c1ecbfbf1df52cc467db3f5b0102a8c253b8bf5caa1ab15bc9ecbfa6395bb6ca3ddb3f8b14c135e30eb9bf3d284ed4b2d0ecbf8d58a731b713db3f27146880e0c9b9bf281647f6ecd7ecbf19cb466e89e9da3fafa31e499684babf389145340fececbf272f462f8192da3f2aa863c76885babfa173ec07fdfcecbf204f9c7e5248da3f85608c293d85babf75552ee5a910edbf7037632bdff0d93fc2243309ab84babfb648add3ed26edbf0c0e187db6a3d93ffab14305d90eb9bf3588fc6be431edbf799c3da4fb7cd93f16ecb62c6953b8bf167641d3a83eedbf3355937ff857d93f9082dbf36cddb6bf08f260d98e40edbf5d50b60b9a59d93f865d6dba1122b6bf04c73b049a42edbf46fff1fa835bd93fc32aa40f254eb5bffaab0efe333dedbf8462cee13b87d93f0fcaa18855d8b3bff138019aec35edbfe045905b5bb1d93f5a151a5a251db3bfca37b062852eedbf8cc78fcc6adbd93fbf4c897ccc61b2bf5fbe73530427edbf5608b5c14905da3f451f6d21c8a6b1bf61caf2c75913edbf4f46b52ebf5cda3f5fde573665a6b1bf0d9c2aa1ea00edbfa6d8434c7cadda3f1ef2081d7ba6b1bf
+    datetime_begin: !butler_time/tai/iso '2015-02-18 05:27:12.433035000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 05:29:25.000000000'
+  - instrument: DECam
+    id: 411420
+    day_obs: 20150217
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    name: ct4m20150218t070355
+    seq_num: 411420
+    exposure_time: 86.0
+    target_name: Blind15A_40
+    observation_reason: science
+    science_program: 2015A-0608
+    azimuth: 306.579
+    zenith_angle: 35.09
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700983c88335c8ecbfcb2a014eb448db3f391243a086a4b8bfef63cf5b99bcecbf30d5fe95dd6edb3f4cc18883105fb9bfba8dbad40da5ecbfb348c03fbbbadb3fe8c3a0d8c2d4babfabde352cca96ecbf2ddcee7759dedb3fbe44cb51db49bcbf4761acf06594ecbfe84d321232dcdb3f88c805321104bdbf846c2e10a091ecbfd421cb6e9fd9db3f80912f3e59d7bdbf2b693b533596ecbfc47aa1a80eaddb3fc6b949f2b74cbfbfadcc1b29369decbf1e3256d1a282db3fa0935c1aad03c0bfe4e0b69b19a4ecbf357226ac1c58db3f70e9ba10e960c0bfb2e1675de0aaecbf337e06257c2ddb3f6ebb5cccfdbdc0bfd4d65fe345bfecbf92d304a9b2d6da3f4462c3066ebec0bfd64b60c66dd0ecbf00af3666b98cda3f8331414958bec0bf82c7ce665fe4ecbf7c9ee7788435da3f082ac32108bec0bf53d89f8808fcecbfd5e8f23eb5e9d93ffe04e405a803c0bf29164d48b207edbfdb931c00a7c3d93f8994a9bf5e4cbfbfe6729cb2bc15edbfc4a90a8fdf9fd93ffc3e711a63d7bdbfc6b5a0483618edbfd5f3cb1711a2d93fba7336ce8d1cbdbfd3d81351e81aedbf1cf79c939da4d93fb3277f203449bcbfe8c2391b8916edbffdd451d457d1d93f25e2962e72d4babf59605b85b50fedbf4dbaf043eafbd93fd5560412cb19babfb8dd164cc208edbff290f6676c26da3f47bfdd36f45eb9bf12b6a420b501edbf08d0e683bd50da3f9d23fb796aa4b8bfe8b30093c6edecbf906ecf46f5a7da3f526ef56316a4b8bf7d10c24f18dbecbf71ef7e4978f8da3fa10510b22ba4b8bf
+    datetime_begin: !butler_time/tai/iso '2015-02-18 07:04:30.532568000'
+    datetime_end: !butler_time/tai/iso '2015-02-18 07:06:54.000000000'
+  - instrument: DECam
+    id: 419802
+    day_obs: 20150308
+    physical_filter: g DECam SDSS c0001 4720.0 1520.0
+    name: ct4m20150309t055516
+    seq_num: 419802
+    exposure_time: 102.0
+    target_name: Blind15A_40
+    observation_reason: science
+    science_program: 2015A-0608
+    azimuth: 304.7488
+    zenith_angle: 36.15
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707f0fc9ce33c8ecbf0eb81e6dbc48db3f42c4805a76a4b8bf42a986a597bcecbff19327b3e56edb3ff2140e3f005fb9bfd27ee81b0ca5ecbf777ae958c3badb3fd67ce896b2d4babf1865a173c896ecbf6637a88f61dedb3fe588db12cb49bcbf8a3c97396494ecbfd4a0822a3adcdb3f77126df40004bdbfd880ce5a9e91ecbf368bc287a7d9db3f86a9260249d7bdbf421da4a33396ecbf113f5fc516addb3f9127ebb8a74cbfbfcefdcc7d349decbfc17944f1aa82db3fe96055fea403c0bfeb11b2f417a4ecbfc1d43ccf2458db3f720664f5e060c0bfe853aebadeaaecbf6d863c4b842ddb3f3c39beb1f5bdc0bff643a74644bfecbfe3b7dfd4bad6da3f75b314ec65bec0bf8614c42e6cd0ecbfe34dcf96c18cda3f3e55922e50bec0bf8f2e38d55de4ecbf757a02af8c35da3ff4c2240700bec0bf135593f906fcecbf12211779bde9d93f57c8dce99f03c0bf0b3c87bab007edbf9eaa383cafc3d93ffc444a864e4cbfbf28129c24bb15edbfe3f586cce79fd93f6e5a68de52d7bdbf4e251fb93418edbf331db65419a2d93fdb8ccb907d1cbdbf7c5bddbfe61aedbf6d6fdacfa5a4d93f9a4e8ee12349bcbfa2ea38848716edbfd7f0d80c60d1d93fa930deec61d4babf41570feab30fedbf92cc5379f2fbd93fa359e2ceba19babf926b80acc008edbfaf882c9a7426da3fb1e062f2e35eb9bf43cdc77cb301edbfcd05e9b2c550da3f3eaf38345aa4b8bf7b351ce9c4edecbf7a9c4e70fda7da3fea54101e06a4b8bf00634da016dbecbfee53d46d80f8da3fa8542c6c1ba4b8bf
+    datetime_begin: !butler_time/tai/iso '2015-03-09 05:55:51.522985000'
+    datetime_end: !butler_time/tai/iso '2015-03-09 05:58:23.000000000'
+- type: dimension
+  element: visit_definition
+  records:
+  - instrument: DECam
+    exposure: 411371
+    visit: 411371
+  - instrument: DECam
+    exposure: 411420
+    visit: 411420
+  - instrument: DECam
+    exposure: 419802
+    visit: 419802
+- type: dimension
+  element: visit_detector_region
+  records:
+  - instrument: DECam
+    detector: 5
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707407ade695cfecbfeed60cf4c61edb3fb0f86cb99d5eb9bf3f95c9b726cdecbfd0640e828f1cdb3f0bfd739ffb31babfe8f182a67be1ecbf638cbc7683c5da3f09ffff78c031babf4f74d388e7e3ecbf778712a4c9c7da3f16b44b1b555eb9bf
+  - instrument: DECam
+    detector: 5
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703551ec3594cfecbfc8617416cf1edb3ff2f5c0748d5eb9bf46f3b70825cdecbf892235a5971cdb3fe0cc255ceb31babf95d674fd79e1ecbf6ca8819f8bc5da3f724da035b031babf1e2715dee5e3ecbf067017ccd1c7da3f0e228ed6445eb9bf
+  - instrument: DECam
+    detector: 10
+    visit: 411420
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7085081706ded6ecbf428dae7ba2f4da3f03aa8ea80d19babfffd7d0375dd4ecbfb97aaa7955f2da3fb6ae4086b7ecbabf41fee75c96e8ecbf4f7a44021f9bda3f1624c848adecbabf3ae0fc8614ebecbf62184a68779dda3f02f6fb6d0319babf
+  - instrument: DECam
+    detector: 10
+    visit: 419802
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7062839959dcd6ecbf76f959a1aaf4da3fec1d0a65fd18babf7271048d5bd4ecbf62bd10a05df2da3f6f712444a7ecbabf846722b894e8ecbf07c1412e279bda3fa7d5ab069decbabf6c6185e012ebecbfc3cd8b937f9dda3fc958772af318babf
+  - instrument: DECam
+    detector: 56
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7016c5996e11d3ecbfb8b59b320016db3f4bd60205a0f6b8bf3d284ed4b2d0ecbf8d58a731b713db3f27146880e0c9b9bf0c0ee72bf2e4ecbfee0bd167cdbcda3fcd33f1aae7cab9bfae83cdc054e7ecbf1e99bf5008bfda3f05b3fdf27ef7b8bf
+  - instrument: DECam
+    detector: 60
+    visit: 411371
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701eebc5f85cdaecbf9fb767b2deebda3f4c153db0b5b1b9bf281647f6ecd7ecbf19cb466e89e9da3fafa31e499684babf389145340fececbf272f462f8192da3f2aa863c76885babf3db6c5c283eeecbfbc2dfeeec494da3fb1dbf06a6db2b9bf
+- type: dimension
+  element: visit_system_membership
+  records:
+  - instrument: DECam
+    visit_system: 0
+    visit: 411371
+  - instrument: DECam
+    visit_system: 0
+    visit: 411420
+  - instrument: DECam
+    visit_system: 0
+    visit: 419802
 - type: collection
   collection_type: CALIBRATION
   name: DECam/calib
@@ -570,7 +770,13 @@ data:
   timespan_end: null
 - type: collection
   collection_type: RUN
-  name: fake-injection-catalog
+  name: fake-injection-catalog/fake_injection_catalog
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
+  name: fake-injection-catalog/fake_injection_catalog_sharded
   host: null
   timespan_begin: null
   timespan_end: null
@@ -606,9 +812,19 @@ data:
   timespan_end: null
 - type: collection
   collection_type: CHAINED
+  name: ''
+  children: []
+- type: collection
+  collection_type: CHAINED
   name: dia_catalogs
   children:
   - dia_catalogs/apdb
+- type: collection
+  collection_type: CHAINED
+  name: fake-injection-catalog
+  children:
+  - fake-injection-catalog/fake_injection_catalog_sharded
+  - fake-injection-catalog/fake_injection_catalog
 - type: collection
   collection_type: CHAINED
   name: models
@@ -641,6 +857,69 @@ data:
   - dia_catalogs
   - models
   - fake-injection-catalog
+- type: dataset_type
+  name: VisitDetectorFakeSourceCat
+  dimensions:
+  - band
+  - instrument
+  - day_obs
+  - detector
+  - physical_filter
+  - visit
+  storage_class: ArrowAstropy
+  is_calibration: false
+- type: dataset
+  dataset_type: VisitDetectorFakeSourceCat
+  run: fake-injection-catalog/fake_injection_catalog
+  records:
+  - dataset_id:
+    - !uuid '019ea7db-4394-7402-a490-96f4a2f8e216'
+    data_id:
+    - instrument: DECam
+      detector: 56
+      visit: 411371
+    path: fake-injection-catalog/fake_injection_catalog/VisitDetectorFakeSourceCat/20150217/g/g_DECam_SDSS_c0001_4720.0_1520.0/411371/VisitDetectorFakeSourceCat_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411371_N25_fake-injection-catalog_fake_injection_catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '019ea7db-4394-7ea7-a861-e5ecbb2ee533'
+    data_id:
+    - instrument: DECam
+      detector: 60
+      visit: 411371
+    path: fake-injection-catalog/fake_injection_catalog/VisitDetectorFakeSourceCat/20150217/g/g_DECam_SDSS_c0001_4720.0_1520.0/411371/VisitDetectorFakeSourceCat_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411371_N29_fake-injection-catalog_fake_injection_catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '019ea7db-4394-7bd7-8fd3-91368c4ec8fb'
+    data_id:
+    - instrument: DECam
+      detector: 10
+      visit: 411420
+    path: fake-injection-catalog/fake_injection_catalog/VisitDetectorFakeSourceCat/20150217/g/g_DECam_SDSS_c0001_4720.0_1520.0/411420/VisitDetectorFakeSourceCat_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411420_S22_fake-injection-catalog_fake_injection_catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '019ea7db-4394-7f4f-9462-8239f99d043a'
+    data_id:
+    - instrument: DECam
+      detector: 5
+      visit: 411420
+    path: fake-injection-catalog/fake_injection_catalog/VisitDetectorFakeSourceCat/20150217/g/g_DECam_SDSS_c0001_4720.0_1520.0/411420/VisitDetectorFakeSourceCat_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_411420_S26_fake-injection-catalog_fake_injection_catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '019ea7db-4394-73e1-a5b8-c8bf4f2eb0ac'
+    data_id:
+    - instrument: DECam
+      detector: 10
+      visit: 419802
+    path: fake-injection-catalog/fake_injection_catalog/VisitDetectorFakeSourceCat/20150308/g/g_DECam_SDSS_c0001_4720.0_1520.0/419802/VisitDetectorFakeSourceCat_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_419802_S22_fake-injection-catalog_fake_injection_catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - !uuid '019ea7db-4394-73ad-ab53-5fc1553aff95'
+    data_id:
+    - instrument: DECam
+      detector: 5
+      visit: 419802
+    path: fake-injection-catalog/fake_injection_catalog/VisitDetectorFakeSourceCat/20150308/g/g_DECam_SDSS_c0001_4720.0_1520.0/419802/VisitDetectorFakeSourceCat_DECam_g_g_DECam_SDSS_c0001_4720_0_1520_0_419802_S26_fake-injection-catalog_fake_injection_catalog.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
   name: camera
   dimensions:
@@ -6706,98 +6985,28 @@ data:
   is_calibration: false
 - type: dataset
   dataset_type: injection_catalog
-  run: fake-injection-catalog
+  run: fake-injection-catalog/fake_injection_catalog_sharded
   records:
   - dataset_id:
-    - !uuid '06572d44-5a1c-4f55-8388-4408b0ede896'
-    data_id:
-    - band: g
-      htm7: 157377
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157377_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '03e2a001-1e66-44d6-a7d5-2d5b80ea3ecc'
-    data_id:
-    - band: g
-      htm7: 157380
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157380_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid 'bfa0e324-9c81-4b40-a7c2-7115612b67d3'
-    data_id:
-    - band: g
-      htm7: 157382
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157382_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '4712367a-c439-4090-8db2-95d6a7eab64b'
-    data_id:
-    - band: g
-      htm7: 157383
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157383_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '2b633a0b-dea2-4b7a-a664-17a41540f831'
-    data_id:
-    - band: g
-      htm7: 157390
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157390_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid 'd85c7e7e-d028-4abf-bf48-fe7eb86fd5aa'
-    data_id:
-    - band: g
-      htm7: 157392
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157392_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '0f2dd28e-8f25-4fc5-9d7e-0ddf0054ddc6'
+    - !uuid '019ea7db-f430-72ef-974e-dd032cfdedca'
     data_id:
     - band: g
       htm7: 157394
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157394_fake-injection-catalog.parq
+    path: fake-injection-catalog/fake_injection_catalog_sharded/injection_catalog/g/injection_catalog_g_157394_fake-injection-catalog_fake_injection_catalog_sharded.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'c109c127-5524-42d8-9d6a-d9b521afac88'
-    data_id:
-    - band: g
-      htm7: 157395
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157395_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '707e7542-108e-4280-b3ca-2d18d17763e7'
-    data_id:
-    - band: g
-      htm7: 157400
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157400_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid 'beaff44e-16f0-4531-bf3e-6e4f3d424a49'
+    - !uuid '019ea7db-f414-73dd-8e06-c9cd0fe9a407'
     data_id:
     - band: g
       htm7: 157401
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157401_fake-injection-catalog.parq
+    path: fake-injection-catalog/fake_injection_catalog_sharded/injection_catalog/g/injection_catalog_g_157401_fake-injection-catalog_fake_injection_catalog_sharded.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'f0495969-8b07-45d8-a817-4fe14b2bcaf3'
-    data_id:
-    - band: g
-      htm7: 157403
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157403_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid '3b85c61d-529a-4d60-98d7-75f31e8a67db'
+    - !uuid '019ea7db-f43e-7075-aa38-b6a4bc822c21'
     data_id:
     - band: g
       htm7: 157405
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157405_fake-injection-catalog.parq
-    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
-  - dataset_id:
-    - !uuid 'd0af68ed-a984-48bc-bbe2-b891f77e13ee'
-    data_id:
-    - band: g
-      htm7: 157432
-    path: fake-injection-catalog/injection_catalog/g/injection_catalog_g_157432_fake-injection-catalog.parq
+    path: fake-injection-catalog/fake_injection_catalog_sharded/injection_catalog/g/injection_catalog_g_157405_fake-injection-catalog_fake_injection_catalog_sharded.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
   name: linearizer
@@ -7317,7 +7526,7 @@ data:
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '1a5524f7-654f-4477-97c5-1cc385d3379e'
+    - !uuid '019ea7cf-1947-7b9b-b5f6-028dd74f5d17'
     data_id:
     - instrument: DECam
       detector: 56
@@ -7325,7 +7534,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411371/preloaded_dia_forced_source_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '1d9c6470-61a4-45b9-840b-233dbc844626'
+    - !uuid '019ea7cf-1947-7251-b625-295b49bfafe9'
     data_id:
     - instrument: DECam
       detector: 60
@@ -7333,7 +7542,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411371/preloaded_dia_forced_source_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'effefbce-3c53-470a-888d-d10d5338d5ae'
+    - !uuid '019ea7d3-41b5-759a-bf46-c2e12d118cc6'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7341,7 +7550,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411420/preloaded_dia_forced_source_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '317aa0c9-7554-4c72-a214-c373a696d795'
+    - !uuid '019ea7d3-41b6-7222-be0c-b1fbbeaa8066'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7349,7 +7558,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411420/preloaded_dia_forced_source_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'a14903ee-613d-4320-b446-efdb3b00741c'
+    - !uuid '019ea7d7-6c77-7077-bb22-9fbbb4d16ad8'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7357,7 +7566,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/419802/preloaded_dia_forced_source_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '70dc6712-978a-4626-b7f6-370026c17c19'
+    - !uuid '019ea7d7-6c77-7665-9ce4-6ddecad45805'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7377,7 +7586,7 @@ data:
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '4861d47c-dee5-4d1b-a2ea-ae34fdf3171d'
+    - !uuid '019ea7cf-1947-7cc2-b733-0067628bac4d'
     data_id:
     - instrument: DECam
       detector: 56
@@ -7385,7 +7594,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411371/preloaded_dia_object_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '4b379c87-d235-459f-9eac-203e704e58e9'
+    - !uuid '019ea7cf-1947-7d11-a4cf-23dde61e42c7'
     data_id:
     - instrument: DECam
       detector: 60
@@ -7393,7 +7602,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411371/preloaded_dia_object_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'dedba985-17cf-4763-b021-a3e2594f1eca'
+    - !uuid '019ea7d3-41b6-7f83-b2fa-a099ea08f0d6'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7401,7 +7610,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411420/preloaded_dia_object_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '725cf946-e5d0-48b3-b887-c2638f306053'
+    - !uuid '019ea7d3-41b6-7320-8012-16bc1227023f'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7409,7 +7618,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411420/preloaded_dia_object_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'cd0e3d3b-0787-4218-a2d1-76820744d71f'
+    - !uuid '019ea7d7-6c77-7eb1-9dd1-a3e960287a5d'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7417,7 +7626,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/419802/preloaded_dia_object_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '5f4cfd2f-1671-4204-961e-4cd9aa1654c1'
+    - !uuid '019ea7d7-6c78-7047-b103-3e8f3a9e3fa2'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7437,7 +7646,7 @@ data:
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '8f9106b0-faf9-4f61-b4e1-0487ac501536'
+    - !uuid '019ea7cf-1947-75cb-8488-187627a03d86'
     data_id:
     - instrument: DECam
       detector: 56
@@ -7445,7 +7654,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411371/preloaded_dia_source_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '25d7e540-069c-49ea-a1bf-4e7a5ef4c6e5'
+    - !uuid '019ea7cf-1947-71de-a865-002eae2aadcc'
     data_id:
     - instrument: DECam
       detector: 60
@@ -7453,7 +7662,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411371/preloaded_dia_source_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '72ee95c5-60f7-428b-81ec-3612c6af1412'
+    - !uuid '019ea7d3-41b6-759a-a0c8-fb04f4109311'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7461,7 +7670,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411420/preloaded_dia_source_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid 'ea236fd9-5268-4a94-bce0-542835817158'
+    - !uuid '019ea7d3-41b6-71c0-a3e3-a50388057e2e'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7469,7 +7678,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411420/preloaded_dia_source_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '66244c8a-0c90-4884-8c4a-01a52e3f17e7'
+    - !uuid '019ea7d7-6c77-7373-a746-cdaff2bdbc3b'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7477,7 +7686,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/419802/preloaded_dia_source_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '8dc25972-d5af-4350-926d-69d9ccba3027'
+    - !uuid '019ea7d7-6c78-736f-acff-1831e8c214dd'
     data_id:
     - instrument: DECam
       detector: 5

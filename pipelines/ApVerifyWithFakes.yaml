@@ -39,4 +39,13 @@ tasks:
     config:
       doSolarSystemAssociation: true
       # TODO: remove in DM-50364 when the preloaded datasets are regenerated
-      connections.solarSystemObjectTable: preloaded_SsObjects
+      # connections.solarSystemObjectTable: preloaded_SsObjects
+      connections.solarSystemObjectTable: preloaded_ss_object
+  injectVisit:
+    class: lsst.source.injection.inject_visit.VisitInjectTask
+    config:
+    - selection: "np.isin(injection_catalog['visit'], {visit}) & (injection_catalog['mag']>16) & (injection_catalog['isVisitSource'])"
+  injectTemplate:
+    class: lsst.source.injection.inject_exposure.VisitInjectTask
+    config:
+    - selection: "np.isin(injection_catalog['visit'], {visit}) & (injection_catalog['mag']>16) & (injection_catalog['isTemplateSource'])"

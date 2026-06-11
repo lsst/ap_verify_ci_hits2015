@@ -112,13 +112,9 @@ python "${SCRIPT_DIR}/get_nn_models.py" -m "rbResnet50-DC2"
 
 python "${SCRIPT_DIR}/generate_ephemerides_gen3.py"
 
-########################################
-# Create fake source injecteion catalogs
-
-"${SCRIPT_DIR}/generate_fake_injection_catalog.sh" -b ${DATASET_REPO} -o ${INJECTION_CATALOG_COLLECTION}
 
 ########################################
-# Generate self-consistent APDB data
+# Generate self-consistent APDB data and fake catalogs
 
 python "${SCRIPT_DIR}/generate_self_preload.py"  # Must be run after all other ApPipe inputs available
 
