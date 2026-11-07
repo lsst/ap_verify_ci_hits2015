@@ -7526,7 +7526,7 @@ data:
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '019ea7cf-1947-7b9b-b5f6-028dd74f5d17'
+    - !uuid '01a1ae5d-562d-7c77-8b02-910991d5b016'
     data_id:
     - instrument: DECam
       detector: 56
@@ -7534,7 +7534,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411371/preloaded_dia_forced_source_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7cf-1947-7251-b625-295b49bfafe9'
+    - !uuid '01a1ae5d-562d-7c71-a766-4ad2f63b75de'
     data_id:
     - instrument: DECam
       detector: 60
@@ -7542,7 +7542,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411371/preloaded_dia_forced_source_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d3-41b5-759a-bf46-c2e12d118cc6'
+    - !uuid '01a1ae60-39da-7012-a316-63beac39f8b8'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7550,7 +7550,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411420/preloaded_dia_forced_source_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d3-41b6-7222-be0c-b1fbbeaa8066'
+    - !uuid '01a1ae60-39da-718a-8ffc-9496c605db48'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7558,7 +7558,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/411420/preloaded_dia_forced_source_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d7-6c77-7077-bb22-9fbbb4d16ad8'
+    - !uuid '01a1ae62-ebaf-72f8-a8ce-32bff1bdc9cc'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7566,7 +7566,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_forced_source/419802/preloaded_dia_forced_source_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d7-6c77-7665-9ce4-6ddecad45805'
+    - !uuid '01a1ae62-ebaf-7377-95f2-70cb49d41e90'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7586,7 +7586,7 @@ data:
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '019ea7cf-1947-7cc2-b733-0067628bac4d'
+    - !uuid '01a1ae5d-562d-7e8c-82e9-5c8d594ab220'
     data_id:
     - instrument: DECam
       detector: 56
@@ -7594,7 +7594,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411371/preloaded_dia_object_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7cf-1947-7d11-a4cf-23dde61e42c7'
+    - !uuid '01a1ae5d-562d-7341-a439-359a5d12c25b'
     data_id:
     - instrument: DECam
       detector: 60
@@ -7602,7 +7602,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411371/preloaded_dia_object_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d3-41b6-7f83-b2fa-a099ea08f0d6'
+    - !uuid '01a1ae60-39db-743b-b64f-5ee0999f5601'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7610,7 +7610,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411420/preloaded_dia_object_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d3-41b6-7320-8012-16bc1227023f'
+    - !uuid '01a1ae60-39da-727f-90b3-97273740e06c'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7618,7 +7618,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/411420/preloaded_dia_object_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d7-6c77-7eb1-9dd1-a3e960287a5d'
+    - !uuid '01a1ae62-ebaf-74f5-86dd-3e789084a565'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7626,7 +7626,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_object/419802/preloaded_dia_object_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d7-6c78-7047-b103-3e8f3a9e3fa2'
+    - !uuid '01a1ae62-ebaf-7176-8bb7-cb1f9f19679b'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7646,7 +7646,7 @@ data:
   run: dia_catalogs/apdb
   records:
   - dataset_id:
-    - !uuid '019ea7cf-1947-75cb-8488-187627a03d86'
+    - !uuid '01a1ae5d-562d-7738-a315-557e310e8546'
     data_id:
     - instrument: DECam
       detector: 56
@@ -7654,7 +7654,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411371/preloaded_dia_source_DECam_411371_N25_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7cf-1947-71de-a865-002eae2aadcc'
+    - !uuid '01a1ae5d-562d-77b2-aebc-bb9f2081b225'
     data_id:
     - instrument: DECam
       detector: 60
@@ -7662,7 +7662,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411371/preloaded_dia_source_DECam_411371_N29_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d3-41b6-759a-a0c8-fb04f4109311'
+    - !uuid '01a1ae60-39da-7c07-bbeb-796421ff3c63'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7670,7 +7670,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411420/preloaded_dia_source_DECam_411420_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d3-41b6-71c0-a3e3-a50388057e2e'
+    - !uuid '01a1ae60-39da-7eff-9400-a0e82abfdb0b'
     data_id:
     - instrument: DECam
       detector: 5
@@ -7678,7 +7678,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/411420/preloaded_dia_source_DECam_411420_S26_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d7-6c77-7373-a746-cdaff2bdbc3b'
+    - !uuid '01a1ae62-ebaf-7caf-9d33-98f8245c944e'
     data_id:
     - instrument: DECam
       detector: 10
@@ -7686,7 +7686,7 @@ data:
     path: dia_catalogs/apdb/preloaded_dia_source/419802/preloaded_dia_source_DECam_419802_S22_dia_catalogs_apdb.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '019ea7d7-6c78-736f-acff-1831e8c214dd'
+    - !uuid '01a1ae62-ebaf-7e11-8458-c24fe02ae25d'
     data_id:
     - instrument: DECam
       detector: 5
